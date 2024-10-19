@@ -195,10 +195,17 @@ function renderProject(lang, url) {
                         `;
 
                         if (element.link !== null) {
+                            function removeProtocol(url) {
+                                return url.replace(/^https?:\/\//, '');
+                            }
+                            
+                            const url = element.link;
+                            const cleanUrl = removeProtocol(url);
+                            
                             linkSection += `
                                 <p>
                                     <span>live preview:</span> 
-                                    <a href="https://${element.link}">${element.link}</a>
+                                    <a href="${element.link}">${cleanUrl}</a>
                                 </p>
                             `;
                         }
