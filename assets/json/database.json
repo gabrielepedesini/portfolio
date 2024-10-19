@@ -544,7 +544,7 @@
                 "goals": ["the goal was to create an ecommerce theme that is easy and quick to configure, so it could be put online in the shortest time possible."],
                 "functions": ["responsive design", "custom filtering system", "authentication and user area", "blog", "contact form", "reviews", "payment gateway"],
                 "technologies": ["html", "css", "javascript", "wordpress"],
-                "link": "trendtribes.infinityfreeapp.com/",
+                "link": "http://trendtribes.infinityfreeapp.com/",
                 "github": "https://github.com/gabrielepedesini/trendtribes",
                 "img": true
             },
