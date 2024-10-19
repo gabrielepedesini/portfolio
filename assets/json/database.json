@@ -220,7 +220,7 @@
                     "goals": ["l'esigenza fondamentale è quella di avere uno spazio online nel quale mostrare i propri progetti.", "inoltre, attraverso questo sito, il cliente puntava ad ampliare il bacino di clientela."],
                     "functions": ["responsive design", "cursore custom", "download di documenti", "form di contatto"],
                     "technologies": ["html", "css", "javascript"],
-                    "link": "achrisgraphics.it",
+                    "link": "https://achrisgraphics.it",
                     "github": "https://github.com/gabrielepedesini/achris",
                     "img": true
                 },
@@ -233,7 +233,7 @@
                     "goals": ["l'obiettivo era quello di creare un tema di un ecommerce facile e veloce da configurare, in maniera tale da poterlo mettere online nel più breve tempo possibile."],
                     "functions": ["responsive design", "sistema di filtri custom", "autenticazione e area utente", "blog", "form di contatto", "recensioni", "gateway di pagamento"],
                     "technologies": ["html", "css", "javascript", "wordpress"],
-                    "link": "trendtribes.infinityfreeapp.com/",
+                    "link": "http://trendtribes.infinityfreeapp.com/",
                     "github": "https://github.com/gabrielepedesini/trendtribes",
                     "img": true
                 },
@@ -246,7 +246,7 @@
                     "goals": null,
                     "functions": ["responsive design", "classifiche"],
                     "technologies": ["html", "css", "javascript"],
-                    "link": "brickedgame.netlify.app/",
+                    "link": "https://brickedgame.netlify.app/",
                     "github": "https://github.com/gabrielepedesini/bricked",
                     "img": true
                 },
@@ -259,7 +259,7 @@
                     "goals": ["l'obiettivo della cliente era quello di spiegare all'interno di una pagina in cosa consistesse il suo lavoro, che servizi offrisse e le informazioni utili per contattarla.", "tutto questo allo scopo di ottenere dei nuovi clienti."],
                     "functions": ["responsive design", "form di contatto", "mappa custom"],
                     "technologies": ["html", "css", "javascript"],
-                    "link": "alessandragiuliani.it",
+                    "link": "https://alessandragiuliani.it",
                     "github": null,
                     "img": true
                 },
@@ -272,7 +272,7 @@
                     "goals": ["l'obiettivo era quello di descrivere tutto ciò che sta dietro la clinica: i servizi, il team, i clienti...", "chiaramente, il tutto aveva anche l'obiettivo di dare vita alla sua presenza online, aumentando anche la clientela."],
                     "functions": ["responsive design", "light/dark mode", "mappa custom"],
                     "technologies": ["html", "css", "javascript"],
-                    "link": "sanderundsommer.de",
+                    "link": "https://sanderundsommer.de",
                     "github": null,
                     "img": true
                 },
@@ -285,7 +285,7 @@
                     "goals": null,
                     "functions": ["responsive design", "AI player"],
                     "technologies": ["html", "css", "javascript"],
-                    "link": "minimaltris.netlify.app",
+                    "link": "https://minimaltris.netlify.app",
                     "github": "https://github.com/gabrielepedesini/tris",
                     "img": true
                 }
@@ -531,7 +531,7 @@
                 "goals": ["the fundamental need is to have an online space to display one's projects.", "additionally, through this site, the client aimed to expand their client base."],
                 "functions": ["responsive design", "custom cursor", "document downloads", "contact form"],
                 "technologies": ["html", "css", "javascript"],
-                "link": "achrisgraphics.it",
+                "link": "https://achrisgraphics.it",
                 "github": "https://github.com/gabrielepedesini/achris",
                 "img": true
             },
@@ -557,7 +557,7 @@
                 "goals": null,
                 "functions": ["responsive design", "leaderboards"],
                 "technologies": ["html", "css", "javascript"],
-                "link": "brickedgame.netlify.app/",
+                "link": "http://brickedgame.netlify.app/",
                 "github": "https://github.com/gabrielepedesini/bricked",
                 "img": true
             },
@@ -570,7 +570,7 @@
                 "goals": ["the client's objective was to explain on a page what her work consists of, what services she offers, and useful information to contact her.", "all this with the goal of obtaining new clients."],
                 "functions": ["responsive design", "contact form", "custom map"],
                 "technologies": ["html", "css", "javascript"],
-                "link": "alessandragiuliani.it",
+                "link": "https://alessandragiuliani.it",
                 "github": null,
                 "img": true
             },
@@ -583,7 +583,7 @@
                 "goals": ["the objective was to describe everything behind the clinic: the services, the team, the clients...", "clearly, all this also aimed to enhance its online presence, thereby increasing clientele."],
                 "functions": ["responsive design", "light/dark mode", "custom map"],
                 "technologies": ["html", "css", "javascript"],
-                "link": "sanderundsommer.de",
+                "link": "https://sanderundsommer.de",
                 "github": null,
                 "img": true
             },
@@ -596,7 +596,7 @@
                 "goals": null,
                 "functions": ["responsive design", "AI player"],
                 "technologies": ["html", "css", "javascript"],
-                "link": "minimaltris.netlify.app",
+                "link": "https://minimaltris.netlify.app",
                 "github": "https://github.com/gabrielepedesini/tris",
                 "img": true
             }
