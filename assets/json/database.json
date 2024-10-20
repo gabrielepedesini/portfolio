@@ -233,7 +233,7 @@
                     "goals": ["l'obiettivo era quello di creare un tema di un ecommerce facile e veloce da configurare, in maniera tale da poterlo mettere online nel più breve tempo possibile."],
                     "functions": ["responsive design", "sistema di filtri custom", "autenticazione e area utente", "blog", "form di contatto", "recensioni", "gateway di pagamento"],
                     "technologies": ["html", "css", "javascript", "wordpress"],
-                    "link": "http://trendtribes.infinityfreeapp.com/",
+                    "link": "http://trendtribes.infinityfreeapp.com",
                     "github": "https://github.com/gabrielepedesini/trendtribes",
                     "img": true
                 },
@@ -246,7 +246,7 @@
                     "goals": null,
                     "functions": ["responsive design", "classifiche"],
                     "technologies": ["html", "css", "javascript"],
-                    "link": "https://brickedgame.netlify.app/",
+                    "link": "https://brickedgame.netlify.app",
                     "github": "https://github.com/gabrielepedesini/bricked",
                     "img": true
                 },
@@ -544,7 +544,7 @@
                 "goals": ["the goal was to create an ecommerce theme that is easy and quick to configure, so it could be put online in the shortest time possible."],
                 "functions": ["responsive design", "custom filtering system", "authentication and user area", "blog", "contact form", "reviews", "payment gateway"],
                 "technologies": ["html", "css", "javascript", "wordpress"],
-                "link": "http://trendtribes.infinityfreeapp.com/",
+                "link": "http://trendtribes.infinityfreeapp.com",
                 "github": "https://github.com/gabrielepedesini/trendtribes",
                 "img": true
             },
@@ -557,7 +557,7 @@
                 "goals": null,
                 "functions": ["responsive design", "leaderboards"],
                 "technologies": ["html", "css", "javascript"],
-                "link": "http://brickedgame.netlify.app/",
+                "link": "http://brickedgame.netlify.app",
                 "github": "https://github.com/gabrielepedesini/bricked",
                 "img": true
             },
