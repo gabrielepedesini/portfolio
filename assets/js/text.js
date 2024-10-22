@@ -205,7 +205,7 @@ function renderProject(lang, url) {
                             linkSection += `
                                 <p>
                                     <span>live preview:</span> 
-                                    <a href="${element.link}">${cleanUrl}</a>
+                                    <a target="_blank" href="${element.link}">${cleanUrl}</a>
                                 </p>
                             `;
                         }
@@ -414,7 +414,7 @@ function renderContacts(lang) {
         
         copy.ref.forEach(element => {
             introSection += `
-                <li><a href="${element.link}">${element.name}</a></li>
+                <li><a target="_blank" href="${element.link}">${element.name}</a></li>
             `;
         });
 
