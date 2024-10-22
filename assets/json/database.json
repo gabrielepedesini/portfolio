@@ -9,7 +9,7 @@
             },
             "formation": {
                 "title": "formazione 🎓",
-                "desc": ["attualmente studio ingegneria informatica al <a href='https://www.polimi.it/'>polimi</a>.", "ho anche creato una raccolta di <a href='notes.html'>appunti</a> che ho realizzato per gli esami che ho conseguito fino ad oggi."]
+                "desc": ["attualmente studio ingegneria informatica al <a target='_blank' href='https://www.polimi.it/'>polimi</a>.", "ho anche creato una raccolta di <a href='notes.html'>appunti</a> che ho realizzato per gli esami che ho conseguito fino ad oggi."]
             },
             "projects": {
                 "title": "progetti 🚀",
@@ -320,7 +320,7 @@
             },
             "formation": {
                 "title": "education 🎓",
-                "desc": ["i am currently studying computer engineering at <a href='https://www.polimi.it/'>polimi</a>.", "i have also created a collection of <a href='notes.html'>notes</a> that i have made for the exams i have taken so far."]
+                "desc": ["i am currently studying computer engineering at <a target='_blank' href='https://www.polimi.it/'>polimi</a>.", "i have also created a collection of <a href='notes.html'>notes</a> that i have made for the exams i have taken so far."]
             },
             "projects": {
                 "title": "projects 🚀",
