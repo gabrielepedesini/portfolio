@@ -358,7 +358,7 @@ function renderNotes(lang) {
 
             course.resources.forEach(resource => {
                 courseSection += `
-                    <li><a href="${resource.link}">${resource.type}</a></li>
+                    <li><a target='_blank' href="${resource.link}">${resource.type}</a></li>
                 `;
             });
 
