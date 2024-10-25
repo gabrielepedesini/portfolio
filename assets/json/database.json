@@ -232,7 +232,7 @@
                     "desc": ["si tratta di un tema custom per il noto cms di wordpress, accompagnato dal plugin woocommerce, con cui gestire le funzionalità ecommerce.", "il progetto ha l'ambizione di essere il più minimal possibile, sia dal punto di vista visivo che da quello tecnico."],
                     "goals": ["l'obiettivo era quello di creare un tema di un ecommerce facile e veloce da configurare, in maniera tale da poterlo mettere online nel più breve tempo possibile."],
                     "functions": ["responsive design", "sistema di filtri custom", "autenticazione e area utente", "blog", "form di contatto", "recensioni", "gateway di pagamento"],
-                    "technologies": ["html", "css", "javascript", "wordpress"],
+                    "technologies": ["html", "css", "javascript", "php", "wordpress"],
                     "link": "http://trendtribes.infinityfreeapp.com",
                     "github": "https://github.com/gabrielepedesini/trendtribes",
                     "img": true
@@ -543,7 +543,7 @@
                 "desc": ["it is a custom theme for the well-known wordpress cms, accompanied by the woocommerce plugin, to manage ecommerce functionalities.", "the project aims to be as minimal as possible, both visually and technically."],
                 "goals": ["the goal was to create an ecommerce theme that is easy and quick to configure, so it could be put online in the shortest time possible."],
                 "functions": ["responsive design", "custom filtering system", "authentication and user area", "blog", "contact form", "reviews", "payment gateway"],
-                "technologies": ["html", "css", "javascript", "wordpress"],
+                "technologies": ["html", "css", "javascript", "php", "wordpress"],
                 "link": "http://trendtribes.infinityfreeapp.com",
                 "github": "https://github.com/gabrielepedesini/trendtribes",
                 "img": true
