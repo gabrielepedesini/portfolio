@@ -15,17 +15,17 @@ let navbarLinks;
 
 if (lang === "it") {
     navbarLinks = [
-        { href: "index.html", text: "home" },
-        { href: "notes.html", text: "appunti" },
-        { href: "projects.html", text: "progetti" },
-        { href: "contacts.html", text: "contatti" }
+        { href: "index.html", text: "Home" },
+        { href: "notes.html", text: "Appunti" },
+        { href: "projects.html", text: "Progetti" },
+        { href: "contacts.html", text: "Contatti" }
     ];
 } else if (lang === "en") {
     navbarLinks = [
-        { href: "index.html", text: "home" },
-        { href: "notes.html", text: "notes" },
-        { href: "projects.html", text: "projects" },
-        { href: "contacts.html", text: "contacts" }
+        { href: "index.html", text: "Home" },
+        { href: "notes.html", text: "Notes" },
+        { href: "projects.html", text: "Projects" },
+        { href: "contacts.html", text: "Contacts" }
     ];
 }
 

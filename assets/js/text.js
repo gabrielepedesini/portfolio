@@ -61,7 +61,7 @@ function renderProject(lang, url) {
             copy.forEach(element => {
                 if (url === element.id) {
 
-                    document.title = `${element.title} | gabriele pedesini`;
+                    document.title = `${element.title} | Gabriele Pedesini`;
 
                     // render the title section
                     let titleSection = `
@@ -70,7 +70,7 @@ function renderProject(lang, url) {
 
                                 <div class="breadcrumb">
                                     <a href="../projects.html">${lang === 'it' ? 'progetti' : 'projects'}</a> 
-                                    <span class="opacity">/ ${element.title}</span>
+                                    <span class="opacity">/ ${(element.title).toLowerCase()}</span>
                                 </div>
 
                                 <h1>${element.title}</h1>
@@ -95,7 +95,7 @@ function renderProject(lang, url) {
                             <section class="project-section">
                                 <div class="container">
 
-                                    <h3>${lang === 'it' ? 'descrizione' : 'description'}</h3>
+                                    <h3>${lang === 'it' ? 'Descrizione' : 'Description'}</h3>
                         `;
 
                         element.desc.forEach(el => {
@@ -118,7 +118,7 @@ function renderProject(lang, url) {
                             <section class="project-section">
                                 <div class="container">
 
-                                    <h3>${lang === 'it' ? 'obiettivi' : 'goals'}</h3>
+                                    <h3>${lang === 'it' ? 'Obiettivi' : 'Goals'}</h3>
                         `;
 
                         element.goals.forEach(el => {
@@ -141,7 +141,7 @@ function renderProject(lang, url) {
                             <section class="project-section">
                                 <div class="container">
 
-                                    <h3>${lang === 'it' ? 'funzioni' : 'functions'}</h3>
+                                    <h3>${lang === 'it' ? 'Funzioni' : 'Functions'}</h3>
                                     <ul>
                         `;
 
@@ -166,7 +166,7 @@ function renderProject(lang, url) {
                             <section class="project-section">
                                 <div class="container">
 
-                                    <h3>${lang === 'it' ? 'tecnologie' : 'technologies'}</h3>
+                                    <h3>${lang === 'it' ? 'Tecnologie' : 'Technologies'}</h3>
                                     <ul>
                         `;
 
@@ -191,7 +191,7 @@ function renderProject(lang, url) {
                             <section class="project-link">
                                 <div class="container">
 
-                                    <h3>link</h3>
+                                    <h3>Link</h3>
                         `;
 
                         if (element.link !== null) {
@@ -204,7 +204,7 @@ function renderProject(lang, url) {
                             
                             linkSection += `
                                 <p>
-                                    <span>live preview:</span> 
+                                    <span>Live preview:</span> 
                                     <a target="_blank" href="${element.link}">${cleanUrl}</a>
                                 </p>
                             `;
@@ -213,7 +213,7 @@ function renderProject(lang, url) {
                         if (element.github !== null) {
                             linkSection += `
                                 <p>
-                                    <span>github:</span> <a href="${element.github}">repo</a>
+                                    <span>GitHub:</span> <a href="${element.github}">repo</a>
                                 </p>
                             `;
                         }
@@ -247,10 +247,10 @@ function renderProjects(lang) {
 
         if (lang === "it") {
             copy = text.it.projects;
-            document.title = `progetti | gabriele pedesini`;
+            document.title = `Progetti | Gabriele Pedesini`;
         } else if (lang === "en") {
             copy = text.en.projects;
-            document.title = `projects | gabriele pedesini`;
+            document.title = `Projects | Gabriele Pedesini`;
         }
 
         // render intro section
@@ -315,10 +315,10 @@ function renderNotes(lang) {
         
         if (lang === "it") {
             copy = text.it.notes;
-            document.title = `appunti | gabriele pedesini`;
+            document.title = `Appunti | Gabriele Pedesini`;
         } else if (lang === "en") {
             copy = text.en.notes;
-            document.title = `notes | gabriele pedesini`;
+            document.title = `Notes | Gabriele Pedesini`;
         }
 
         // render intro section
@@ -397,10 +397,10 @@ function renderContacts(lang) {
         
         if (lang === "it") {
             copy = text.it.contacts;
-            document.title = `contatti | gabriele pedesini`;
+            document.title = `Contatti | Gabriele Pedesini`;
         } else if (lang === "en") {
             copy = text.en.contacts;
-            document.title = `contacts | gabriele pedesini`;
+            document.title = `Contacts | Gabriele Pedesini`;
         }
 
         // render intro section
@@ -512,6 +512,16 @@ function renderIndex(lang) {
         </section>`;
 
         indexElement.innerHTML += projectsSection;
+
+        let resumeSection = `
+            <section class="resume">
+                <div class="container">
+                    <p>${copy.intro.resume}</p>
+                </div>
+            </section>
+        `;
+
+        indexElement.innerHTML += resumeSection;
     })
     .catch(error => console.error('Error loading JSON:', error));
 }
