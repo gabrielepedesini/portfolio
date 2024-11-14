@@ -242,7 +242,7 @@
                 "shortdesc": "un tema custom WordPress di un ecommerce basato su WooCommerce",
                 "date": "Febbraio, 2024",
                 "desc": [
-                "Si tratta di un tema custom per il noto CMS di WordPress, accompagnato dal plugin WooCommerce, con cui gestire le funzionalità ecommerce.",
+                "Si tratta di un tema custom per il noto CMS di Wordpress, accompagnato dal plugin WooCommerce, con cui gestire le funzionalità ecommerce.",
                 "Il progetto ha l'ambizione di essere il più minimal possibile, sia dal punto di vista visivo che da quello tecnico."
                 ],
                 "goals": [
@@ -613,7 +613,7 @@
                 {
                     "id": "trendtribes",
                     "title": "Trend Tribes",
-                    "shortdesc": "a custom WordPress theme for an ecommerce based on WooCommerce",
+                    "shortdesc": "a custom Wordpress theme for an ecommerce based on WooCommerce",
                     "date": "February, 2024",
                     "desc": [
                         "It is a custom theme for the well-known WordPress CMS, accompanied by the WooCommerce plugin, to manage ecommerce functionalities.",
@@ -695,7 +695,7 @@
                 {
                     "id": "sanderundsommer",
                     "title": "Sander und Sommer",
-                    "shortdesc": "a website created for a German clinic",
+                    "shortdesc": "a website created for a german clinic",
                     "date": "July, 2024",
                     "desc": [
                         "It is a showcase website project for a German clinic looking for something professional and visually satisfying.",
@@ -723,7 +723,7 @@
                 {
                     "id": "minimaltris",
                     "title": "Minimal Tris",
-                    "shortdesc": "an online Tic-Tac-Toe game",
+                    "shortdesc": "an online tic-tac-toe game",
                     "date": "September, 2023",
                     "desc": [
                         "It is a very simple game where the player can choose to play single player or multiplayer.",
