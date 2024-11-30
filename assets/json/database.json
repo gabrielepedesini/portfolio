@@ -6,7 +6,7 @@
             "intro": {
                 "title": "Ciao, sono Gabriele 👋",
                 "desc": [
-                    "Sono un (aspirante) software engineer che vive in Italia.",
+                    "Sono un aspirante software engineer che vive in Italia.",
                     "Sono principalmente interessato al mondo del web development e mobile development.",
                     "Cerco sempre di unire competenze tecniche di sviluppo con una spiccata attenzione al design e all'esperienza utente, creando soluzioni digitali complete ed efficaci.",
                     "Per qualsiasi domanda, non esitare a contattarmi attraverso i <a href='contacts.html'>contatti</a>."
@@ -361,7 +361,7 @@
             "intro": {
             "title": "Hello, I'm Gabriele 👋",
             "desc": [
-                "I am an (aspiring) software engineer living in Italy.",
+                "I am an aspiring software engineer living in Italy.",
                 "I am mainly interested in the world of web development and mobile development.",
                 "I always try to combine technical development skills with a strong focus on design and user experience, creating complete and effective digital solutions.",
                 "For any questions, feel free to contact me through the <a href='contacts.html'>contacts</a>."
