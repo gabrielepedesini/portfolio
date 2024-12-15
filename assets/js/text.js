@@ -502,7 +502,7 @@ function renderIndex(lang) {
         for (let i = 0; i < projects.length && i < 3; i++) {
             let project = projects[i];
             projectsSection += `
-                <li><a href="projects/${project.id}.html">${project.title}</a>: ${project.shortdesc}</li>`;
+                <li><a href="projects/${project.id}.html">${project.title}</a> - ${project.shortdesc}</li>`;
         }
 
         projectsSection += `
