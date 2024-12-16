@@ -16,25 +16,28 @@ app.use((req, res, next) => {
 // Serve static files from the "public" directory (including assets, images, etc.)
 app.use(express.static(path.join(__dirname, 'public')));
 
-// Route to serve project pages without .html
+// Dynamically serve project pages from the "projects" folder
 app.get('/projects/:project', (req, res) => {
   const projectName = req.params.project;
   const projectPath = path.join(__dirname, 'public', 'projects', `${projectName}.html`);
+  
+  // Check if the project file exists
   res.sendFile(projectPath, (err) => {
     if (err) {
+      console.error('Error serving project:', err);
       res.status(404).send('Page not found');
     }
   });
 });
 
-// Serve the sitemap.xml file
-app.get('/sitemap.xml', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'sitemap.xml'));
-});
-
-// Default route to serve the homepage
+// Serve the homepage (index.html)
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'index.html'));
+});
+
+// Handle sitemap explicitly
+app.get('/sitemap.xml', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'sitemap.xml'));
 });
 
 // Handle 404 errors for unmatched routes
