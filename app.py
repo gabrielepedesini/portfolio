@@ -29,7 +29,7 @@ def redirect_page_html(page_name):
 # general dynamic route for projects
 @app.route('/projects/<project_name>')
 def project_page(project_name):
-    project_file = f'projects/{project_name}.html' 
+    project_file = f'projects-pages/{project_name}.html' 
     if os.path.exists(project_file): 
         return render_template(project_file)
     else:
@@ -38,7 +38,7 @@ def project_page(project_name):
 # general dynamic route for projects to handle .html removal
 @app.route('/projects/<project_name>.html')
 def redirect_project_html(project_name):
-    project_file = f'projects/{project_name}.html' 
+    project_file = f'projects-pages/{project_name}.html' 
     if os.path.exists(project_file):
         return redirect(f'/projects/{project_name}', code=301)
     else:
