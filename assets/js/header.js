@@ -15,14 +15,14 @@ let navbarLinks;
 
 if (lang === "it") {
     navbarLinks = [
-        { href: "index.html", text: "Home" },
+        { href: "/", text: "Home" },
         { href: "notes.html", text: "Appunti" },
         { href: "projects.html", text: "Progetti" },
         { href: "contacts.html", text: "Contatti" }
     ];
 } else if (lang === "en") {
     navbarLinks = [
-        { href: "index.html", text: "Home" },
+        { href: "/", text: "Home" },
         { href: "notes.html", text: "Notes" },
         { href: "projects.html", text: "Projects" },
         { href: "contacts.html", text: "Contacts" }
