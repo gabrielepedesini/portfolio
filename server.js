@@ -8,44 +8,24 @@ const PORT = process.env.PORT || 3000;
 // Serve static files from the public directory
 app.use(express.static(path.join(__dirname, 'public')));
 
-// Function to dynamically generate valid pages
-function generateValidPages() {
-  const basePagesDir = path.join(__dirname, 'public');
-  const projectsDir = path.join(__dirname, 'public', 'projects');
-  
-  const validPages = ['/'];
-
-  try {
-    // Read root HTML files
-    const rootFiles = fs.readdirSync(basePagesDir)
-      .filter(file => 
-        path.extname(file) === '.html' && 
-        file !== 'index.html' && 
-        !file.includes('404')
-      )
-      .map(file => `/${path.basename(file, '.html')}`);
-    
-    validPages.push(...rootFiles);
-
-    // Read project pages
-    const projectFiles = fs.readdirSync(projectsDir)
-      .filter(file => path.extname(file) === '.html')
-      .map(file => `/projects/${path.basename(file, '.html')}`);
-    
-    validPages.push('/projects', ...projectFiles);
-  } catch (err) {
-    console.error('Error reading directories:', err);
-  }
-
-  return validPages;
-}
-
 // Custom middleware to handle routes without .html extension
 app.use((req, res, next) => {
   const requestPath = req.path;
   
-  // Dynamically generate valid pages each time
-  const validPages = generateValidPages();
+  // List of valid pages
+  const validPages = [
+    '/', 
+    '/index', 
+    '/contacts', 
+    '/notes', 
+    '/projects',
+    '/projects/achrisgraphics',
+    '/projects/alessandragiuliani',
+    '/projects/bricked',
+    '/projects/minimaltris',
+    '/projects/sanderundsommer',
+    '/projects/trendtribes'
+  ];
 
   // Check if the request matches a valid page
   if (validPages.includes(requestPath) || validPages.includes(requestPath + '/')) {
