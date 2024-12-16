@@ -7,6 +7,10 @@ app = Flask(__name__, static_folder='assets', template_folder='.')
 @app.route('/')
 def index():
     return render_template('index.html')
+
+@app.route('/projects')
+def projects():
+    return render_template('projects.html')
     
 # general dynamic route 
 @app.route('/<page_name>')
