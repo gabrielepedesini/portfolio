@@ -9,9 +9,10 @@ def index():
     return render_template('index.html')
 
 @app.route('/projects')
-def projects():
+@app.route('/projects/')
+def projects_home():
     return render_template('projects.html')
-    
+
 # general dynamic route 
 @app.route('/<page_name>')
 def generic_page(page_name):
