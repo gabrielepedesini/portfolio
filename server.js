@@ -3,73 +3,79 @@ const path = require('path');
 const fs = require('fs');
 
 const app = express();
-
 const PORT = process.env.PORT || 3000;
 
-// Middleware to redirect requests without .html to clean URLs
-app.use((req, res, next) => {
-  const originalUrl = req.url;
-  
-  // Check if the URL does not already end with .html
-  if (!req.url.endsWith('.html')) {
-    const htmlPath = path.join(__dirname, 'public', `${req.url}.html`);
-    
-    // Check if an HTML file exists for the requested URL
-    fs.exists(htmlPath, (exists) => {
-      if (exists) {
-        // Redirect to the clean URL
-        res.redirect(301, req.url + '.html');
-      } else {
-        next();
-      }
-    });
-  } else {
-    // If URL ends with .html, remove the extension
-    const cleanUrl = req.url.replace('.html', '');
-    res.redirect(301, cleanUrl);
-  }
-});
-
-// Serve static files from the "public" directory
+// Serve static files from the public directory
 app.use(express.static(path.join(__dirname, 'public')));
 
-// Dynamically serve project pages from the "projects" folder
-app.get('/projects/:project', (req, res) => {
-  const projectName = req.params.project;
-  const projectPath = path.join(__dirname, 'public', 'projects', `${projectName}.html`);
+// Function to dynamically generate valid pages
+function generateValidPages() {
+  const basePagesDir = path.join(__dirname, 'public');
+  const projectsDir = path.join(__dirname, 'public', 'projects');
   
-  console.log('Requesting project path:', projectPath);
+  const validPages = ['/'];
+
+  try {
+    // Read root HTML files
+    const rootFiles = fs.readdirSync(basePagesDir)
+      .filter(file => 
+        path.extname(file) === '.html' && 
+        file !== 'index.html' && 
+        !file.includes('404')
+      )
+      .map(file => `/${path.basename(file, '.html')}`);
+    
+    validPages.push(...rootFiles);
+
+    // Read project pages
+    const projectFiles = fs.readdirSync(projectsDir)
+      .filter(file => path.extname(file) === '.html')
+      .map(file => `/projects/${path.basename(file, '.html')}`);
+    
+    validPages.push('/projects', ...projectFiles);
+  } catch (err) {
+    console.error('Error reading directories:', err);
+  }
+
+  return validPages;
+}
+
+// Custom middleware to handle routes without .html extension
+app.use((req, res, next) => {
+  const requestPath = req.path;
   
-  fs.exists(projectPath, (exists) => {
-    if (exists) {
-      res.sendFile(projectPath);
-    } else {
-      console.log('Project not found:', projectPath);
-      res.status(404).send('Page not found');
+  // Dynamically generate valid pages each time
+  const validPages = generateValidPages();
+
+  // Check if the request matches a valid page
+  if (validPages.includes(requestPath) || validPages.includes(requestPath + '/')) {
+    let filePath;
+    
+    // Handle root and index specially
+    if (requestPath === '/' || requestPath === '/index') {
+      filePath = path.join(__dirname, 'public', 'index.html');
+    } 
+    // Handle project pages
+    else if (requestPath.startsWith('/projects/')) {
+      filePath = path.join(__dirname, 'public', 'projects', requestPath.split('/').pop() + '.html');
     }
-  });
-});
+    // Handle other pages
+    else {
+      filePath = path.join(__dirname, 'public', requestPath.slice(1) + '.html');
+    }
 
-// Serve the homepage (index.html)
-app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'index.html'));
-});
+    // Check if file exists
+    if (fs.existsSync(filePath)) {
+      return res.sendFile(filePath);
+    }
+  }
 
-app.get('/notes.html', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public', 'notes.html'));
-});
-
-// Handle sitemap explicitly
-app.get('/sitemap.xml', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'sitemap.xml'));
-});
-
-// Handle 404 errors for unmatched routes
-app.use((req, res) => {
-  res.status(404).send('Page not found');
+  // If no matching route is found, send 404
+  res.status(404).sendFile(path.join(__dirname, 'public', '404.html'));
 });
 
 // Start the server
 app.listen(PORT, () => {
-  console.log(`Server is running on http://localhost:${PORT}`);
+  console.log(`Server running on port ${PORT}`);
+  console.log(`Visit http://localhost:${PORT}`);
 });
