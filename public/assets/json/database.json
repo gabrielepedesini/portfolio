@@ -1,0 +1,770 @@
+{
+
+    "it": {
+
+        "index": {
+            "intro": {
+                "title": "Ciao, sono Gabriele 👋",
+                "desc": [
+                    "Sono un aspirante software engineer che vive in Italia.",
+                    "Sono principalmente interessato al mondo del web development e mobile development.",
+                    "Cerco sempre di unire competenze tecniche di sviluppo con una spiccata attenzione al design e all'esperienza utente, creando soluzioni digitali complete ed efficaci.",
+                    "Per qualsiasi domanda, non esitare a contattarmi attraverso i <a href='contacts.html'>contatti</a>."
+                ],
+                "resume": "Per avere più informazioni su di me, scarica il mio <a href='assets/download/gabriele-pedesini-resume.pdf' download>curriculum</a>."
+            },
+            "formation": {
+                "title": "Formazione 🎓",
+                "desc": [
+                    "Attualmente studio ingegneria informatica al <a target='_blank' href='https://www.polimi.it/'>PoliMI</a>.",
+                    "Ho anche creato una raccolta di <a href='notes.html'>appunti</a> che ho realizzato per gli esami che ho conseguito fino ad oggi."
+                ]
+            },
+            "projects": {
+                "title": "Progetti 🚀",
+                "desc": ["Qua di seguito alcuni dei progetti a cui ho lavorato:"],
+                "all": "<a href='projects.html'>Tutti i progetti</a>"
+            }
+        },
+    
+        "notes": {
+            "intro": {
+                "title": "Appunti 📝",
+                "desc": [
+                    "Qua di seguito una raccolta di appunti e formulari che ho usato per superare questi esami al Polimi nel corso di ingegneria informatica.",
+                    "Purtroppo in alcuni casi gli appunti non sono completi."
+                ]
+            },
+            "courses": [
+                {
+                    "title": "Analisi 1",
+                    "teacher": "Boella Marco Ugo Claudio",
+                    "resources": [
+                        {
+                            "type": "Appunti",
+                            "link": "https://drive.google.com/file/d/1xFXM9r4ZrWqAGoSNQKXKeRoO6VxGpXH1/view?usp=sharing"
+                        },
+                        {
+                            "type": "Dimostrazioni",
+                            "link": "https://drive.google.com/file/d/1yGNocf1j0LyhvpKXNP21twi4rP0d_tM6/view?usp=sharing"
+                        }
+                    ]
+                },
+                {
+                    "title": "Geometria e Algebra Lineare",
+                    "teacher": "Pinton Stefano",
+                    "resources": [
+                        {
+                            "type": "Appunti",
+                            "link": "https://drive.google.com/file/d/1wq5UMP_eJC6-3dL5eyW552OhB-HpiaFw/view?usp=sharing"
+                        },
+                        {
+                            "type": "Dimostrazioni",
+                            "link": "https://drive.google.com/file/d/12fFm_Oa22469kQAWruJGhjnmpBpJSVqC/view?usp=sharing"
+                        },
+                        {
+                            "type": "Formulario",
+                            "link": "https://drive.google.com/file/d/11wpNqAJ1kpTAsfpH75x9Iunf3yjHV1ZD/view?usp=sharing"
+                        }
+                    ]
+                },
+                {
+                    "title": "Fondamenti di Informatica",
+                    "teacher": "Caglioti Vincenzo",
+                    "resources": [
+                        {
+                            "type": "Appunti",
+                            "link": "https://drive.google.com/file/d/1AV3gqs3uaSbCgpb5EpqxBlppeqHrZPJ4/view?usp=sharing"
+                        }
+                    ]
+                },
+                {
+                    "title": "Elettrotecnica",
+                    "teacher": "Bizzarri Federico",
+                    "resources": [
+                        {
+                            "type": "Appunti",
+                            "link": "https://drive.google.com/file/d/1srx-RVSDCCWK99pHsLjb43BAi8fdyRT1/view?usp=sharing"
+                        },
+                        {
+                            "type": "Formulario",
+                            "link": "https://drive.google.com/file/d/1DKIExomekihUC6tLno12A867dhStQ9wk/view?usp=sharing"
+                        }
+                    ]
+                },
+                {
+                    "title": "Fondamenti di Comunicazione Internet",
+                    "teacher": "Musumeci Francesco",
+                    "resources": [
+                        {
+                            "type": "Formulario",
+                            "link": "https://drive.google.com/file/d/1_RBpaaHGqa8OXIQhnQbl8itGlmlgNK3f/view?usp=sharing"
+                        }
+                    ]
+                },
+                {
+                    "title": "Fisica",
+                    "teacher": "Lucchini Matteo",
+                    "resources": [
+                        {
+                            "type": "Appunti",
+                            "link": "https://drive.google.com/file/d/1wpAFpkR5CLP5m0V4akiDqM1k4smDK1YL/view?usp=sharing"
+                        },
+                        {
+                            "type": "Dimostrazioni",
+                            "link": "https://drive.google.com/file/d/1QlunN9gvX2icsTiIBJZRkU_oEtf6dgDw/view?usp=sharing"
+                        },
+                        {
+                            "type": "Formulario",
+                            "link": "https://drive.google.com/file/d/1xfty7LNHm2bgVBBm1gWZvR5aKIPoAGpQ/view?usp=sharing"
+                        }
+                    ]
+                },
+                {
+                    "title": "Logica e Algebra",
+                    "teacher": "Nuccio Claudia",
+                    "resources": [
+                        {
+                            "type": "Appunti",
+                            "link": "https://drive.google.com/file/d/1Sp5sBpjoOO9Zlqg3IZ0607Lc1rUxSHe3/view?usp=sharing"
+                        },
+                        {
+                            "type": "Formulario",
+                            "link": "https://drive.google.com/file/d/1M-XYHy4OdttG5kQKkb0apQEWWNkavXBK/view?usp=sharing"
+                        }
+                    ]
+                },
+                {
+                    "title": "Architettura dei Calcolatori e Sistemi Operativi",
+                    "teacher": "Silvano Cristina",
+                    "resources": [
+                        {
+                            "type": "Appunti",
+                            "link": "https://drive.google.com/file/d/1VAmWzIlQy7aoTdQRGvXe9Elq8aCj50s3/view?usp=sharing"
+                        }
+                    ]
+                },
+                {
+                    "title": "Chimica Generale",
+                    "teacher": "Pigliacelli Claudia",
+                    "resources": [
+                        {
+                            "type": "Appunti",
+                            "link": "https://drive.google.com/file/d/1rcdHVWdG-rji3H7D-xZualGsxqUgbveP/view?usp=sharing"
+                        },
+                        {
+                            "type": "Formulario",
+                            "link": "https://drive.google.com/file/d/1JN_iPcP9xgtBcSEGHgLDcfeNh-ifoqBr/view?usp=sharing"
+                        }
+                    ]
+                },
+                {
+                    "title": "Analisi 2",
+                    "teacher": "Noris Benedetta",
+                    "resources": [
+                        {
+                            "type": "Appunti",
+                            "link": "https://drive.google.com/file/d/1S1KnbTrdxuVGBYwmc0FRx1v2k1xDXELG/view?usp=sharing"
+                        },
+                        {
+                            "type": "Dimostrazioni",
+                            "link": "https://drive.google.com/file/d/19-PFpilGnw6tvEI6lHRhJ7n2MwoAkbVq/view?usp=sharing"
+                        },
+                        {
+                            "type": "Formulario",
+                            "link": "https://drive.google.com/file/d/1j5VWK6ubNX9cvB_U7pWoyfb4XGb8wcCK/view?usp=sharing"
+                        }
+                    ]
+                },
+                {
+                    "title": "Algoritmi e Principi dell'Informatica",
+                    "teacher": "Martinenghi Davide",
+                    "resources": [
+                        {
+                            "type": "Formulario",
+                            "link": "https://drive.google.com/file/d/1V_xAr7h4N48Ezihnu2diZhp66-fBjdid/view?usp=sharing"
+                        }
+                    ]
+                },
+                {
+                    "title": "Fondamenti di Automatica",
+                    "teacher": "Ruiz Palacios Fredy Orlando",
+                    "resources": [
+                        {
+                            "type": "Appunti",
+                            "link": "https://drive.google.com/file/d/1_9hoUHMkPi5itxom2yrzqF7bPHPkHD1B/view?usp=sharing"
+                        },
+                        {
+                            "type": "Formulario",
+                            "link": "https://drive.google.com/file/d/1z9wTU4rv26AosfKhNSgS0HOBOy1eBcqY/view?usp=sharing"
+                        }
+                    ]
+                },
+                {
+                "title": "Informazione e Stima",
+                "teacher": "Barletta Luca",
+                "resources": [
+                        {
+                            "type": "Appunti",
+                            "link": "https://drive.google.com/file/d/1ia_sPia-fdDsF8THVhjUZem4G63pw1lk/view?usp=sharing"
+                        },
+                        {
+                            "type": "Formulario",
+                            "link": "https://drive.google.com/file/d/1tJc8Hhi5vA2a5EDHMSC_KiFB068ZV-Fe/view?usp=sharing"
+                        }
+                    ]
+                }
+            ]  
+        },
+        "projects": {
+            "intro": {
+                "title": "Progetti 🚀",
+                "desc": ["Qui di seguito trovi alcuni dei progetti che ho realizzato fino ad ora.", "Cliccando sul singolo progetto puoi consultarne i dettagli e trovare il collegamento che rimanda alla sua live preview."]
+            },
+            "details": [
+            {
+                "id": "achrisgraphics",
+                "title": "Achrisgraphics",
+                "shortdesc": "un sito web creato per un graphic designer",
+                "date": "Giugno, 2023",
+                "desc": ["Il progetto funge da portale attraverso il quale mostrare i propri lavori in maniera suggestiva e professionale per il cliente.", "Infatti, l'intero sito è stato creato sulla base delle direttive stilistiche ed artistiche dello stesso cliente."],
+                "goals": ["L'esigenza fondamentale è quella di avere uno spazio online nel quale mostrare i propri progetti.", "Inoltre, attraverso questo sito, il cliente puntava ad ampliare il bacino di clientela."],
+                "functions": ["Responsive design", "Cursore custom", "Download di documenti", "Form di contatto"
+                ],
+                "technologies": ["HTML", "CSS", "JavaScript"],
+                "link": "https://achrisgraphics.it",
+                "github": "https://github.com/gabrielepedesini/achris",
+                "img": true
+            },
+            {
+                "id": "trendtribes",
+                "title": "Trend Tribes",
+                "shortdesc": "un tema custom WordPress di un ecommerce basato su WooCommerce",
+                "date": "Febbraio, 2024",
+                "desc": [
+                "Si tratta di un tema custom per il noto CMS di Wordpress, accompagnato dal plugin WooCommerce, con cui gestire le funzionalità ecommerce.",
+                "Il progetto ha l'ambizione di essere il più minimal possibile, sia dal punto di vista visivo che da quello tecnico."
+                ],
+                "goals": [
+                "L'obiettivo era quello di creare un tema di un ecommerce facile e veloce da configurare, in maniera tale da poterlo mettere online nel più breve tempo possibile."
+                ],
+                "functions": [
+                "Responsive design",
+                "Sistema di filtri custom",
+                "Autenticazione e area utente",
+                "Blog",
+                "Form di contatto",
+                "Recensioni",
+                "Gateway di pagamento"
+                ],
+                "technologies": ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
+                "link": "http://trendtribes.infinityfreeapp.com",
+                "github": "https://github.com/gabrielepedesini/trendtribes",
+                "img": true
+            },
+            {
+                "id": "bricked",
+                "title": "Bricked",
+                "shortdesc": "un gioco online che si ispira a Tetris",
+                "date": "Ottobre, 2023",
+                "desc": [
+                "Ho creato questo gioco per mettermi alla prova, cercando di utilizzare le conoscenze che avevo appreso fino a quel momento per realizzare qualcosa.",
+                "Mi rendo conto che probabilmente il progetto non è stato strutturato nel modo più efficiente del mondo, ma almeno mi ha permesso di raggiungere un definito funzionamento desiderato attraverso delle soluzioni personali, e non con suggerimenti esterni."
+                ],
+                "goals": null,
+                "functions": ["Responsive design", "Classifiche"],
+                "technologies": ["HTML", "CSS", "JavaScript"],
+                "link": "https://brickedgame.netlify.app",
+                "github": "https://github.com/gabrielepedesini/bricked",
+                "img": true
+            },
+            {
+                "id": "alessandragiuliani",
+                "title": "Alessandra Giuliani",
+                "shortdesc": "un sito web creato per una biologa nutrizionista",
+                "date": "Agosto, 2024",
+                "desc": [
+                "È un progetto di un sito vetrina per una professionista che voleva migliorare la sua presenza online.",
+                "Il lavoro nasce con lo scopo di creare un sito web semplice ma completo, che sia anche graficamente accattivante."
+                ],
+                "goals": [
+                "L'obiettivo della cliente era quello di spiegare all'interno di una pagina in cosa consistesse il suo lavoro, che servizi offrisse e le informazioni utili per contattarla.",
+                "Tutto questo allo scopo di ottenere dei nuovi clienti."
+                ],
+                "functions": ["Responsive design", "Form di contatto", "Mappa custom"],
+                "technologies": ["HTML", "CSS", "JavaScript"],
+                "link": "https://alessandragiuliani.it",
+                "github": null,
+                "img": true
+            },
+            {
+                "id": "sanderundsommer",
+                "title": "Sander und Sommer",
+                "shortdesc": "un sito web creato per una clinica tedesca",
+                "date": "Luglio, 2024",
+                "desc": [
+                "È un progetto di un sito vetrina per una clinica tedesca in cerca di qualcosa di professionale e graficamente soddisfacente.",
+                "Infatti, erano già in possesso di una pagina che tuttavia non li soddisfava a pieno.",
+                "Di conseguenza, dopo aver compreso quali fossero le loro esigenze, ho provveduto a realizzare il loro attuale sito."
+                ],
+                "goals": [
+                "L'obiettivo era quello di descrivere tutto ciò che sta dietro la clinica: i servizi, il team, i clienti...",
+                "Chiaramente, il tutto aveva anche l'obiettivo di dare vita alla sua presenza online, aumentando anche la clientela."
+                ],
+                "functions": ["Responsive design", "Light/Dark mode", "Mappa custom"],
+                "technologies": ["HTML", "CSS", "JavaScript"],
+                "link": "https://sanderundsommer.de",
+                "github": null,
+                "img": true
+            },
+            {
+                "id": "minimaltris",
+                "title": "Minimal Tris",
+                "shortdesc": "un gioco online di tris",
+                "date": "Settembre, 2023",
+                "desc": [
+                "Si tratta di un gioco molto semplice, in cui il giocatore può scegliere se giocare in single player oppure in multiplayer.",
+                "Nella prima modalità, si troverà a giocare contro un AI molto rudimentale.",
+                "Nella seconda, potrà giocare a turno con un proprio amico in locale."
+                ],
+                "goals": null,
+                "functions": ["Responsive design", "AI player"],
+                "technologies": ["HTML", "CSS", "JavaScript"],
+                "link": "https://minimaltris.netlify.app",
+                "github": "https://github.com/gabrielepedesini/tris",
+                "img": true
+            }
+            ]
+        },
+        "contacts": {
+            "title": "Contatti 💬",
+            "desc": "Scrivimi pure per qualsiasi cosa attraverso uno dei seguenti canali: ",
+            "ref": [
+            {
+                "link": "mailto:gabrielepedesini@gmail.com",
+                "name": "Email"
+            },
+            {
+                "link": "https://t.me/gabrielepedesini",
+                "name": "Telegram"
+            },
+            {
+                "link": "https://www.linkedin.com/in/gabrielepedesini/",
+                "name": "LinkedIn"
+            }
+            ]
+        }
+    },
+    
+    "en": {
+        "index": {
+            "intro": {
+            "title": "Hello, I'm Gabriele 👋",
+            "desc": [
+                "I am an aspiring software engineer living in Italy.",
+                "I am mainly interested in the world of web development and mobile development.",
+                "I always try to combine technical development skills with a strong focus on design and user experience, creating complete and effective digital solutions.",
+                "For any questions, feel free to contact me through the <a href='contacts.html'>contacts</a>."
+            ],
+            "resume": "For more information about me, download my <a href='assets/download/gabriele-pedesini-resume.pdf' download>resume</a>."
+            },
+            "formation": {
+            "title": "Education 🎓",
+            "desc": [
+                "I am currently studying software engineering at <a target='_blank' href='https://www.polimi.it/'>PoliMI</a>.",
+                "I have also created a collection of <a href='notes.html'>notes</a> that I have made for the exams I have taken so far."
+            ]
+            },
+            "projects": {
+            "title": "Projects 🚀",
+            "desc": [
+                "Here are some of the projects I have worked on:"
+            ],
+            "all": "<a href='projects.html'>All projects</a>"
+            }
+        },
+        "notes": {
+            "intro": {
+            "title": "Notes 📝",
+            "desc": [
+                "Here's a collection of notes and formulas that I used to pass these exams at Polimi during my software engineering course.",
+                "Unfortunately, in some cases, the notes are not complete."
+            ]
+            },
+            "courses": [
+            {
+                "title": "Calculus 1",
+                "teacher": "Boella Marco Ugo Claudio",
+                "resources": [
+                {
+                    "type": "Notes",
+                    "link": "https://drive.google.com/file/d/1xFXM9r4ZrWqAGoSNQKXKeRoO6VxGpXH1/view?usp=sharing"
+                },
+                {
+                    "type": "Demonstrations",
+                    "link": "https://drive.google.com/file/d/1yGNocf1j0LyhvpKXNP21twi4rP0d_tM6/view?usp=sharing"
+                }
+                ]
+            },
+            {
+                "title": "Geometry and Linear Algebra",
+                "teacher": "Pinton Stefano",
+                "resources": [
+                {
+                    "type": "Notes",
+                    "link": "https://drive.google.com/file/d/1wq5UMP_eJC6-3dL5eyW552OhB-HpiaFw/view?usp=sharing"
+                },
+                {
+                    "type": "Demonstrations",
+                    "link": "https://drive.google.com/file/d/12fFm_Oa22469kQAWruJGhjnmpBpJSVqC/view?usp=sharing"
+                },
+                {
+                    "type": "Formulas",
+                    "link": "https://drive.google.com/file/d/11wpNqAJ1kpTAsfpH75x9Iunf3yjHV1ZD/view?usp=sharing"
+                }
+                ]
+            },
+            {
+                "title": "Computer Science Fundamentals",
+                "teacher": "Caglioti Vincenzo",
+                "resources": [
+                {
+                    "type": "Notes",
+                    "link": "https://drive.google.com/file/d/1AV3gqs3uaSbCgpb5EpqxBlppeqHrZPJ4/view?usp=sharing"
+                }
+                ]
+            },
+            {
+                "title": "Electrotechnics",
+                "teacher": "Bizzarri Federico",
+                "resources": [
+                {
+                    "type": "Notes",
+                    "link": "https://drive.google.com/file/d/1srx-RVSDCCWK99pHsLjb43BAi8fdyRT1/view?usp=sharing"
+                },
+                {
+                    "type": "Formulas",
+                    "link": "https://drive.google.com/file/d/1DKIExomekihUC6tLno12A867dhStQ9wk/view?usp=sharing"
+                }
+                ]
+            },
+            {
+                "title": "Internet Communication Fundamentals",
+                "teacher": "Musumeci Francesco",
+                "resources": [
+                {
+                    "type": "Formulas",
+                    "link": "https://drive.google.com/file/d/1_RBpaaHGqa8OXIQhnQbl8itGlmlgNK3f/view?usp=sharing"
+                }
+                ]
+            },
+            {
+                "title": "Physics",
+                "teacher": "Lucchini Matteo",
+                "resources": [
+                {
+                    "type": "Notes",
+                    "link": "https://drive.google.com/file/d/1wpAFpkR5CLP5m0V4akiDqM1k4smDK1YL/view?usp=sharing"
+                },
+                {
+                    "type": "Demonstrations",
+                    "link": "https://drive.google.com/file/d/1QlunN9gvX2icsTiIBJZRkU_oEtf6dgDw/view?usp=sharing"
+                },
+                {
+                    "type": "Formulas",
+                    "link": "https://drive.google.com/file/d/1xfty7LNHm2bgVBBm1gWZvR5aKIPoAGpQ/view?usp=sharing"
+                }
+                ]
+            },
+            {
+                "title": "Logic and Algebra",
+                "teacher": "Nuccio Claudia",
+                "resources": [
+                {
+                    "type": "Notes",
+                    "link": "https://drive.google.com/file/d/1Sp5sBpjoOO9Zlqg3IZ0607Lc1rUxSHe3/view?usp=sharing"
+                },
+                {
+                    "type": "Formulas",
+                    "link": "https://drive.google.com/file/d/1M-XYHy4OdttG5kQKkb0apQEWWNkavXBK/view?usp=sharing"
+                }
+                ]
+            },
+            {
+                "title": "Computer Architecture and Operating Systems",
+                "teacher": "Silvano Cristina",
+                "resources": [
+                {
+                    "type": "Notes",
+                    "link": "https://drive.google.com/file/d/1VAmWzIlQy7aoTdQRGvXe9Elq8aCj50s3/view?usp=sharing"
+                }
+                ]
+            },
+            {
+                "title": "General Chemistry",
+                "teacher": "Pigliacelli Claudia",
+                "resources": [
+                {
+                    "type": "Notes",
+                    "link": "https://drive.google.com/file/d/1rcdHVWdG-rji3H7D-xZualGsxqUgbveP/view?usp=sharing"
+                },
+                {
+                    "type": "Formulas",
+                    "link": "https://drive.google.com/file/d/1JN_iPcP9xgtBcSEGHgLDcfeNh-ifoqBr/view?usp=sharing"
+                }
+                ]
+            },
+            {
+                "title": "Calculus 2",
+                "teacher": "Noris Benedetta",
+                "resources": [
+                {
+                    "type": "Notes",
+                    "link": "https://drive.google.com/file/d/1S1KnbTrdxuVGBYwmc0FRx1v2k1xDXELG/view?usp=sharing"
+                },
+                {
+                    "type": "Demonstrations",
+                    "link": "https://drive.google.com/file/d/19-PFpilGnw6tvEI6lHRhJ7n2MwoAkbVq/view?usp=sharing"
+                },
+                {
+                    "type": "Formulas",
+                    "link": "https://drive.google.com/file/d/1j5VWK6ubNX9cvB_U7pWoyfb4XGb8wcCK/view?usp=sharing"
+                }
+                ]
+            },
+            {
+                "title": "Algorithms and Principles of Computer Science",
+                "teacher": "Martinenghi Davide",
+                "resources": [
+                {
+                    "type": "Formulas",
+                    "link": "https://drive.google.com/file/d/1V_xAr7h4N48Ezihnu2diZhp66-fBjdid/view?usp=sharing"
+                }
+                ]
+            },
+            {
+                "title": "Automatic Control Fundamentals",
+                "teacher": "Ruiz Palacios Fredy Orlando",
+                "resources": [
+                {
+                    "type": "Notes",
+                    "link": "https://drive.google.com/file/d/1_9hoUHMkPi5itxom2yrzqF7bPHPkHD1B/view?usp=sharing"
+                },
+                {
+                    "type": "Formulas",
+                    "link": "https://drive.google.com/file/d/1z9wTU4rv26AosfKhNSgS0HOBOy1eBcqY/view?usp=sharing"
+                }
+                ]
+            },
+            {
+                "title": "Information and Estimation",
+                "teacher": "Barletta Luca",
+                "resources": [
+                {
+                    "type": "Notes",
+                    "link": "https://drive.google.com/file/d/1ia_sPia-fdDsF8THVhjUZem4G63pw1lk/view?usp=sharing"
+                },
+                {
+                    "type": "Formulas",
+                    "link": "https://drive.google.com/file/d/1tJc8Hhi5vA2a5EDHMSC_KiFB068ZV-Fe/view?usp=sharing"
+                }
+                ]
+            }
+            ]
+        },
+
+        "projects": {
+            "intro": {
+                "title": "Projects 🚀",
+                "desc": [
+                    "Here are some of the projects I have completed so far.",
+                    "By clicking on each project, you can view the details and find the link to its live preview."
+                ]
+            },
+            "details": [
+                {
+                    "id": "achrisgraphics",
+                    "title": "AchrisGraphics",
+                    "shortdesc": "a website created for a graphic designer",
+                    "date": "June, 2023",
+                    "desc": [
+                        "The project serves as a portal through which to showcase one's work in a suggestive and professional manner for the client.",
+                        "In fact, the entire site was created based on the stylistic and artistic directives of the client."
+                    ],
+                    "goals": [
+                        "The fundamental need is to have an online space to display one's projects.",
+                        "Additionally, through this site, the client aimed to expand their client base."
+                    ],
+                    "functions": [
+                        "Responsive design",
+                        "Custom cursor",
+                        "Document downloads",
+                        "Contact form"
+                    ],
+                    "technologies": [
+                        "HTML",
+                        "CSS",
+                        "JavaScript"
+                    ],
+                    "link": "https://achrisgraphics.it",
+                    "github": "https://github.com/gabrielepedesini/achris",
+                    "img": true
+                },
+                {
+                    "id": "trendtribes",
+                    "title": "Trend Tribes",
+                    "shortdesc": "a custom Wordpress theme for an ecommerce based on WooCommerce",
+                    "date": "February, 2024",
+                    "desc": [
+                        "It is a custom theme for the well-known WordPress CMS, accompanied by the WooCommerce plugin, to manage ecommerce functionalities.",
+                        "The project aims to be as minimal as possible, both visually and technically."
+                    ],
+                    "goals": [
+                        "The goal was to create an ecommerce theme that is easy and quick to configure, so it could be put online in the shortest time possible."
+                    ],
+                    "functions": [
+                        "Responsive design",
+                        "Custom filtering system",
+                        "Authentication and user area",
+                        "Blog",
+                        "Contact form",
+                        "Reviews",
+                        "Payment gateway"
+                    ],
+                    "technologies": [
+                        "HTML",
+                        "CSS",
+                        "JavaScript",
+                        "PHP",
+                        "WordPress"
+                    ],
+                    "link": "http://trendtribes.infinityfreeapp.com",
+                    "github": "https://github.com/gabrielepedesini/trendtribes",
+                    "img": true
+                },
+                {
+                    "id": "bricked",
+                    "title": "Bricked",
+                    "shortdesc": "an online game inspired by Tetris",
+                    "date": "October, 2023",
+                    "desc": [
+                        "I created this game to challenge myself, trying to use the knowledge I had acquired up to that point to create something.",
+                        "I realize that the project may not have been structured in the most efficient way, but at least it allowed me to achieve a defined desired functionality through personal solutions, rather than external suggestions."
+                    ],
+                    "goals": null,
+                    "functions": [
+                        "Responsive design",
+                        "Leaderboards"
+                    ],
+                    "technologies": [
+                        "HTML",
+                        "CSS",
+                        "JavaScript"
+                    ],
+                    "link": "http://brickedgame.netlify.app",
+                    "github": "https://github.com/gabrielepedesini/bricked",
+                    "img": true
+                },
+                {
+                    "id": "alessandragiuliani",
+                    "title": "Alessandra Giuliani",
+                    "shortdesc": "a website created for a nutritionist biologist",
+                    "date": "August, 2024",
+                    "desc": [
+                        "It is a showcase website project for a professional who wanted to improve her online presence.",
+                        "The work aims to create a simple yet comprehensive website that is also visually appealing."
+                    ],
+                    "goals": [
+                        "The client's objective was to explain on a page what her work consists of, what services she offers, and useful information to contact her.",
+                        "All this with the goal of obtaining new clients."
+                    ],
+                    "functions": [
+                        "Responsive design",
+                        "Contact form",
+                        "Custom map"
+                    ],
+                    "technologies": [
+                        "HTML",
+                        "CSS",
+                        "JavaScript"
+                    ],
+                    "link": "https://alessandragiuliani.it",
+                    "github": null,
+                    "img": true
+                },
+                {
+                    "id": "sanderundsommer",
+                    "title": "Sander und Sommer",
+                    "shortdesc": "a website created for a german clinic",
+                    "date": "July, 2024",
+                    "desc": [
+                        "It is a showcase website project for a German clinic looking for something professional and visually satisfying.",
+                        "In fact, they already had a page that did not fully satisfy them.",
+                        "Therefore, after understanding what their needs were, I proceeded to create their current site."
+                    ],
+                    "goals": [
+                        "The objective was to describe everything behind the clinic: the services, the team, the clients...",
+                        "Clearly, all this also aimed to enhance its online presence, thereby increasing clientele."
+                    ],
+                    "functions": [
+                        "Responsive design",
+                        "Light/dark mode",
+                        "Custom map"
+                    ],
+                    "technologies": [
+                        "HTML",
+                        "CSS",
+                        "JavaScript"
+                    ],
+                    "link": "https://sanderundsommer.de",
+                    "github": null,
+                    "img": true
+                },
+                {
+                    "id": "minimaltris",
+                    "title": "Minimal Tris",
+                    "shortdesc": "an online tic-tac-toe game",
+                    "date": "September, 2023",
+                    "desc": [
+                        "It is a very simple game where the player can choose to play single player or multiplayer.",
+                        "In the first mode, they will play against a very rudimentary AI.",
+                        "In the second, they can play turn-based with a friend locally."
+                    ],
+                    "goals": null,
+                    "functions": [
+                        "Responsive design",
+                        "AI player"
+                    ],
+                    "technologies": [
+                        "HTML",
+                        "CSS",
+                        "JavaScript"
+                    ],
+                    "link": "https://minimaltris.netlify.app",
+                    "github": "https://github.com/gabrielepedesini/tris",
+                    "img": true
+                }
+            ]
+        },
+        "contacts": {
+            "title": "Contacts 💬",
+            "desc": "Feel free to write to me for anything through one of the following channels: ",
+            "ref": [
+                {
+                    "link": "mailto:gabrielepedesini@gmail.com",
+                    "name": "Email"
+                },
+                {
+                    "link": "https://t.me/gabrielepedesini",
+                    "name": "Telegram"
+                },
+                {
+                    "link": "https://www.linkedin.com/in/gabrielepedesini/",
+                    "name": "LinkedIn"
+                }
+            ]
+        }
+        
+    }
+    
+}
