@@ -274,7 +274,7 @@
                 "goals": null,
                 "functions": ["Responsive design", "Classifiche"],
                 "technologies": ["HTML", "CSS", "JavaScript"],
-                "link": "https://brickedgame.netlify.app",
+                "link": "https://bricked.gabrielepedesini.com",
                 "github": "https://github.com/gabrielepedesini/bricked",
                 "img": true
             },
@@ -330,7 +330,7 @@
                 "goals": null,
                 "functions": ["Responsive design", "AI player"],
                 "technologies": ["HTML", "CSS", "JavaScript"],
-                "link": "https://minimaltris.netlify.app",
+                "link": "https://minimaltris.gabrielepedesini.com",
                 "github": "https://github.com/gabrielepedesini/tris",
                 "img": true
             }
@@ -661,7 +661,7 @@
                         "CSS",
                         "JavaScript"
                     ],
-                    "link": "http://brickedgame.netlify.app",
+                    "link": "http://bricked.gabrielepedesini.com",
                     "github": "https://github.com/gabrielepedesini/bricked",
                     "img": true
                 },
@@ -740,7 +740,7 @@
                         "CSS",
                         "JavaScript"
                     ],
-                    "link": "https://minimaltris.netlify.app",
+                    "link": "https://minimaltris.gabrielepedesini.com",
                     "github": "https://github.com/gabrielepedesini/tris",
                     "img": true
                 }
