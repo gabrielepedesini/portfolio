@@ -227,7 +227,8 @@ function renderProject(lang, url) {
                     }
                 }
             });
-            
+
+            projectElement.style.display = "block";
         })
         .catch(error => console.error('Error loading JSON:', error));
 }
@@ -296,6 +297,8 @@ function renderProjects(lang) {
         `;
 
         projectsElement.innerHTML += projectsSection;
+
+        projectsElement.style.display = "block";
     })
     .catch(error => console.error('Error loading JSON:', error));
 }
@@ -378,6 +381,8 @@ function renderNotes(lang) {
         `;
 
         notesElement.innerHTML += coursesSection;
+
+        notesElement.style.display = "block";
     })
     .catch(error => console.error('Error loading JSON:', error));
 }
@@ -425,6 +430,8 @@ function renderContacts(lang) {
         `;     
 
         contactsElement.innerHTML += introSection;
+
+        contactsElement.style.display = "block";
     })
     .catch(error => console.error('Error loading JSON:', error));
 }
@@ -522,6 +529,8 @@ function renderIndex(lang) {
         `;
 
         indexElement.innerHTML += resumeSection;
+
+        indexElement.style.display = "block";
     })
     .catch(error => console.error('Error loading JSON:', error));
 }
