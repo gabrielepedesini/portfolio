@@ -288,7 +288,7 @@ function renderProjects(lang) {
         copy.details.forEach(element => {
             projectsSection += `
                 <li>
-                    <a href="projects/${element.id}.html">${element.title}</a> - <span>${element.date}</span>
+                    <a href="projects/${element.id}.html">${element.title}</a> ‒ <span>${element.date}</span>
                     <p class="desc">${element.shortdesc}</p>
                 </li>
             `
@@ -360,7 +360,7 @@ function renderNotes(lang) {
         copy.courses.forEach(course => {
             let courseSection = `
                 <li>
-                    ${course.title} - <span class="opacity">${course.teacher}</span>
+                    ${course.title} ‒ <span class="opacity">${course.teacher}</span>
                     <ul>
             `;
 
@@ -516,7 +516,7 @@ function renderIndex(lang) {
         for (let i = 0; i < projects.length && i < 3; i++) {
             let project = projects[i];
             projectsSection += `
-                <li><a href="projects/${project.id}.html">${project.title}</a> - ${project.shortdesc}</li>`;
+                <li><a href="projects/${project.id}.html">${project.title}</a> ‒ ${project.shortdesc}</li>`;
         }
 
         projectsSection += `

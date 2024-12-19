@@ -222,118 +222,130 @@
                 "desc": ["Qui di seguito trovi alcuni dei progetti che ho realizzato fino ad ora.", "Cliccando sul singolo progetto puoi consultarne i dettagli e trovare il collegamento che rimanda alla sua live preview."]
             },
             "details": [
-            {
-                "id": "achrisgraphics",
-                "title": "Achrisgraphics",
-                "shortdesc": "un sito web creato per un graphic designer",
-                "date": "Giugno, 2023",
-                "desc": ["Il progetto funge da portale attraverso il quale mostrare i propri lavori in maniera suggestiva e professionale per il cliente.", "Infatti, l'intero sito è stato creato sulla base delle direttive stilistiche ed artistiche dello stesso cliente."],
-                "goals": ["L'esigenza fondamentale è quella di avere uno spazio online nel quale mostrare i propri progetti.", "Inoltre, attraverso questo sito, il cliente puntava ad ampliare il bacino di clientela."],
-                "functions": ["Responsive design", "Cursore custom", "Download di documenti", "Form di contatto"
-                ],
-                "technologies": ["HTML", "CSS", "JavaScript"],
-                "link": "https://achrisgraphics.it",
-                "github": "https://github.com/gabrielepedesini/achris",
-                "img": true
-            },
-            {
-                "id": "trendtribes",
-                "title": "Trend Tribes",
-                "shortdesc": "un tema custom WordPress di un ecommerce basato su WooCommerce",
-                "date": "Febbraio, 2024",
-                "desc": [
-                "Si tratta di un tema custom per il noto CMS di Wordpress, accompagnato dal plugin WooCommerce, con cui gestire le funzionalità ecommerce.",
-                "Il progetto ha l'ambizione di essere il più minimal possibile, sia dal punto di vista visivo che da quello tecnico."
-                ],
-                "goals": [
-                "L'obiettivo era quello di creare un tema di un ecommerce facile e veloce da configurare, in maniera tale da poterlo mettere online nel più breve tempo possibile."
-                ],
-                "functions": [
-                "Responsive design",
-                "Sistema di filtri custom",
-                "Autenticazione e area utente",
-                "Blog",
-                "Form di contatto",
-                "Recensioni",
-                "Gateway di pagamento"
-                ],
-                "technologies": ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
-                "link": "http://trendtribes.infinityfreeapp.com",
-                "github": "https://github.com/gabrielepedesini/trendtribes",
-                "img": true
-            },
-            {
-                "id": "bricked",
-                "title": "Bricked",
-                "shortdesc": "un gioco online che si ispira a Tetris",
-                "date": "Ottobre, 2023",
-                "desc": [
-                "Ho creato questo gioco per mettermi alla prova, cercando di utilizzare le conoscenze che avevo appreso fino a quel momento per realizzare qualcosa.",
-                "Mi rendo conto che probabilmente il progetto non è stato strutturato nel modo più efficiente del mondo, ma almeno mi ha permesso di raggiungere un definito funzionamento desiderato attraverso delle soluzioni personali, e non con suggerimenti esterni."
-                ],
-                "goals": null,
-                "functions": ["Responsive design", "Classifiche"],
-                "technologies": ["HTML", "CSS", "JavaScript"],
-                "link": "https://bricked.gabrielepedesini.com",
-                "github": "https://github.com/gabrielepedesini/bricked",
-                "img": true
-            },
-            {
-                "id": "alessandragiuliani",
-                "title": "Alessandra Giuliani",
-                "shortdesc": "un sito web creato per una biologa nutrizionista",
-                "date": "Agosto, 2024",
-                "desc": [
-                "È un progetto di un sito vetrina per una professionista che voleva migliorare la sua presenza online.",
-                "Il lavoro nasce con lo scopo di creare un sito web semplice ma completo, che sia anche graficamente accattivante."
-                ],
-                "goals": [
-                "L'obiettivo della cliente era quello di spiegare all'interno di una pagina in cosa consistesse il suo lavoro, che servizi offrisse e le informazioni utili per contattarla.",
-                "Tutto questo allo scopo di ottenere dei nuovi clienti."
-                ],
-                "functions": ["Responsive design", "Form di contatto", "Mappa custom"],
-                "technologies": ["HTML", "CSS", "JavaScript"],
-                "link": "https://alessandragiuliani.it",
-                "github": null,
-                "img": true
-            },
-            {
-                "id": "sanderundsommer",
-                "title": "Sander und Sommer",
-                "shortdesc": "un sito web creato per una clinica tedesca",
-                "date": "Luglio, 2024",
-                "desc": [
-                "È un progetto di un sito vetrina per una clinica tedesca in cerca di qualcosa di professionale e graficamente soddisfacente.",
-                "Infatti, erano già in possesso di una pagina che tuttavia non li soddisfava a pieno.",
-                "Di conseguenza, dopo aver compreso quali fossero le loro esigenze, ho provveduto a realizzare il loro attuale sito."
-                ],
-                "goals": [
-                "L'obiettivo era quello di descrivere tutto ciò che sta dietro la clinica: i servizi, il team, i clienti...",
-                "Chiaramente, il tutto aveva anche l'obiettivo di dare vita alla sua presenza online, aumentando anche la clientela."
-                ],
-                "functions": ["Responsive design", "Light/Dark mode", "Mappa custom"],
-                "technologies": ["HTML", "CSS", "JavaScript"],
-                "link": "https://sanderundsommer.de",
-                "github": null,
-                "img": true
-            },
-            {
-                "id": "minimaltris",
-                "title": "Minimal Tris",
-                "shortdesc": "un gioco online di tris",
-                "date": "Settembre, 2023",
-                "desc": [
-                "Si tratta di un gioco molto semplice, in cui il giocatore può scegliere se giocare in single player oppure in multiplayer.",
-                "Nella prima modalità, si troverà a giocare contro un AI molto rudimentale.",
-                "Nella seconda, potrà giocare a turno con un proprio amico in locale."
-                ],
-                "goals": null,
-                "functions": ["Responsive design", "AI player"],
-                "technologies": ["HTML", "CSS", "JavaScript"],
-                "link": "https://minimaltris.gabrielepedesini.com",
-                "github": "https://github.com/gabrielepedesini/tris",
-                "img": true
-            }
+                {
+                    "id": "linkedtag",
+                    "title": "LinkedTag",
+                    "shortdesc": "un tool AI che genera hashtag performanti per i post di LinkedIn",
+                    "date": "Dicembre, 2024",
+                    "desc": ["Il tool sfrutta la potenza dell'intelligenza artificiale per elaborare il post che gli viene dato e suggerire gli hashtag più pertinenti ad esso, prendendoli da un database.", "Inoltre, ho cercato di curare al meglio sia la UX che la UI, garantendo una esperienza utente semplice e gratificante."],
+                    "goals": ["Lo scopo era quello di implementare in un progetto l'AI, per realizzare qualcosa di funzionale e utile."],
+                    "functions": ["AI Analysis", "Responsive design", "Light/Dark mode"],
+                    "technologies": ["HTML", "CSS", "JavaScript", "Python", "Flask"],
+                    "link": "https://linkedtag.gabrielepedesini.com",
+                    "github": "https://github.com/gabrielepedesini/linkedtag",
+                    "img": true
+                },
+                {
+                    "id": "trendtribes",
+                    "title": "Trend Tribes",
+                    "shortdesc": "un tema custom WordPress di un ecommerce basato su WooCommerce",
+                    "date": "Febbraio, 2024",
+                    "desc": [
+                    "Si tratta di un tema custom per il noto CMS di Wordpress, accompagnato dal plugin WooCommerce, con cui gestire le funzionalità ecommerce.",
+                    "Il progetto ha l'ambizione di essere il più minimal possibile, sia dal punto di vista visivo che da quello tecnico."
+                    ],
+                    "goals": [
+                    "L'obiettivo era quello di creare un tema di un ecommerce facile e veloce da configurare, in maniera tale da poterlo mettere online nel più breve tempo possibile."
+                    ],
+                    "functions": [
+                    "Responsive design",
+                    "Sistema di filtri custom",
+                    "Autenticazione e area utente",
+                    "Blog",
+                    "Form di contatto",
+                    "Recensioni",
+                    "Gateway di pagamento"
+                    ],
+                    "technologies": ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
+                    "link": "http://trendtribes.infinityfreeapp.com",
+                    "github": "https://github.com/gabrielepedesini/trendtribes",
+                    "img": true
+                },
+                {
+                    "id": "bricked",
+                    "title": "Bricked",
+                    "shortdesc": "un gioco online che si ispira a Tetris",
+                    "date": "Ottobre, 2023",
+                    "desc": [
+                    "Ho creato questo gioco per mettermi alla prova, cercando di utilizzare le conoscenze che avevo appreso fino a quel momento per realizzare qualcosa.",
+                    "Mi rendo conto che probabilmente il progetto non è stato strutturato nel modo più efficiente del mondo, ma almeno mi ha permesso di raggiungere un definito funzionamento desiderato attraverso delle soluzioni personali, e non con suggerimenti esterni."
+                    ],
+                    "goals": null,
+                    "functions": ["Responsive design", "Classifiche"],
+                    "technologies": ["HTML", "CSS", "JavaScript"],
+                    "link": "https://bricked.gabrielepedesini.com",
+                    "github": "https://github.com/gabrielepedesini/bricked",
+                    "img": true
+                },
+                {
+                    "id": "minimaltris",
+                    "title": "Minimal Tris",
+                    "shortdesc": "un gioco online di tris",
+                    "date": "Settembre, 2023",
+                    "desc": [
+                    "Si tratta di un gioco molto semplice, in cui il giocatore può scegliere se giocare in single player oppure in multiplayer.",
+                    "Nella prima modalità, si troverà a giocare contro un AI molto rudimentale.",
+                    "Nella seconda, potrà giocare a turno con un proprio amico in locale."
+                    ],
+                    "goals": null,
+                    "functions": ["Responsive design", "AI player"],
+                    "technologies": ["HTML", "CSS", "JavaScript"],
+                    "link": "https://minimaltris.gabrielepedesini.com",
+                    "github": "https://github.com/gabrielepedesini/tris",
+                    "img": true
+                },
+                {
+                    "id": "achrisgraphics",
+                    "title": "Achrisgraphics",
+                    "shortdesc": "un sito web creato per un graphic designer",
+                    "date": "Giugno, 2023",
+                    "desc": ["Il progetto funge da portale attraverso il quale mostrare i propri lavori in maniera suggestiva e professionale per il cliente.", "Infatti, l'intero sito è stato creato sulla base delle direttive stilistiche ed artistiche dello stesso cliente."],
+                    "goals": ["L'esigenza fondamentale è quella di avere uno spazio online nel quale mostrare i propri progetti.", "Inoltre, attraverso questo sito, il cliente puntava ad ampliare il bacino di clientela."],
+                    "functions": ["Responsive design", "Cursore custom", "Download di documenti", "Form di contatto"],
+                    "technologies": ["HTML", "CSS", "JavaScript"],
+                    "link": "https://achrisgraphics.it",
+                    "github": "https://github.com/gabrielepedesini/achris",
+                    "img": true
+                },
+                {
+                    "id": "alessandragiuliani",
+                    "title": "Alessandra Giuliani",
+                    "shortdesc": "un sito web creato per una biologa nutrizionista",
+                    "date": "Agosto, 2024",
+                    "desc": [
+                    "È un progetto di un sito vetrina per una professionista che voleva migliorare la sua presenza online.",
+                    "Il lavoro nasce con lo scopo di creare un sito web semplice ma completo, che sia anche graficamente accattivante."
+                    ],
+                    "goals": [
+                    "L'obiettivo della cliente era quello di spiegare all'interno di una pagina in cosa consistesse il suo lavoro, che servizi offrisse e le informazioni utili per contattarla.",
+                    "Tutto questo allo scopo di ottenere dei nuovi clienti."
+                    ],
+                    "functions": ["Responsive design", "Form di contatto", "Mappa custom"],
+                    "technologies": ["HTML", "CSS", "JavaScript"],
+                    "link": "https://alessandragiuliani.it",
+                    "github": null,
+                    "img": true
+                },
+                {
+                    "id": "sanderundsommer",
+                    "title": "Sander und Sommer",
+                    "shortdesc": "un sito web creato per una clinica tedesca",
+                    "date": "Luglio, 2024",
+                    "desc": [
+                    "È un progetto di un sito vetrina per una clinica tedesca in cerca di qualcosa di professionale e graficamente soddisfacente.",
+                    "Infatti, erano già in possesso di una pagina che tuttavia non li soddisfava a pieno.",
+                    "Di conseguenza, dopo aver compreso quali fossero le loro esigenze, ho provveduto a realizzare il loro attuale sito."
+                    ],
+                    "goals": [
+                    "L'obiettivo era quello di descrivere tutto ciò che sta dietro la clinica: i servizi, il team, i clienti...",
+                    "Chiaramente, il tutto aveva anche l'obiettivo di dare vita alla sua presenza online, aumentando anche la clientela."
+                    ],
+                    "functions": ["Responsive design", "Light/Dark mode", "Mappa custom"],
+                    "technologies": ["HTML", "CSS", "JavaScript"],
+                    "link": "https://sanderundsommer.de",
+                    "github": null,
+                    "img": true
+                }
             ]
         },
         "contacts": {
@@ -583,33 +595,33 @@
             },
             "details": [
                 {
-                    "id": "achrisgraphics",
-                    "title": "AchrisGraphics",
-                    "shortdesc": "a website created for a graphic designer",
-                    "date": "June, 2023",
+                    "id": "linkedtag",
+                    "title": "LinkedTag",
+                    "shortdesc": "an AI tool that generates high-performing hashtags for LinkedIn posts",
+                    "date": "December, 2024",
                     "desc": [
-                        "The project serves as a portal through which to showcase one's work in a suggestive and professional manner for the client.",
-                        "In fact, the entire site was created based on the stylistic and artistic directives of the client."
+                        "The tool leverages the power of artificial intelligence to process the given post and suggest the most relevant hashtags for it, drawing them from a database.",
+                        "Additionally, I have focused on refining both UX and UI to ensure a simple and rewarding user experience."
                     ],
                     "goals": [
-                        "The fundamental need is to have an online space to display one's projects.",
-                        "Additionally, through this site, the client aimed to expand their client base."
+                        "The goal was to implement AI in a project to create something functional and useful."
                     ],
                     "functions": [
+                        "AI Analysis",
                         "Responsive design",
-                        "Custom cursor",
-                        "Document downloads",
-                        "Contact form"
+                        "Light/Dark mode"
                     ],
                     "technologies": [
                         "HTML",
                         "CSS",
-                        "JavaScript"
+                        "JavaScript",
+                        "Python",
+                        "Flask"
                     ],
-                    "link": "https://achrisgraphics.it",
-                    "github": "https://github.com/gabrielepedesini/achris",
+                    "link": "https://linkedtag.gabrielepedesini.com",
+                    "github": "https://github.com/gabrielepedesini/linkedtag",
                     "img": true
-                },
+                },                
                 {
                     "id": "trendtribes",
                     "title": "Trend Tribes",
@@ -666,6 +678,58 @@
                     "img": true
                 },
                 {
+                    "id": "minimaltris",
+                    "title": "Minimal Tris",
+                    "shortdesc": "an online tic-tac-toe game",
+                    "date": "September, 2023",
+                    "desc": [
+                        "It is a very simple game where the player can choose to play single player or multiplayer.",
+                        "In the first mode, they will play against a very rudimentary AI.",
+                        "In the second, they can play turn-based with a friend locally."
+                    ],
+                    "goals": null,
+                    "functions": [
+                        "Responsive design",
+                        "AI player"
+                    ],
+                    "technologies": [
+                        "HTML",
+                        "CSS",
+                        "JavaScript"
+                    ],
+                    "link": "https://minimaltris.gabrielepedesini.com",
+                    "github": "https://github.com/gabrielepedesini/tris",
+                    "img": true
+                },
+                {
+                    "id": "achrisgraphics",
+                    "title": "AchrisGraphics",
+                    "shortdesc": "a website created for a graphic designer",
+                    "date": "June, 2023",
+                    "desc": [
+                        "The project serves as a portal through which to showcase one's work in a suggestive and professional manner for the client.",
+                        "In fact, the entire site was created based on the stylistic and artistic directives of the client."
+                    ],
+                    "goals": [
+                        "The fundamental need is to have an online space to display one's projects.",
+                        "Additionally, through this site, the client aimed to expand their client base."
+                    ],
+                    "functions": [
+                        "Responsive design",
+                        "Custom cursor",
+                        "Document downloads",
+                        "Contact form"
+                    ],
+                    "technologies": [
+                        "HTML",
+                        "CSS",
+                        "JavaScript"
+                    ],
+                    "link": "https://achrisgraphics.it",
+                    "github": "https://github.com/gabrielepedesini/achris",
+                    "img": true
+                },
+                {
                     "id": "alessandragiuliani",
                     "title": "Alessandra Giuliani",
                     "shortdesc": "a website created for a nutritionist biologist",
@@ -718,30 +782,6 @@
                     ],
                     "link": "https://sanderundsommer.de",
                     "github": null,
-                    "img": true
-                },
-                {
-                    "id": "minimaltris",
-                    "title": "Minimal Tris",
-                    "shortdesc": "an online tic-tac-toe game",
-                    "date": "September, 2023",
-                    "desc": [
-                        "It is a very simple game where the player can choose to play single player or multiplayer.",
-                        "In the first mode, they will play against a very rudimentary AI.",
-                        "In the second, they can play turn-based with a friend locally."
-                    ],
-                    "goals": null,
-                    "functions": [
-                        "Responsive design",
-                        "AI player"
-                    ],
-                    "technologies": [
-                        "HTML",
-                        "CSS",
-                        "JavaScript"
-                    ],
-                    "link": "https://minimaltris.gabrielepedesini.com",
-                    "github": "https://github.com/gabrielepedesini/tris",
                     "img": true
                 }
             ]
