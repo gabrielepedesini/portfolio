@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.gabrielepedesini.com/sitemap.xml

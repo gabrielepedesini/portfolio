@@ -4,62 +4,28 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 
 <url>
-  <loc>https://gabrielepedesini.github.io/portfolio/</loc>
-  <lastmod>2024-10-06T19:19:20+00:00</lastmod>
+  <loc>https://www.gabrielepedesini.com/</loc>
+  <lastmod>2024-12-19T13:43:37+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://gabrielepedesini.github.io/portfolio/index.html</loc>
-  <lastmod>2024-10-06T19:19:20+00:00</lastmod>
-  <priority>0.9</priority>
-</url>
-<url>
-  <loc>https://gabrielepedesini.github.io/portfolio/notes.html</loc>
-  <lastmod>2024-10-06T19:19:20+00:00</lastmod>
+  <loc>https://www.gabrielepedesini.com/notes</loc>
+  <lastmod>2024-12-19T13:43:37+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://gabrielepedesini.github.io/portfolio/contacts.html</loc>
-  <lastmod>2024-10-06T19:19:20+00:00</lastmod>
+  <loc>https://www.gabrielepedesini.com/projects</loc>
+  <lastmod>2024-12-19T13:43:37+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://gabrielepedesini.github.io/portfolio/projects.html</loc>
-  <lastmod>2024-10-06T19:19:20+00:00</lastmod>
+  <loc>https://www.gabrielepedesini.com/contacts</loc>
+  <lastmod>2024-12-19T13:43:37+00:00</lastmod>
   <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://gabrielepedesini.github.io/portfolio/projects/achrisgraphics.html</loc>
-  <lastmod>2024-10-06T19:19:20+00:00</lastmod>
-  <priority>0.50</priority>
-</url>
-<url>
-  <loc>https://gabrielepedesini.github.io/portfolio/projects/trendtribes.html</loc>
-  <lastmod>2024-10-06T19:19:20+00:00</lastmod>
-  <priority>0.50</priority>
-</url>
-<url>
-  <loc>https://gabrielepedesini.github.io/portfolio/projects/bricked.html</loc>
-  <lastmod>2024-10-06T19:19:20+00:00</lastmod>
-  <priority>0.50</priority>
-</url>
-<url>
-  <loc>https://gabrielepedesini.github.io/portfolio/projects/alessandragiuliani.html</loc>
-  <lastmod>2024-10-06T19:19:20+00:00</lastmod>
-  <priority>0.50</priority>
-</url>
-<url>
-  <loc>https://gabrielepedesini.github.io/portfolio/projects/sanderundsommer.html</loc>
-  <lastmod>2024-10-06T19:19:20+00:00</lastmod>
-  <priority>0.50</priority>
-</url>
-<url>
-  <loc>https://gabrielepedesini.github.io/portfolio/projects/minimaltris.html</loc>
-  <lastmod>2024-10-06T19:19:20+00:00</lastmod>
-  <priority>0.50</priority>
 </url>
 
 
