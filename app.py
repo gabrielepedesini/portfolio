@@ -61,7 +61,7 @@ def sitemap():
 
 # serve the robots.txt
 @app.route('/robots.txt')
-def sitemap():
+def robots():
     return send_from_directory('.', 'robots.txt')
 
 # run app
