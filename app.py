@@ -59,6 +59,11 @@ def download_file(filename):
 def sitemap():
     return send_from_directory('.', 'sitemap.xml')
 
+# serve the robots.txt
+@app.route('/robots.txt')
+def sitemap():
+    return send_from_directory('.', 'robots.txt')
+
 # run app
 if __name__ == '__main__':
     app.run(debug=False)
