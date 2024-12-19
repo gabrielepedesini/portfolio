@@ -266,6 +266,11 @@ section .breadcrumb {
 
 /* FOOTER */
 
+footer {
+    display: none;
+    animation: fadeIn 0.5s forwards;
+}
+
 footer .container {
     height: 80px;
     display: flex;
