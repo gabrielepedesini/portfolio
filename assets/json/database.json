@@ -303,7 +303,7 @@
                     "goals": ["L'esigenza fondamentale è quella di avere uno spazio online nel quale mostrare i propri progetti.", "Inoltre, attraverso questo sito, il cliente puntava ad ampliare il bacino di clientela."],
                     "functions": ["Responsive design", "Cursore custom", "Download di documenti", "Form di contatto"],
                     "technologies": ["HTML", "CSS", "JavaScript"],
-                    "link": "https://achrisgraphics.it",
+                    "link": "https://achrisgraphics.netlify.app",
                     "github": "https://github.com/gabrielepedesini/achris",
                     "img": true
                 },
@@ -725,7 +725,7 @@
                         "CSS",
                         "JavaScript"
                     ],
-                    "link": "https://achrisgraphics.it",
+                    "link": "https://achrisgraphics.netlify.app",
                     "github": "https://github.com/gabrielepedesini/achris",
                     "img": true
                 },
