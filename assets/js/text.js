@@ -1,3 +1,5 @@
+import {renderCalendar} from './contributions.js'
+
 // finds out in which page the user is
 window.addEventListener("load", () => {
 
@@ -485,7 +487,18 @@ function renderIndex(lang) {
 
         indexElement.innerHTML += introSection;
 
-        // render formazione/education section
+        // render resume section
+        let resumeSection = `
+        <section class="resume">
+            <div class="container">
+                <p>${copy.intro.resume}</p>
+            </div>
+        </section>
+        `;
+
+        indexElement.innerHTML += resumeSection;
+
+        // render education section
         let formationSection = `
         <section class="formazione">
             <div class="container">
@@ -527,18 +540,43 @@ function renderIndex(lang) {
 
         indexElement.innerHTML += projectsSection;
 
-        let resumeSection = `
-            <section class="resume">
-                <div class="container">
-                    <p>${copy.intro.resume}</p>
+        // render contribution section
+        let contributionSection = `
+            <section class="contribution">
+                <div class="container">`;
+
+        copy.contributions.desc.forEach (elem => {
+            contributionSection += `
+                <p>
+                    ${elem}
+                </p>`;
+        });
+
+        contributionSection += `</div>
+            </section>`;
+
+        indexElement.innerHTML += contributionSection;
+
+        let contributionsSection = `
+            <section class="contributions">
+                <div class="graph-wrapper">
+                    <div id="contribution-calendar"></div>
+                    <div class="github-tag">
+                        <a href="https://github.com/gabrielepedesini" target="_blank">${copy.contributions.graph}</a>
+                    </div>
                 </div>
+
+                <div class="left-gradient"></div>
+                <div class="right-gradient"></div>
             </section>
         `;
 
-        indexElement.innerHTML += resumeSection;
+        indexElement.innerHTML += contributionsSection;
 
-        indexElement.style.display = "block";
-        footerContainer.style.display = "block";
+        renderCalendar().then((result) => {
+            indexElement.style.display = "block";
+            footerContainer.style.display = "block";
+        });
     })
     .catch(error => console.error('Error loading JSON:', error));
 }

@@ -1,5 +1,6 @@
 import os
-from flask import Flask, render_template, send_from_directory, abort, redirect
+import requests
+from flask import Flask, render_template, send_from_directory, abort, redirect, jsonify, request
 
 app = Flask(__name__, static_folder='assets', template_folder='.')
 
@@ -64,6 +65,59 @@ def sitemap():
 def robots():
     return send_from_directory('.', 'robots.txt')
 
+# serve the github data
+@app.route('/api/github-data', methods=['POST'])
+def github_data():
+    token = os.getenv("GITHUB_TOKEN")
+    if not token:
+        return jsonify({"error": "GitHub token not configured"}), 500
+
+    data = request.get_json()
+    username = data.get('username', 'gabrielepedesini')
+
+    query = """
+    query($username: String!) {
+        user(login: $username) {
+            contributionsCollection {
+                contributionCalendar {
+                    totalContributions
+                    weeks {
+                        contributionDays {
+                            contributionCount
+                            date
+                        }
+                    }
+                }
+            }
+        }
+    }
+    """
+
+    headers = {
+        "Authorization": f"Bearer {token}",
+        "Content-Type": "application/json"
+    }
+
+    response = requests.post(
+        'https://api.github.com/graphql',
+        json={'query': query, 'variables': {'username': username}},
+        headers=headers
+    )
+
+    if response.status_code == 200:
+        json_data = response.json()
+        weeks = json_data["data"]["user"]["contributionsCollection"]["contributionCalendar"]["weeks"]
+
+        contribution_data = [
+            {"date": day["date"], "contributionCount": day["contributionCount"]}
+            for week in weeks
+            for day in week["contributionDays"]
+        ]
+
+        return jsonify(contribution_data)
+    else:
+        return jsonify({"error": "Failed to fetch data from GitHub"}), response.status_code
+
 # run app
 if __name__ == '__main__':
-    app.run(debug=False)
+    app.run(debug=True)

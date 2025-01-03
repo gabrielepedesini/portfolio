@@ -12,7 +12,8 @@
 }
 
 body {
-  background-color: var(--background);
+    background-color: var(--background);
+    overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6, a, button {
@@ -82,6 +83,7 @@ a:hover {
 :root[data-theme="light"] {
     --text: #06080a;
     --background: #fcfcfc;
+    --background-secondary: #d8d8d8;
     --primary: #4273c7;
     --secondary: #84a8e7;
     --accent: #1962e0;
@@ -89,11 +91,20 @@ a:hover {
     --scrollbar: #e2e2e2;
     --scrollthumb: #adadad;
     --scrollthumb-hover: #888888;
+
+    --contribution-no: #d8d8d8; 
+    --contribution-low: #aac8fd; 
+    --contribution-normal: #89b2fa; 
+    --contribution-medium: #5390fa; 
+    --contribution-high: #1962e0;
+
+    --contribution-cell-border: #06080a;
 }
 
 :root[data-theme="dark"] {
     --text: #f5f7f9;
     --background: #060a0e;
+    --background-secondary: #1a2027;
     --primary: #2c5db3;
     --secondary: #183d7b;
     --accent: #1962e0;
@@ -101,6 +112,15 @@ a:hover {
     --scrollbar: #e2e2e2;
     --scrollthumb: #adadad;
     --scrollthumb-hover: #888888;
+
+    --contribution-no: #1a2027; 
+    --contribution-low: #253355; 
+    --contribution-normal: #1e3d77; 
+    --contribution-medium: #194aa5; 
+    --contribution-high: #2259ee;
+    
+
+    --contribution-cell-border: #eeeeee;
 }
 
 /* SCROLLBAR */
@@ -141,7 +161,7 @@ a:hover {
 
 
 .container {
-  max-width: 750px;
+  max-width: 800px;
   margin: 0 auto;
   padding: 0 25px;
 }
@@ -202,6 +222,11 @@ a:hover {
 
 section {
     padding: 25px 0;
+}
+
+section.resume,
+section.contributions {
+    padding-top: 0;
 }
 
 section ul {
@@ -283,4 +308,102 @@ footer .container .copyright {
     width: fit-content;
     opacity: 0.8;
     font-size: 14px;
+}
+
+/* GRAPH */
+.contributions {
+    position: relative;
+}
+
+.graph-wrapper {
+    width: 100%;
+    max-width: 750px;
+    margin: 0 auto;
+    border: 1px solid var(--background-secondary);
+    border-radius: 5px;
+    padding: 16px;
+    box-sizing: border-box;
+    overflow-x: auto;
+    overflow-y: hidden;
+    position: relative;
+}
+
+.right-gradient,
+.left-gradient {
+    display: none;
+}
+
+@media (max-width: 800px) {
+    .graph-wrapper {
+        width: calc(100% - 50px);
+        max-width: 750px;
+    }
+
+    .right-gradient {
+        display: block;
+        position: absolute;
+        height: calc(100% - 52px);
+        left: 26px;
+        top: 26px;
+        width: 20px;
+        background: linear-gradient(90deg, var(--background) 0%, rgba(218,218,218,0) 100%);
+        border-radius: 5px 0 0 5px;
+    }
+    
+    .left-gradient {
+        display: block;
+        position: absolute;
+        height: calc(100% - 52px);
+        right: 26px;
+        top: 26px;
+        width: 20px;
+        background: linear-gradient(90deg, rgba(218,218,218,0) 0%, var(--background) 100%);
+        border-radius: 0 5px 5px 0;
+    }
+}
+
+#contribution-calendar {
+    background: var(--background);
+    width: 720px;
+    height: fit-content;
+    margin-left: 10px;
+}
+
+.github-tag {
+    font-size: 12px;
+    position: absolute;
+    left: 55px;
+    bottom: 23px;
+}
+
+.contribution-cell:hover {
+    stroke: var(--contribution-cell-border);
+    stroke-width: 1px;
+}
+
+.tooltip {
+    position: absolute;
+    background: var(--background);
+    padding: 8px 10px;
+    border: 1px solid var(--background-secondary);
+    border-radius: 6px;
+    font-size: 12px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+    pointer-events: none;
+    z-index: 1000;
+}
+
+.day-label {
+    font-size: 12px;
+    fill: var(--text);
+}
+
+.month-label {
+    font-size: 12px;
+    fill: var(--text);
+}
+
+.legend-label {
+    font-size: 12px;
+    fill: var(--text);
 }
