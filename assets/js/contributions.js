@@ -97,7 +97,11 @@ export async function renderCalendar() {
         .data(data)
         .enter()
         .append("rect")
-        .attr("class", "contribution-cell")
+        .attr("class", d => 
+            d.contributionCount > 0 
+                ? "contribution-cell contribution-border" 
+                : "contribution-cell"
+        )
         .attr("x", (d, i) => (Math.floor(i / 7) * (cellSize + cellPadding)) + labelWidth)
         .attr("y", (d, i) => ((i % 7) * (cellSize + cellPadding)) + 30)
         .attr("width", cellSize)

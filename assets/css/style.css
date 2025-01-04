@@ -98,6 +98,8 @@ a:hover {
     --contribution-medium: #5390fa; 
     --contribution-high: #1962e0;
 
+    --contribution-border: #1962e038;
+
     --contribution-cell-border: #06080a;
 }
 
@@ -113,12 +115,13 @@ a:hover {
     --scrollthumb: #adadad;
     --scrollthumb-hover: #888888;
 
-    --contribution-no: #1a2027; 
-    --contribution-low: #253355; 
-    --contribution-normal: #1e3d77; 
-    --contribution-medium: #194aa5; 
+    --contribution-no: #13171b; 
+    --contribution-low: #1c2438; 
+    --contribution-normal: #1d345f; 
+    --contribution-medium: #1a4188; 
     --contribution-high: #2259ee;
     
+    --contribution-border: #2258ee2f;
 
     --contribution-cell-border: #eeeeee;
 }
@@ -374,6 +377,11 @@ footer .container .copyright {
     position: absolute;
     left: 55px;
     bottom: 23px;
+}
+
+.contribution-border {
+    stroke: var(--contribution-border);
+    stroke-width: 1px;
 }
 
 .contribution-cell:hover {
