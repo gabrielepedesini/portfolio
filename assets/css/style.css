@@ -93,12 +93,12 @@ a:hover {
     --scrollthumb-hover: #888888;
 
     --contribution-no: #d8d8d8; 
-    --contribution-low: #aac8fd; 
-    --contribution-normal: #89b2fa; 
-    --contribution-medium: #5390fa; 
+    --contribution-low: #8eb7fd; 
+    --contribution-normal: #6b9ffa; 
+    --contribution-medium: #4285f8; 
     --contribution-high: #1962e0;
 
-    --contribution-border: #1962e038;
+    --contribution-border: #1962e060;
 
     --contribution-cell-border: #06080a;
 }
@@ -115,13 +115,13 @@ a:hover {
     --scrollthumb: #adadad;
     --scrollthumb-hover: #888888;
 
-    --contribution-no: #13171b; 
-    --contribution-low: #1c2438; 
-    --contribution-normal: #1d345f; 
-    --contribution-medium: #1a4188; 
+    --contribution-no: #101316; 
+    --contribution-low: #121f41; 
+    --contribution-normal: #153268; 
+    --contribution-medium: #19489e; 
     --contribution-high: #2259ee;
     
-    --contribution-border: #2258ee2f;
+    --contribution-border: #0c47e93d;
 
     --contribution-cell-border: #eeeeee;
 }
