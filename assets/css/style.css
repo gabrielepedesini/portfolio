@@ -245,10 +245,20 @@ section ul li {
 }
 
 section ul li::before {
-    content: "•"; 
+    content: "•";
     position: absolute; 
     left: 0; 
     top: 0; 
+}
+
+section ul li ul li::before {
+    content: "◦"; 
+}
+
+@media (max-width: 750px) {
+    section ul li {
+        margin-bottom: 6px; 
+    }
 }
 
 section .subjects > li {
@@ -325,6 +335,7 @@ footer .container .copyright {
 }
 
 /* GRAPH */
+
 .contributions {
     position: relative;
 }
