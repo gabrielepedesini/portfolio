@@ -234,20 +234,21 @@ section.contributions {
 
 section ul {
     margin-left: 0; 
-    padding-left: 0;
+    padding-left: 0; 
     list-style: none; 
 }
 
 section ul li {
     margin-bottom: 3px; 
-    display: flex; 
-    align-items: flex-start;
+    position: relative; 
+    padding-left: 20px;
 }
 
 section ul li::before {
-    content: "•";
-    margin-right: 8px; 
-    display: block;
+    content: "•"; 
+    position: absolute; 
+    left: 0; 
+    top: 0; 
 }
 
 section .subjects > li {
