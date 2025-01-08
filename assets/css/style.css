@@ -234,6 +234,7 @@ section.contributions {
 
 section ul {
     margin-left: 15px;
+    list-style-position: inside;
 }
 
 section ul li {
