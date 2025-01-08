@@ -252,12 +252,16 @@ section ul li::before {
 }
 
 section ul li ul li::before {
-    content: "◦"; 
+    content: "○"; 
 }
 
 @media (max-width: 750px) {
     section ul li {
         margin-bottom: 6px; 
+    }
+
+    section ul li ul li {
+        margin-bottom: 3px; 
     }
 }
 
