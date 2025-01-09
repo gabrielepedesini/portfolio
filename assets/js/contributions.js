@@ -140,7 +140,7 @@ export async function renderCalendar() {
     const legendX = width - (legendData.length * (legendWidth + 5)) + labelWidth;
 
     const legend = svg.append("g")
-        .attr("transform", `translate(${legendX - 70}, ${height - 15})`);
+        .attr("transform", `translate(${legendX - 72}, ${height - 15})`);
 
     legend.selectAll("rect")
         .data(legendData)
