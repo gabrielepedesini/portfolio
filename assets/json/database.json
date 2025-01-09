@@ -28,7 +28,7 @@
             "contributions": {
                 "desc": [
                     "Non dimenticare di seguirmi su GitHub, qui trovi il mio <a href='https://github.com/gabrielepedesini' target='_blank'>profilo</a>.",
-                    "Qui sotto troverai un grafico dei commit dinamico e aggiornato automaticamente che mostra le mie attività."
+                    "Qui sotto troverai un grafico dei commit dinamico e aggiornato automaticamente che mostra le mie attività: più il colore di una cella è acceso, più codice avrò scritto quel giorno!"
                 ],
                 "graph": "Visualizza tutte le attività"
             }
@@ -404,7 +404,7 @@
             "contributions": {
                 "desc": [
                     "Don't forget to follow me on GitHub, here is my <a href='https://github.com/gabrielepedesini' target='_blank'>profile</a>.",
-                    "Below, you'll find a dynamic and automatically updated commit graph showcasing my profile activity."
+                    "Below, you'll find a dynamic and automatically updated commit graph showcasing my profile activity: the more brighter the cell is, the more code I wrote on that day!"
                 ],
                 "graph": "View all activities"
             }
