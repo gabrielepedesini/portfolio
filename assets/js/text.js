@@ -534,7 +534,7 @@ function renderIndex(lang) {
 
         projectsSection += `
                 </ul>
-                <p style="margin-top: 15px;"><a href="projects.html">${copy.projects.all}</a></p>
+                <p style="margin-top: 15px;">${copy.projects.all}</p>
             </div>
         </section>`;
 
