@@ -91,7 +91,13 @@ export async function renderCalendar() {
         .attr("y", 20)
         .text(d => d[0].substring(0, 3));
 
-    const isTouchDevice = window.matchMedia("(pointer: coarse)").matches;
+    // const isTouchDevice = window.matchMedia("(pointer: coarse)").matches;
+
+    function isWidthEnough() {
+        const container = document.querySelector('.graph-wrapper');
+
+        return container.getBoundingClientRect().width;
+    }
 
     svg.selectAll(".contribution-cell")
         .data(data)
@@ -109,7 +115,7 @@ export async function renderCalendar() {
         .attr("rx", 2)
         .attr("fill", d => getColorForContributions(d.contributionCount))
         .on("mouseover", function (event, d) {
-            if (isTouchDevice) return;
+            if (isWidthEnough() < 750) return;
 
             const date = new Date(d.date);
             const formattedDate = date.toLocaleDateString('en-US', {
@@ -128,7 +134,7 @@ export async function renderCalendar() {
                 .style("top", (event.pageY - 28) + "px");
         })
         .on("mouseout", function () {
-            if (isTouchDevice) return;
+            if (isWidthEnough() < 750) return;
 
             tooltip.transition()
                 .duration(500)
