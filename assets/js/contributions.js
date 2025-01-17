@@ -141,6 +141,16 @@ export async function renderCalendar() {
                 .style("opacity", 0);
         });
 
+    document.addEventListener('click', (event) => {
+        const clickedElement = event.target;
+    
+        if (!clickedElement.closest('.contribution-cell')) {
+            tooltip.transition()
+                .duration(500)
+                .style("opacity", 0);
+        }
+    });
+
     const legendData = [0, 3, 6, 9, 12];
     const legendWidth = cellSize;
     const legendX = width - (legendData.length * (legendWidth + 5)) + labelWidth;
