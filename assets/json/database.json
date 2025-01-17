@@ -23,7 +23,7 @@
             "projects": {
                 "title": "Progetti 🚀",
                 "desc": ["Qua di seguito alcuni dei progetti a cui ho lavorato:"],
-                "all": "<a href='projects.html'>Tutti i progetti</a>"
+                "all": "Puoi trovare altri miei lavori in <a href='projects.html'>progetti</a>."
             },
             "contributions": {
                 "desc": [
@@ -399,7 +399,7 @@
                 "desc": [
                     "Here are some of the projects I have worked on:"
                 ],
-                "all": "<a href='projects.html'>All projects</a>"
+                "all": "You can explore more of my work in the <a href='projects.html'>projects section</a>."
             },
             "contributions": {
                 "desc": [
