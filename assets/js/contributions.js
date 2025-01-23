@@ -115,7 +115,7 @@ export async function renderCalendar() {
         .attr("rx", 2)
         .attr("fill", d => getColorForContributions(d.contributionCount))
         .on("mouseover", function (event, d) {
-            if (isWidthEnough() < 750) return;
+            // if (isWidthEnough() < 750) return;
 
             const date = new Date(d.date);
             const formattedDate = date.toLocaleDateString('en-US', {
@@ -134,7 +134,7 @@ export async function renderCalendar() {
                 .style("top", (event.pageY - 28) + "px");
         })
         .on("mouseout", function () {
-            if (isWidthEnough() < 750) return;
+            // if (isWidthEnough() < 750) return;
 
             tooltip.transition()
                 .duration(500)
