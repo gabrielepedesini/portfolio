@@ -398,6 +398,13 @@ footer .container .copyright {
     margin-left: 10px;
 }
 
+@media (max-width: 800px) {
+    #contribution-calendar {
+        width: 715px;
+    }
+    
+}
+
 .github-tag {
     font-size: 12px;
     position: absolute;
