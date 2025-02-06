@@ -42,6 +42,15 @@
                     "Purtroppo in alcuni casi gli appunti non sono completi."
                 ]
             },
+            "filters": {
+                "level": "Livello",
+                "year": "Anno",
+                "subject": "Materia",
+                "button": "Filtra",
+                "results1": "Mostrando",
+                "results2": "risultati",
+                "results3": "risultato"
+            },
             "courses": [
                 {
                     "title": "Analisi 1",
@@ -55,7 +64,10 @@
                             "type": "Dimostrazioni",
                             "link": "https://drive.google.com/file/d/1yGNocf1j0LyhvpKXNP21twi4rP0d_tM6/view?usp=sharing"
                         }
-                    ]
+                    ],
+                    "level": "Triennale",
+                    "year": "1",
+                    "subject": "Matematica"
                 },
                 {
                     "title": "Geometria e Algebra Lineare",
@@ -73,7 +85,10 @@
                             "type": "Formulario",
                             "link": "https://drive.google.com/file/d/11wpNqAJ1kpTAsfpH75x9Iunf3yjHV1ZD/view?usp=sharing"
                         }
-                    ]
+                    ],
+                    "level": "Triennale",
+                    "year": "1",
+                    "subject": "Matematica"
                 },
                 {
                     "title": "Fondamenti di Informatica",
@@ -83,7 +98,10 @@
                             "type": "Appunti",
                             "link": "https://drive.google.com/file/d/1AV3gqs3uaSbCgpb5EpqxBlppeqHrZPJ4/view?usp=sharing"
                         }
-                    ]
+                    ],
+                    "level": "Triennale",
+                    "year": "1",
+                    "subject": "Informatica"
                 },
                 {
                     "title": "Elettrotecnica",
@@ -97,7 +115,10 @@
                             "type": "Formulario",
                             "link": "https://drive.google.com/file/d/1DKIExomekihUC6tLno12A867dhStQ9wk/view?usp=sharing"
                         }
-                    ]
+                    ],
+                    "level": "Triennale",
+                    "year": "1",
+                    "subject": "Elettronica"
                 },
                 {
                     "title": "Fondamenti di Comunicazione Internet",
@@ -107,7 +128,10 @@
                             "type": "Formulario",
                             "link": "https://drive.google.com/file/d/1_RBpaaHGqa8OXIQhnQbl8itGlmlgNK3f/view?usp=sharing"
                         }
-                    ]
+                    ],
+                    "level": "Triennale",
+                    "year": "1",
+                    "subject": "Telecomunicazioni"
                 },
                 {
                     "title": "Fisica",
@@ -125,7 +149,10 @@
                             "type": "Formulario",
                             "link": "https://drive.google.com/file/d/1xfty7LNHm2bgVBBm1gWZvR5aKIPoAGpQ/view?usp=sharing"
                         }
-                    ]
+                    ],
+                    "level": "Triennale",
+                    "year": "1",
+                    "subject": "Fisica"
                 },
                 {
                     "title": "Logica e Algebra",
@@ -139,7 +166,10 @@
                             "type": "Formulario",
                             "link": "https://drive.google.com/file/d/1M-XYHy4OdttG5kQKkb0apQEWWNkavXBK/view?usp=sharing"
                         }
-                    ]
+                    ],
+                    "level": "Triennale",
+                    "year": "2",
+                    "subject": "Matematica"
                 },
                 {
                     "title": "Architettura dei Calcolatori e Sistemi Operativi",
@@ -149,7 +179,10 @@
                             "type": "Appunti",
                             "link": "https://drive.google.com/file/d/1VAmWzIlQy7aoTdQRGvXe9Elq8aCj50s3/view?usp=sharing"
                         }
-                    ]
+                    ],
+                    "level": "Triennale",
+                    "year": "2",
+                    "subject": "Informatica"
                 },
                 {
                     "title": "Chimica Generale",
@@ -163,7 +196,10 @@
                             "type": "Formulario",
                             "link": "https://drive.google.com/file/d/1JN_iPcP9xgtBcSEGHgLDcfeNh-ifoqBr/view?usp=sharing"
                         }
-                    ]
+                    ],
+                    "level": "Triennale",
+                    "year": "2",
+                    "subject": "Chimica"
                 },
                 {
                     "title": "Analisi 2",
@@ -181,7 +217,10 @@
                             "type": "Formulario",
                             "link": "https://drive.google.com/file/d/1j5VWK6ubNX9cvB_U7pWoyfb4XGb8wcCK/view?usp=sharing"
                         }
-                    ]
+                    ],
+                    "level": "Triennale",
+                    "year": "2",
+                    "subject": "Matematica"
                 },
                 {
                     "title": "Algoritmi e Principi dell'Informatica",
@@ -191,7 +230,10 @@
                             "type": "Formulario",
                             "link": "https://drive.google.com/file/d/1V_xAr7h4N48Ezihnu2diZhp66-fBjdid/view?usp=sharing"
                         }
-                    ]
+                    ],
+                    "level": "Triennale",
+                    "year": "2",
+                    "subject": "Informatica"
                 },
                 {
                     "title": "Fondamenti di Automatica",
@@ -205,7 +247,10 @@
                             "type": "Formulario",
                             "link": "https://drive.google.com/file/d/1z9wTU4rv26AosfKhNSgS0HOBOy1eBcqY/view?usp=sharing"
                         }
-                    ]
+                    ],
+                    "level": "Triennale",
+                    "year": "2",
+                    "subject": "Automazione"
                 },
                 {
                 "title": "Informazione e Stima",
@@ -219,7 +264,10 @@
                             "type": "Formulario",
                             "link": "https://drive.google.com/file/d/1tJc8Hhi5vA2a5EDHMSC_KiFB068ZV-Fe/view?usp=sharing"
                         }
-                    ]
+                    ],
+                    "level": "Triennale",
+                    "year": "2",
+                    "subject": "Matematica"
                 }
             ]  
         },
@@ -413,188 +461,236 @@
             "intro": {
             "title": "Notes 📝",
             "desc": [
-                "Here's a collection of notes and formulas that I used to pass these exams at POLIMI during my software engineering course.",
-                "Unfortunately, in some cases, the notes are not complete."
-            ]
+                    "Here's a collection of notes and formulas that I used to pass these exams at POLIMI during my software engineering course.",
+                    "Unfortunately, in some cases, the notes are not complete."
+                ]
+            },
+            "filters": {
+                "level": "Degree",
+                "year": "Year",
+                "subject": "Subject",
+                "button": "Filter",
+                "results1": "Showing",
+                "results2": "results",
+                "results3": "result"
             },
             "courses": [
             {
                 "title": "Calculus 1",
                 "teacher": "Boella Marco Ugo Claudio",
                 "resources": [
-                {
-                    "type": "Notes",
-                    "link": "https://drive.google.com/file/d/1xFXM9r4ZrWqAGoSNQKXKeRoO6VxGpXH1/view?usp=sharing"
-                },
-                {
-                    "type": "Demonstrations",
-                    "link": "https://drive.google.com/file/d/1yGNocf1j0LyhvpKXNP21twi4rP0d_tM6/view?usp=sharing"
-                }
-                ]
+                    {
+                        "type": "Notes",
+                        "link": "https://drive.google.com/file/d/1xFXM9r4ZrWqAGoSNQKXKeRoO6VxGpXH1/view?usp=sharing"
+                    },
+                    {
+                        "type": "Demonstrations",
+                        "link": "https://drive.google.com/file/d/1yGNocf1j0LyhvpKXNP21twi4rP0d_tM6/view?usp=sharing"
+                    }
+                ],
+                "level": "BSc",
+                "year": "1",
+                "subject": "Mathematics"
             },
             {
                 "title": "Geometry and Linear Algebra",
                 "teacher": "Pinton Stefano",
                 "resources": [
-                {
-                    "type": "Notes",
-                    "link": "https://drive.google.com/file/d/1wq5UMP_eJC6-3dL5eyW552OhB-HpiaFw/view?usp=sharing"
-                },
-                {
-                    "type": "Demonstrations",
-                    "link": "https://drive.google.com/file/d/12fFm_Oa22469kQAWruJGhjnmpBpJSVqC/view?usp=sharing"
-                },
-                {
-                    "type": "Formulas",
-                    "link": "https://drive.google.com/file/d/11wpNqAJ1kpTAsfpH75x9Iunf3yjHV1ZD/view?usp=sharing"
-                }
-                ]
+                    {
+                        "type": "Notes",
+                        "link": "https://drive.google.com/file/d/1wq5UMP_eJC6-3dL5eyW552OhB-HpiaFw/view?usp=sharing"
+                    },
+                    {
+                        "type": "Demonstrations",
+                        "link": "https://drive.google.com/file/d/12fFm_Oa22469kQAWruJGhjnmpBpJSVqC/view?usp=sharing"
+                    },
+                    {
+                        "type": "Formulas",
+                        "link": "https://drive.google.com/file/d/11wpNqAJ1kpTAsfpH75x9Iunf3yjHV1ZD/view?usp=sharing"
+                    }
+                ],
+                "level": "BSc",
+                "year": "1",
+                "subject": "Mathematics"
             },
             {
                 "title": "Computer Science Fundamentals",
                 "teacher": "Caglioti Vincenzo",
                 "resources": [
-                {
-                    "type": "Notes",
-                    "link": "https://drive.google.com/file/d/1AV3gqs3uaSbCgpb5EpqxBlppeqHrZPJ4/view?usp=sharing"
-                }
-                ]
+                    {
+                        "type": "Notes",
+                        "link": "https://drive.google.com/file/d/1AV3gqs3uaSbCgpb5EpqxBlppeqHrZPJ4/view?usp=sharing"
+                    }
+                ],
+                "level": "BSc",
+                "year": "1",
+                "subject": "Computer Science"
             },
             {
                 "title": "Electrotechnics",
                 "teacher": "Bizzarri Federico",
                 "resources": [
-                {
-                    "type": "Notes",
-                    "link": "https://drive.google.com/file/d/1srx-RVSDCCWK99pHsLjb43BAi8fdyRT1/view?usp=sharing"
-                },
-                {
-                    "type": "Formulas",
-                    "link": "https://drive.google.com/file/d/1DKIExomekihUC6tLno12A867dhStQ9wk/view?usp=sharing"
-                }
-                ]
+                    {
+                        "type": "Notes",
+                        "link": "https://drive.google.com/file/d/1srx-RVSDCCWK99pHsLjb43BAi8fdyRT1/view?usp=sharing"
+                    },
+                    {
+                        "type": "Formulas",
+                        "link": "https://drive.google.com/file/d/1DKIExomekihUC6tLno12A867dhStQ9wk/view?usp=sharing"
+                    }
+                ],
+                "level": "BSc",
+                "year": "1",
+                "subject": "Electronics"
             },
             {
                 "title": "Internet Communication Fundamentals",
                 "teacher": "Musumeci Francesco",
                 "resources": [
-                {
-                    "type": "Formulas",
-                    "link": "https://drive.google.com/file/d/1_RBpaaHGqa8OXIQhnQbl8itGlmlgNK3f/view?usp=sharing"
-                }
-                ]
+                    {
+                        "type": "Formulas",
+                        "link": "https://drive.google.com/file/d/1_RBpaaHGqa8OXIQhnQbl8itGlmlgNK3f/view?usp=sharing"
+                    }
+                ],
+                "level": "BSc",
+                "year": "1",
+                "subject": "Telecommunications"
             },
             {
                 "title": "Physics",
                 "teacher": "Lucchini Matteo",
                 "resources": [
-                {
-                    "type": "Notes",
-                    "link": "https://drive.google.com/file/d/1wpAFpkR5CLP5m0V4akiDqM1k4smDK1YL/view?usp=sharing"
-                },
-                {
-                    "type": "Demonstrations",
-                    "link": "https://drive.google.com/file/d/1QlunN9gvX2icsTiIBJZRkU_oEtf6dgDw/view?usp=sharing"
-                },
-                {
-                    "type": "Formulas",
-                    "link": "https://drive.google.com/file/d/1xfty7LNHm2bgVBBm1gWZvR5aKIPoAGpQ/view?usp=sharing"
-                }
-                ]
+                    {
+                        "type": "Notes",
+                        "link": "https://drive.google.com/file/d/1wpAFpkR5CLP5m0V4akiDqM1k4smDK1YL/view?usp=sharing"
+                    },
+                    {
+                        "type": "Demonstrations",
+                        "link": "https://drive.google.com/file/d/1QlunN9gvX2icsTiIBJZRkU_oEtf6dgDw/view?usp=sharing"
+                    },
+                    {
+                        "type": "Formulas",
+                        "link": "https://drive.google.com/file/d/1xfty7LNHm2bgVBBm1gWZvR5aKIPoAGpQ/view?usp=sharing"
+                    }
+                ],
+                "level": "BSc",
+                "year": "1",
+                "subject": "Physics"
             },
             {
                 "title": "Logic and Algebra",
                 "teacher": "Nuccio Claudia",
                 "resources": [
-                {
-                    "type": "Notes",
-                    "link": "https://drive.google.com/file/d/1Sp5sBpjoOO9Zlqg3IZ0607Lc1rUxSHe3/view?usp=sharing"
-                },
-                {
-                    "type": "Formulas",
-                    "link": "https://drive.google.com/file/d/1M-XYHy4OdttG5kQKkb0apQEWWNkavXBK/view?usp=sharing"
-                }
-                ]
+                    {
+                        "type": "Notes",
+                        "link": "https://drive.google.com/file/d/1Sp5sBpjoOO9Zlqg3IZ0607Lc1rUxSHe3/view?usp=sharing"
+                    },
+                    {
+                        "type": "Formulas",
+                        "link": "https://drive.google.com/file/d/1M-XYHy4OdttG5kQKkb0apQEWWNkavXBK/view?usp=sharing"
+                    }
+                ],
+                "level": "BSc",
+                "year": "2",
+                "subject": "Mathematics"
             },
             {
                 "title": "Computer Architecture and Operating Systems",
                 "teacher": "Silvano Cristina",
                 "resources": [
-                {
-                    "type": "Notes",
-                    "link": "https://drive.google.com/file/d/1VAmWzIlQy7aoTdQRGvXe9Elq8aCj50s3/view?usp=sharing"
-                }
-                ]
+                    {
+                        "type": "Notes",
+                        "link": "https://drive.google.com/file/d/1VAmWzIlQy7aoTdQRGvXe9Elq8aCj50s3/view?usp=sharing"
+                    }
+                ],
+                "level": "BSc",
+                "year": "2",
+                "subject": "Computer Science"
             },
             {
                 "title": "General Chemistry",
                 "teacher": "Pigliacelli Claudia",
                 "resources": [
-                {
-                    "type": "Notes",
-                    "link": "https://drive.google.com/file/d/1rcdHVWdG-rji3H7D-xZualGsxqUgbveP/view?usp=sharing"
-                },
-                {
-                    "type": "Formulas",
-                    "link": "https://drive.google.com/file/d/1JN_iPcP9xgtBcSEGHgLDcfeNh-ifoqBr/view?usp=sharing"
-                }
-                ]
+                    {
+                        "type": "Notes",
+                        "link": "https://drive.google.com/file/d/1rcdHVWdG-rji3H7D-xZualGsxqUgbveP/view?usp=sharing"
+                    },
+                    {
+                        "type": "Formulas",
+                        "link": "https://drive.google.com/file/d/1JN_iPcP9xgtBcSEGHgLDcfeNh-ifoqBr/view?usp=sharing"
+                    }
+                ],
+                "level": "BSc",
+                "year": "2",
+                "subject": "Chemistry"
             },
             {
                 "title": "Calculus 2",
                 "teacher": "Noris Benedetta",
                 "resources": [
-                {
-                    "type": "Notes",
-                    "link": "https://drive.google.com/file/d/1S1KnbTrdxuVGBYwmc0FRx1v2k1xDXELG/view?usp=sharing"
-                },
-                {
-                    "type": "Demonstrations",
-                    "link": "https://drive.google.com/file/d/19-PFpilGnw6tvEI6lHRhJ7n2MwoAkbVq/view?usp=sharing"
-                },
-                {
-                    "type": "Formulas",
-                    "link": "https://drive.google.com/file/d/1j5VWK6ubNX9cvB_U7pWoyfb4XGb8wcCK/view?usp=sharing"
-                }
-                ]
+                    {
+                        "type": "Notes",
+                        "link": "https://drive.google.com/file/d/1S1KnbTrdxuVGBYwmc0FRx1v2k1xDXELG/view?usp=sharing"
+                    },
+                    {
+                        "type": "Demonstrations",
+                        "link": "https://drive.google.com/file/d/19-PFpilGnw6tvEI6lHRhJ7n2MwoAkbVq/view?usp=sharing"
+                    },
+                    {
+                        "type": "Formulas",
+                        "link": "https://drive.google.com/file/d/1j5VWK6ubNX9cvB_U7pWoyfb4XGb8wcCK/view?usp=sharing"
+                    }
+                ],
+                "level": "BSc",
+                "year": "2",
+                "subject": "Mathematics"
             },
             {
                 "title": "Algorithms and Principles of Computer Science",
                 "teacher": "Martinenghi Davide",
                 "resources": [
-                {
-                    "type": "Formulas",
-                    "link": "https://drive.google.com/file/d/1V_xAr7h4N48Ezihnu2diZhp66-fBjdid/view?usp=sharing"
-                }
-                ]
+                    {
+                        "type": "Formulas",
+                        "link": "https://drive.google.com/file/d/1V_xAr7h4N48Ezihnu2diZhp66-fBjdid/view?usp=sharing"
+                    }
+                ],
+                "level": "BSc",
+                "year": "2",
+                "subject": "Computer Science"
             },
             {
                 "title": "Automatic Control Fundamentals",
                 "teacher": "Ruiz Palacios Fredy Orlando",
                 "resources": [
-                {
-                    "type": "Notes",
-                    "link": "https://drive.google.com/file/d/1_9hoUHMkPi5itxom2yrzqF7bPHPkHD1B/view?usp=sharing"
-                },
-                {
-                    "type": "Formulas",
-                    "link": "https://drive.google.com/file/d/1z9wTU4rv26AosfKhNSgS0HOBOy1eBcqY/view?usp=sharing"
-                }
-                ]
+                    {
+                        "type": "Notes",
+                        "link": "https://drive.google.com/file/d/1_9hoUHMkPi5itxom2yrzqF7bPHPkHD1B/view?usp=sharing"
+                    },
+                    {
+                        "type": "Formulas",
+                        "link": "https://drive.google.com/file/d/1z9wTU4rv26AosfKhNSgS0HOBOy1eBcqY/view?usp=sharing"
+                    }
+                ],
+                "level": "BSc",
+                "year": "2",
+                "subject": "Automatics"
             },
             {
                 "title": "Information and Estimation",
                 "teacher": "Barletta Luca",
                 "resources": [
-                {
-                    "type": "Notes",
-                    "link": "https://drive.google.com/file/d/1ia_sPia-fdDsF8THVhjUZem4G63pw1lk/view?usp=sharing"
-                },
-                {
-                    "type": "Formulas",
-                    "link": "https://drive.google.com/file/d/1tJc8Hhi5vA2a5EDHMSC_KiFB068ZV-Fe/view?usp=sharing"
-                }
-                ]
+                    {
+                        "type": "Notes",
+                        "link": "https://drive.google.com/file/d/1ia_sPia-fdDsF8THVhjUZem4G63pw1lk/view?usp=sharing"
+                    },
+                    {
+                        "type": "Formulas",
+                        "link": "https://drive.google.com/file/d/1tJc8Hhi5vA2a5EDHMSC_KiFB068ZV-Fe/view?usp=sharing"
+                    }
+                ],
+                "level": "BSc",
+                "year": "2",
+                "subject": "Mathematics"
             }
             ]
         },

@@ -351,6 +351,85 @@ function renderNotes(lang) {
 
         notesElement.innerHTML += introSection;
 
+        // render filters section
+        let filterSection = `
+            <section class="filter">
+                <div class="container">
+        `;
+
+        function getAllElem(arr, param) {
+            return arr.map(elem => elem[param]); 
+        }
+
+        function saveUniqueElem(arr) {
+            let result = []; 
+            let seen = new Set();  
+        
+            for (let item of arr) {
+                if (!seen.has(item)) {
+                    result.push(item);
+                    seen.add(item);
+                }
+            }
+        
+            return result;
+        }
+
+        function renderCheckList(arr, param) {
+            let checkList = "";
+
+            arr.forEach(elem => {
+                checkList += `<label><input type="checkbox" value="${elem}" /> ${elem}</label>`
+            });
+
+            let result = `
+                <div class="filter-category" id="${param}">
+                    <h4>${copy.filters[param]}</h4>
+            `;
+
+            result += checkList;
+
+            result += `
+                </div>
+            `
+
+            return result;
+        }
+
+        const levels = getAllElem(copy.courses, "level");
+        const levelsUnique = saveUniqueElem(levels);
+        const levelsChecklist = renderCheckList(levelsUnique, "level");
+        filterSection += levelsChecklist;
+
+        const years = getAllElem(copy.courses, "year");
+        const yearsUnique = saveUniqueElem(years);
+        const yearsChecklist = renderCheckList(yearsUnique, "year");
+        filterSection += yearsChecklist;
+
+        const subjects = getAllElem(copy.courses, "subject");
+        const subjectsUnique = saveUniqueElem(subjects);
+        const subjectsChecklist = renderCheckList(subjectsUnique, "subject");
+        filterSection += subjectsChecklist;
+
+        filterSection += `
+                    <a class="filter-notes-btn">${copy.filters.button}</a>
+                </div>
+            </section>
+        `;
+
+        notesElement.innerHTML += filterSection;
+
+        // render results' number
+        let resultNumber = `
+            <section class="result-number">
+                <div class="container">
+                    ${copy.filters.results1} ${copy.courses.length} ${copy.filters.results2} 
+                </div>
+            </section>
+        `;
+
+        notesElement.innerHTML += resultNumber;
+
         // render the courses and their resources
         let coursesSection = `
             <section class="notes">

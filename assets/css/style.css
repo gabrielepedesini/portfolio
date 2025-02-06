@@ -338,6 +338,16 @@ footer .container .copyright {
     font-size: 14px;
 }
 
+/* FILTER */ 
+
+.filter {
+    display: none;
+}
+
+.result-number {
+    display: none;
+}
+
 /* GRAPH */
 
 .contributions {
