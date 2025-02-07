@@ -355,6 +355,15 @@ function renderNotes(lang) {
         let filterSection = `
             <section class="filter">
                 <div class="container">
+                    <div class="filter-wrapper">
+                        <div class="filter-header filter-title-btn">
+                            <h4 class="filter-title-btn">${copy.filters.title}</h4>
+                            <span class="filter-arrow">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" class="filter-title-btn">
+                                <path d="M6 9L12 15L18 9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </span>
+                        </div>
         `;
 
         function getAllElem(arr, param) {
@@ -412,7 +421,11 @@ function renderNotes(lang) {
         filterSection += subjectsChecklist;
 
         filterSection += `
-                    <a class="filter-notes-btn">${copy.filters.button}</a>
+                        <div class="filter-btn">
+                            <a class="filter-notes-btn">${copy.filters.button}</a>
+                            <a class="cancel-notes-btn">${copy.filters.cancel}</a>
+                        </div>
+                    </div>
                 </div>
             </section>
         `;
@@ -421,9 +434,11 @@ function renderNotes(lang) {
 
         // render results' number
         let resultNumber = `
-            <section class="result-number">
+            <section class="result-header">
                 <div class="container">
-                    ${copy.filters.results1} ${copy.courses.length} ${copy.filters.results2} 
+                    <div class="results-number">
+                        ${copy.filters.results1} ${copy.courses.length} ${copy.filters.results2} 
+                    </div>
                 </div>
             </section>
         `;

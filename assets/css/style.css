@@ -40,6 +40,10 @@ h3 {
     font-size: 20px;
 }
 
+h4 {
+    font-size: 18px;
+}
+
 @media (max-width: 768px) {
     
     h1 {
@@ -92,14 +96,21 @@ a:hover {
     --scrollthumb: #adadad;
     --scrollthumb-hover: #888888;
 
+    --filter-checkbox-selected: #84a8e7;
+    --filter-checkbox-not-selected: #c0c0c0;
+    --filter-checkbox-hover-selected: #6d8bc0;
+    --filter-checkbox-hover-not-selected: #9e9e9e;
+    --filter-btn: #1962e0;
+    --filter-btn-hover: #164fb1;
+    --filter-cancel-btn: #797979;
+    --filter-cancel-btn-hover: #4d4d4d;
+
     --contribution-no: #d8d8d8; 
     --contribution-low: #8eb7fd; 
     --contribution-normal: #6b9ffa; 
     --contribution-medium: #4285f8; 
     --contribution-high: #1962e0;
-
     --contribution-border: #1962e060;
-
     --contribution-cell-border: #06080a;
 }
 
@@ -115,14 +126,21 @@ a:hover {
     --scrollthumb: #adadad;
     --scrollthumb-hover: #888888;
 
+    --filter-checkbox-selected: #0d2142;
+    --filter-checkbox-not-selected: #12181d;
+    --filter-checkbox-hover-selected: #0a1933;
+    --filter-checkbox-hover-not-selected: #0b0f13;
+    --filter-btn: #1962e0;
+    --filter-btn-hover: #164fb1;
+    --filter-cancel-btn: #8da0b6;
+    --filter-cancel-btn-hover: #78899c;
+
     --contribution-no: #101316; 
     --contribution-low: #121f41; 
     --contribution-normal: #153268; 
     --contribution-medium: #19489e; 
     --contribution-high: #2259ee;
-    
     --contribution-border: #0c47e93d;
-
     --contribution-cell-border: #eeeeee;
 }
 
@@ -340,12 +358,165 @@ footer .container .copyright {
 
 /* FILTER */ 
 
-.filter {
-    display: none;
+.filter-wrapper {
+    box-sizing: border-box;
+    padding: 15px;
+    width: 100%;
+    background-color: var(--background-secondary);
+    border-radius: 4px;
+    max-height: 55px;
+    overflow: hidden;
+    transition: .3s linear;
 }
 
-.result-number {
-    display: none;
+.filter-wrapper.active {
+    max-height: 600px;
+    transition: .5s linear;
+}
+
+.filter-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.filter-header h4 {
+    margin: 0;
+    height: fit-content;
+    font-weight: 500;
+}
+
+.filter-header .filter-arrow {
+    height: 25px;
+}
+
+.filter-header .filter-arrow svg {
+    stroke: var(--text);
+    width: 25px;
+    height: 25px;
+    transform: rotate(180deg);
+    transition: .3s;
+}
+
+.active .filter-header .filter-arrow svg {
+    stroke: var(--text);
+    width: 25px;
+    height: 25px;
+    transform: rotate(0deg);
+    transition: .3s;
+}
+
+.filter-category {
+    margin-bottom: 15px;
+}
+
+.filter-category h4 {
+    color: var(--text);
+    opacity: .75;
+    font-size: 14px;
+    margin-bottom: 5px;
+    font-weight: 400;
+    display: block;
+    width: 100%;
+}
+
+.filter-category {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 5px;
+}
+
+.filter-category label {
+    display: inline-flex;
+    align-items: center;
+    padding: 4px 8px;
+    color: var(--text);
+    background-color: var(--filter-checkbox-not-selected);
+    border: 1px solid #81818141;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 1;
+    white-space: nowrap;
+}
+
+.filter-category label:hover {
+    background-color: var(--filter-checkbox-hover-not-selected);
+    border-color: var(--filter-checkbox-selected);
+}
+
+.filter-category input[type="checkbox"] {
+    margin-right: 4px;
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.filter-category input[type="checkbox"]:checked + label,
+.filter-category label:has(input[type="checkbox"]:checked) {
+    background-color: var(--filter-checkbox-selected);
+    color: var(--text);
+    border-color: none;
+}
+
+.filter-category label:has(input[type="checkbox"]:checked):hover {
+    border-color: 1px solid var(--filter-checkbox-hover-selected);
+}
+
+.filter-btn {
+    margin-top: 30px;
+    display: flex;
+    gap: 8px;
+}
+
+.filter-notes-btn {
+    display: inline-block;
+    padding: 6px 12px;
+    background-color: var(--filter-btn);
+    color: #f5f7f9;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: none;
+}
+
+.filter-notes-btn:hover {
+    background-color: var(--filter-btn-hover);
+    transition: none;
+}
+
+.cancel-notes-btn {
+    display: inline-block;
+    padding: 6px 12px;
+    background-color: var(--filter-cancel-btn);
+    color: var(--background);
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: none;
+}
+
+.cancel-notes-btn:hover {
+    background-color: var(--filter-cancel-btn-hover);
+    transition: none;
+}
+
+@media (max-width: 480px) {
+    
+    .filter-category label {
+        padding: 3px 6px;
+        font-size: 12px;
+    }
 }
 
 /* GRAPH */

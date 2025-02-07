@@ -43,13 +43,16 @@
                 ]
             },
             "filters": {
+                "title": "Filtri",
                 "level": "Livello",
                 "year": "Anno",
                 "subject": "Materia",
                 "button": "Filtra",
+                "cancel": "Rimuovi Tutti",
                 "results1": "Mostrando",
                 "results2": "risultati",
-                "results3": "risultato"
+                "results3": "risultato",
+                "noresult": "Nessun risultato corrisponde alla selezione corrente!"
             },
             "courses": [
                 {
@@ -466,13 +469,16 @@
                 ]
             },
             "filters": {
+                "title": "Filters",
                 "level": "Degree",
                 "year": "Year",
                 "subject": "Subject",
                 "button": "Filter",
+                "cancel": "Remove All",
                 "results1": "Showing",
                 "results2": "results",
-                "results3": "result"
+                "results3": "result",
+                "noresult": "No result matching current selection!"
             },
             "courses": [
             {
@@ -673,7 +679,7 @@
                 ],
                 "level": "BSc",
                 "year": "2",
-                "subject": "Automatics"
+                "subject": "Automation"
             },
             {
                 "title": "Information and Estimation",
