@@ -96,6 +96,7 @@ a:hover {
     --scrollthumb: #adadad;
     --scrollthumb-hover: #888888;
 
+    --filter-wrapper-background: #ebebeb;
     --filter-wrapper-border: #c2c2c2;
     --filter-checkbox-selected: #99b9f0;
     --filter-checkbox-not-selected: #c0c0c0;
@@ -127,6 +128,7 @@ a:hover {
     --scrollthumb: #adadad;
     --scrollthumb-hover: #888888;
 
+    --filter-wrapper-background: #0b121a;
     --filter-wrapper-border: #28303a;
     --filter-checkbox-selected: #133161;
     --filter-checkbox-not-selected: #12181d;
@@ -364,7 +366,7 @@ footer .container .copyright {
     box-sizing: border-box;
     padding: 15px 20px;
     width: 100%;
-    background-color: var(--background-secondary);
+    background-color: var(--filter-wrapper-background);
     border-radius: 5px;
     max-height: 55px;
     overflow: hidden;
