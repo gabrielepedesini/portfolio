@@ -75,7 +75,7 @@ document.addEventListener("click", async function(event) {
                 `;
 
                 resultsNumber++;
-            }
+            }        
         });
 
         // display results
@@ -91,6 +91,31 @@ document.addEventListener("click", async function(event) {
             resultNumberSection.textContent = `${copy.filters.results1} ${resultsNumber} ${copy.filters.results3}`;
         } else {
             resultNumberSection.textContent = `${copy.filters.noresult}`;
+        }
+        
+        // display filters number
+        const filtersNumber = levels.length + years.length + subject.length;
+
+        if (filtersNumber > 0) {
+            // set current filter number
+            document.querySelector('.filter-counter').textContent = '(' + filtersNumber + ')';
+
+            // close filter alert
+            document.querySelector('.filter-alert').style.display = 'none';
+
+            // close filter section
+            document.querySelector('.filter-wrapper').classList.toggle('active');
+        } else {
+            // reset current filter number
+            document.querySelector('.filter-counter').textContent = '';
+
+            // display filter alert
+            document.querySelector('.filter-alert').textContent = copy.filters.alert;
+            document.querySelector('.filter-alert').style.display = 'block';
+
+            setTimeout(() => {
+                document.querySelector('.filter-alert').style.display = 'none';
+            }, 5000);
         }
     }
 
@@ -150,6 +175,12 @@ document.addEventListener("click", async function(event) {
         } else {
             resultNumberSection.textContent = `${copy.filters.noresult}`;
         }
+
+        // remove filters number
+        document.querySelector('.filter-counter').textContent = '';
+
+        // close filter section
+        document.querySelector('.filter-wrapper').classList.toggle('active');
     }
 });
 

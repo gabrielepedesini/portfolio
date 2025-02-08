@@ -357,7 +357,11 @@ function renderNotes(lang) {
                 <div class="container">
                     <div class="filter-wrapper">
                         <div class="filter-header filter-title-btn">
-                            <h4 class="filter-title-btn">${copy.filters.title}</h4>
+                            <span class="filter-title-wrapper">
+                                <h4 class="filter-title-btn">${copy.filters.title}</h4>
+                                <h4 class="filter-counter filter-title-btn"></h4>
+                            </span>
+                            
                             <span class="filter-arrow">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" class="filter-title-btn">
                                 <path d="M6 9L12 15L18 9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -421,6 +425,7 @@ function renderNotes(lang) {
         filterSection += subjectsChecklist;
 
         filterSection += `
+                        <div class="filter-alert"></div>
                         <div class="filter-btn">
                             <a class="filter-notes-btn">${copy.filters.button}</a>
                             <a class="cancel-notes-btn">${copy.filters.cancel}</a>
