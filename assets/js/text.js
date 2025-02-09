@@ -656,13 +656,17 @@ function renderIndex(lang) {
 
         indexElement.innerHTML += contributionSection;
 
-        let contributionsSection = `
-            <section class="contributions">
-                <div class="container contributions-number-wrapper">
+        let contributionsNumberSection = `
+            <section class="contributions-number-wrapper">
+                <div class="container">
                     <span class="contributions-number"></span>
                     <span> ${copy.contributions.number}</span>
                 </div>
+            </section>
+        `;
 
+        let contributionsSection = `
+            <section class="contributions">
                 <div class="graph-wrapper">
                     <div id="contribution-calendar"></div>
                     <div class="github-tag">

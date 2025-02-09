@@ -549,6 +549,7 @@ footer .container .copyright {
 }
 
 .contributions-number-wrapper {
+    margin-top: 0;
     margin-bottom: 15px;
     opacity: .75;
 }
