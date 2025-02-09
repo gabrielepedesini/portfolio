@@ -548,6 +548,11 @@ footer .container .copyright {
     position: relative;
 }
 
+.contributions-number-wrapper {
+    margin-bottom: 15px;
+    opacity: .75;
+}
+
 .graph-wrapper {
     width: 100%;
     max-width: 750px;

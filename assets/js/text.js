@@ -658,7 +658,7 @@ function renderIndex(lang) {
 
         let contributionsSection = `
             <section class="contributions">
-                <div class="container">
+                <div class="container contributions-number-wrapper">
                     <span class="contributions-number"></span>
                     <span> ${copy.contributions.number}</span>
                 </div>
