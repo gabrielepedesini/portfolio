@@ -112,7 +112,7 @@ export async function renderCalendar() {
             case 3: return 'rd';
             default: return 'th';
         }
-    }
+    }    
 
     svg.selectAll(".contribution-cell")
         .data(data)
@@ -133,7 +133,7 @@ export async function renderCalendar() {
             // if (isWidthEnough() < 750) return;
 
             const date = new Date(d.date);
-            const formattedDate = lastDate.toLocaleDateString('en-US', {
+            const formattedDate = date.toLocaleDateString('en-US', {
                 month: 'short',
                 day: 'numeric',
                 year: 'numeric'
