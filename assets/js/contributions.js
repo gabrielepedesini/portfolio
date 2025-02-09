@@ -43,6 +43,11 @@ export async function renderCalendar() {
     const width = fixedWidth;
     const height = (cellSize + cellPadding) * dayCount + 60;
 
+    const totalContributions = data.reduce((sum, day) => sum + day.contributionCount, 0);
+
+    document.querySelector('.contributions-number').textContent = 
+        `${totalContributions}`;
+
     const svg = d3.select("#contribution-calendar")
         .html("") 
         .append("svg")
@@ -119,10 +124,9 @@ export async function renderCalendar() {
 
             const date = new Date(d.date);
             const formattedDate = date.toLocaleDateString('en-US', {
-                weekday: 'long',
-                year: 'numeric',
                 month: 'long',
-                day: 'numeric'
+                day: 'numeric',
+                year: 'numeric'
             });
 
             tooltip.transition()

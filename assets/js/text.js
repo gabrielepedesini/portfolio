@@ -658,6 +658,11 @@ function renderIndex(lang) {
 
         let contributionsSection = `
             <section class="contributions">
+                <div class="container">
+                    <span class="contributions-number"></span>
+                    <span> ${copy.contributions.number}</span>
+                </div>
+
                 <div class="graph-wrapper">
                     <div id="contribution-calendar"></div>
                     <div class="github-tag">
