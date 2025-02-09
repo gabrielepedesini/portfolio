@@ -665,6 +665,8 @@ function renderIndex(lang) {
             </section>
         `;
 
+        indexElement.innerHTML += contributionsNumberSection;
+
         let contributionsSection = `
             <section class="contributions">
                 <div class="graph-wrapper">
