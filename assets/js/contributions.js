@@ -104,6 +104,16 @@ export async function renderCalendar() {
         return container.getBoundingClientRect().width;
     }
 
+    function getOrdinalSuffix(day) {
+        if (day > 3 && day < 21) return 'th';
+        switch (day % 10) {
+            case 1: return 'st';
+            case 2: return 'nd';
+            case 3: return 'rd';
+            default: return 'th';
+        }
+    }
+
     svg.selectAll(".contribution-cell")
         .data(data)
         .enter()
@@ -123,11 +133,11 @@ export async function renderCalendar() {
             // if (isWidthEnough() < 750) return;
 
             const date = new Date(d.date);
-            const formattedDate = date.toLocaleDateString('en-US', {
-                month: 'long',
+            const formattedDate = lastDate.toLocaleDateString('en-US', {
+                month: 'short',
                 day: 'numeric',
                 year: 'numeric'
-            });
+            }).replace(/\d+/, day + getOrdinalSuffix(day));
 
             tooltip.transition()
                 .duration(200)
