@@ -134,7 +134,7 @@ export async function renderCalendar() {
 
             const date = new Date(d.date);
             const day = date.getDate();
-            const formattedDate = lastDate.toLocaleDateString('en-US', {
+            const formattedDate = date.toLocaleDateString('en-US', {
                 month: 'short',
                 day: 'numeric',
                 year: 'numeric'
