@@ -132,8 +132,9 @@ export async function renderCalendar() {
         .on("mouseover", function (event, d) {
             // if (isWidthEnough() < 750) return;
 
-            const date = new Date(d.date);
-            const formattedDate = date.toLocaleDateString('en-US', {
+            const lastDate = new Date(data[data.length - 1].date);
+            const day = lastDate.getDate();
+            const formattedDate = lastDate.toLocaleDateString('en-US', {
                 month: 'short',
                 day: 'numeric',
                 year: 'numeric'
