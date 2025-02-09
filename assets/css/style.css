@@ -549,11 +549,12 @@ footer .container .copyright {
 }
 
 .contributions-number-wrapper {
-    margin-top: 0;
-    margin-bottom: 15px;
     opacity: .75;
     font-size: 14px;
     font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 15px;
+    padding-bottom: 0;
 }
 
 .graph-wrapper {
