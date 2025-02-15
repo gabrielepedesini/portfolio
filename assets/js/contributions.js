@@ -30,45 +30,20 @@ function getColorForContributions(count) {
     return rootStyle.getPropertyValue('--contribution-high');
 }
 
-function calculateTooltipPosition(event, tooltipElement) {
-    const viewport = {
-        width: window.innerWidth,
-        height: window.innerHeight
-    };
-    
+function calculateTooltipPosition(cellElement, tooltipElement) {
+    const cellRect = cellElement.getBoundingClientRect();
     const tooltipRect = tooltipElement.getBoundingClientRect();
+    const viewportWidth = window.innerWidth;
     
-    const mouseX = event.clientX;
-    const mouseY = event.clientY;
+    const spaceOnRight = viewportWidth - (cellRect.right + window.pageXOffset);
     
-    const spaceRight = viewport.width - mouseX;
-    const spaceLeft = mouseX;
-    const spaceBottom = viewport.height - mouseY;
-    const spaceTop = mouseY;
+    const showOnRight = spaceOnRight >= tooltipRect.width + 10;
     
-    const offset = 10;
-    
-    let left, top;
-    
-    if (spaceRight >= tooltipRect.width + offset) {
-        left = event.pageX + offset;
-    } else if (spaceLeft >= tooltipRect.width + offset) {
-        left = event.pageX - tooltipRect.width - offset;
-    } else {
-        left = event.pageX - (tooltipRect.width / 2);
-    }
-    
-    if (spaceBottom >= tooltipRect.height + offset) {
-        top = event.pageY + offset;
-    } else if (spaceTop >= tooltipRect.height + offset) {
-        top = event.pageY - tooltipRect.height - offset;
-    } else {
-        top = event.pageY - (tooltipRect.height / 2);
-    }
-    
-    left = Math.max(0, Math.min(left, viewport.width - tooltipRect.width));
-    top = Math.max(0, Math.min(top, viewport.height - tooltipRect.height));
-    
+    const top = window.pageYOffset + cellRect.top - (tooltipRect.height / 2) + (cellRect.height / 2);
+    const left = showOnRight 
+        ? window.pageXOffset + cellRect.right + 10  
+        : window.pageXOffset + cellRect.left - tooltipRect.width - 10; 
+        
     return { left, top };
 }
 
@@ -188,7 +163,7 @@ export async function renderCalendar() {
 
             tooltip.html(`${formattedDate}<br>${d.contributionCount} contributions`);
         
-            const { left, top } = calculateTooltipPosition(event, tooltip.node());
+            const { left, top } = calculateTooltipPosition(this, tooltip.node());
             
             tooltip
                 .style("left", left + "px")
