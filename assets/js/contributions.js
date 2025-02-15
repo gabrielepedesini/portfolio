@@ -47,6 +47,28 @@ function calculateTooltipPosition(cellElement, tooltipElement) {
     return { left, top };
 }
 
+function showTooltip(element, d, tooltip) {
+    const date = new Date(d.date);
+    const day = date.getDate();
+    const formattedDate = date.toLocaleDateString('en-US', {
+        month: 'short',
+        day: 'numeric',
+        year: 'numeric'
+    }).replace(/\d+/, day + getOrdinalSuffix(day));
+
+    tooltip.transition()
+        .duration(200)
+        .style("opacity", 1);
+
+    tooltip.html(`${formattedDate}<br>${d.contributionCount} contributions`);
+    
+    const { left, top } = calculateTooltipPosition(element, tooltip.node());
+    
+    tooltip
+        .style("left", left + "px")
+        .style("top", top + "px");
+}
+
 export async function renderCalendar() {
     const data = await fetchGitHubData();
 
@@ -131,7 +153,7 @@ export async function renderCalendar() {
         }
     }    
 
-    svg.selectAll(".contribution-cell")
+    const cells = svg.selectAll(".contribution-cell")
         .data(data)
         .enter()
         .append("rect")
@@ -145,36 +167,20 @@ export async function renderCalendar() {
         .attr("width", cellSize)
         .attr("height", cellSize)
         .attr("rx", 2)
-        .attr("fill", d => getColorForContributions(d.contributionCount))
-        .on("mouseover", function (event, d) {
-            // if (isWidthEnough() < 750) return;
+        .attr("fill", d => getColorForContributions(d.contributionCount));
 
-            const date = new Date(d.date);
-            const day = date.getDate();
-            const formattedDate = date.toLocaleDateString('en-US', {
-                month: 'short',
-                day: 'numeric',
-                year: 'numeric'
-            }).replace(/\d+/, day + getOrdinalSuffix(day));
-
-            tooltip.transition()
-                .duration(200)
-                .style("opacity", 1);
-
-            tooltip.html(`${formattedDate}<br>${d.contributionCount} contributions`);
-        
-            const { left, top } = calculateTooltipPosition(this, tooltip.node());
-            
-            tooltip
-                .style("left", left + "px")
-                .style("top", top + "px");
+    cells
+        .on("mouseover", function(event, d) {
+            showTooltip(this, d, tooltip);
         })
-        .on("mouseout", function () {
-            // if (isWidthEnough() < 750) return;
-
+        .on("mouseout", function() {
             tooltip.transition()
                 .duration(500)
                 .style("opacity", 0);
+        })
+        .on("click", function(event, d) {
+            showTooltip(this, d, tooltip);
+            event.stopPropagation();
         });
 
     document.addEventListener('click', (event) => {
