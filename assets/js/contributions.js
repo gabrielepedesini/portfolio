@@ -30,6 +30,48 @@ function getColorForContributions(count) {
     return rootStyle.getPropertyValue('--contribution-high');
 }
 
+function calculateTooltipPosition(event, tooltipElement) {
+    const viewport = {
+        width: window.innerWidth,
+        height: window.innerHeight
+    };
+    
+    const tooltipRect = tooltipElement.getBoundingClientRect();
+    
+    const mouseX = event.clientX;
+    const mouseY = event.clientY;
+    
+    const spaceRight = viewport.width - mouseX;
+    const spaceLeft = mouseX;
+    const spaceBottom = viewport.height - mouseY;
+    const spaceTop = mouseY;
+    
+    const offset = 10;
+    
+    let left, top;
+    
+    if (spaceRight >= tooltipRect.width + offset) {
+        left = event.pageX + offset;
+    } else if (spaceLeft >= tooltipRect.width + offset) {
+        left = event.pageX - tooltipRect.width - offset;
+    } else {
+        left = event.pageX - (tooltipRect.width / 2);
+    }
+    
+    if (spaceBottom >= tooltipRect.height + offset) {
+        top = event.pageY + offset;
+    } else if (spaceTop >= tooltipRect.height + offset) {
+        top = event.pageY - tooltipRect.height - offset;
+    } else {
+        top = event.pageY - (tooltipRect.height / 2);
+    }
+    
+    left = Math.max(0, Math.min(left, viewport.width - tooltipRect.width));
+    top = Math.max(0, Math.min(top, viewport.height - tooltipRect.height));
+    
+    return { left, top };
+}
+
 export async function renderCalendar() {
     const data = await fetchGitHubData();
 
@@ -144,9 +186,13 @@ export async function renderCalendar() {
                 .duration(200)
                 .style("opacity", 1);
 
-            tooltip.html(`${formattedDate}<br>${d.contributionCount} contributions`)
-                .style("left", (event.pageX + 10) + "px")
-                .style("top", (event.pageY - 28) + "px");
+            tooltip.html(`${formattedDate}<br>${d.contributionCount} contributions`);
+        
+            const { left, top } = calculateTooltipPosition(event, tooltip.node());
+            
+            tooltip
+                .style("left", left + "px")
+                .style("top", top + "px");
         })
         .on("mouseout", function () {
             // if (isWidthEnough() < 750) return;
