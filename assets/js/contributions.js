@@ -47,6 +47,16 @@ function calculateTooltipPosition(cellElement, tooltipElement) {
     return { left, top };
 }
 
+function getOrdinalSuffix(day) {
+    if (day > 3 && day < 21) return 'th';
+    switch (day % 10) {
+        case 1: return 'st';
+        case 2: return 'nd';
+        case 3: return 'rd';
+        default: return 'th';
+    }
+}
+
 function showTooltip(element, d, tooltip) {
     const date = new Date(d.date);
     const day = date.getDate();
