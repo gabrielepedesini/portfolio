@@ -496,7 +496,8 @@ footer .container .copyright {
     gap: 8px;
 }
 
-.filter-notes-btn {
+.filter-notes-btn,
+.filter-projects-btn {
     display: inline-block;
     padding: 6px 12px;
     background-color: var(--filter-btn);
@@ -510,12 +511,14 @@ footer .container .copyright {
     border: 1px solid var(--filter-btn-hover);
 }
 
-.filter-notes-btn:hover {
+.filter-notes-btn:hover,
+.filter-projects-btn:hover {
     background-color: var(--filter-btn-hover);
     transition: none;
 }
 
-.cancel-notes-btn {
+.cancel-notes-btn,
+.cancel-projects-btn {
     display: inline-block;
     padding: 6px 12px;
     background-color: var(--filter-cancel-btn);
@@ -529,7 +532,8 @@ footer .container .copyright {
     border: 1px solid var(--filter-cancel-btn-hover);
 }
 
-.cancel-notes-btn:hover {
+.cancel-notes-btn:hover,
+.cancel-projects-btn:hover {
     background-color: var(--filter-cancel-btn-hover);
     transition: none;
 }

@@ -280,11 +280,110 @@ function renderProjects(lang) {
 
         projectsElement.innerHTML += introSection;
 
+        // render filters section
+        let filterSection = `
+            <section class="filter">
+                <div class="container">
+                    <div class="filter-wrapper">
+                        <div class="filter-header filter-title-btn">
+                            <span class="filter-title-wrapper">
+                                <h4 class="filter-title-btn">${copy.filters.title}</h4>
+                                <h4 class="filter-counter filter-title-btn"></h4>
+                            </span>
+                            
+                            <span class="filter-arrow">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" class="filter-title-btn">
+                                <path d="M6 9L12 15L18 9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </span>
+                        </div>
+        `;
+
+        function getAllElem(arr, param) {
+            return arr.map(elem => elem[param]).flat();; 
+        }
+
+        function saveUniqueElem(arr) {
+            let result = []; 
+            let seen = new Set();  
+
+            for (let item of arr) {
+                if (!seen.has(item)) {
+                    result.push(item);
+                    seen.add(item);
+                }
+            }
+
+            return result;
+        }
+
+        function renderCheckList(arr, param) {
+            let checkList = "";
+
+            arr.forEach(elem => {
+                checkList += `<label><input type="checkbox" value="${elem}" /> ${elem}</label>`
+            });
+
+            let result = `
+                <div class="filter-category" id="${param}">
+                    <h4>${copy.filters[param]}</h4>
+            `;
+
+            result += checkList;
+
+            result += `
+                </div>
+            `
+
+            return result;
+        }
+
+        const categories = getAllElem(copy.details, "category");
+        const categoriesUnique = saveUniqueElem(categories);
+        const categoriesChecklist = renderCheckList(categoriesUnique, "category");
+        filterSection += categoriesChecklist;
+
+        const technologies = getAllElem(copy.details, "technologies");
+        const technologiesUnique = saveUniqueElem(technologies);
+        const technologiesChecklist = renderCheckList(technologiesUnique, "technologies");
+        filterSection += technologiesChecklist;
+
+        const years = getAllElem(copy.details, "year");
+        const yearsUnique = saveUniqueElem(years);
+        const yearsChecklist = renderCheckList(yearsUnique, "year");
+        filterSection += yearsChecklist;
+
+        filterSection += `
+                    <div class="filter-alert"></div>
+                    <div class="filter-btn">
+                        <a class="filter-projects-btn">${copy.filters.button}</a>
+                        <a class="cancel-projects-btn">${copy.filters.cancel}</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        `;
+
+        projectsElement.innerHTML += filterSection;
+
+        // render results' number
+        let resultNumber = `
+        <section class="result-header">
+            <div class="container">
+                <div class="results-number">
+                    ${copy.filters.results1} ${copy.details.length} ${copy.filters.results2} 
+                </div>
+            </div>
+        </section>
+        `;
+
+        projectsElement.innerHTML += resultNumber;
+
         // render project list
         let projectsSection = `
             <section class="page-projects">
                 <div class="container">
-                    <ul>
+                    <ul class="works">
         `;
         
         copy.details.forEach(element => {
@@ -293,7 +392,7 @@ function renderProjects(lang) {
                     <a href="projects/${element.id}.html">${element.title}</a> ‒ <span>${element.date}</span>
                     <p class="desc">${element.shortdesc}</p>
                 </li>
-            `
+            `;
         });
 
         projectsSection += `
@@ -307,7 +406,7 @@ function renderProjects(lang) {
         projectsElement.style.display = "block";
         footerContainer.style.display = "block";
     })
-    .catch(error => console.error('Error loading JSON:', error));
+    // .catch(error => console.error('Error loading JSON:', error));
 }
 
 // render notes page
