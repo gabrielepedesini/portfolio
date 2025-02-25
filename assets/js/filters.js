@@ -303,6 +303,8 @@ document.addEventListener("click", async function(event) {
                     <p class="desc">${element.shortdesc}</p>
                 </li>
             `;
+
+            resultsNumber++;
         });
 
         // display results
