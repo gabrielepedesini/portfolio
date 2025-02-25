@@ -276,7 +276,7 @@ document.addEventListener("click", async function(event) {
     }
 
     // remove all filter projects button
-    if (event.target.classList.contains("cancel-notes-btn")) {
+    if (event.target.classList.contains("cancel-projects-btn")) {
 
         // fetches the json
         let response = await fetch('assets/json/database.json');
@@ -306,7 +306,7 @@ document.addEventListener("click", async function(event) {
         });
 
         // display results
-        const projectsSection = document.querySelector('.subjects');
+        const projectsSection = document.querySelector('.works');
         projectsSection.innerHTML = projectSection;
 
         // display result number
