@@ -297,7 +297,7 @@ document.addEventListener("click", async function(event) {
         resultsNumber = 0; 
 
         copy.details.forEach(element => {
-            projectsSection += `
+            projectSection += `
                 <li>
                     <a href="projects/${element.id}.html">${element.title}</a> ‒ <span>${element.date}</span>
                     <p class="desc">${element.shortdesc}</p>
