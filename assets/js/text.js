@@ -716,6 +716,8 @@ function renderIndex(lang) {
 
         indexElement.innerHTML += formationSection;
 
+        const projectsNum = 4;
+
         // render projects section
         let projectsSection = `
         <section class="projects">
@@ -724,7 +726,7 @@ function renderIndex(lang) {
                 <p>${copy.projects.desc}</p>
                 <ul>`;
 
-        for (let i = 0; i < projects.length && i < 3; i++) {
+        for (let i = 0; i < projects.length && i < projectsNum; i++) {
             let project = projects[i];
             projectsSection += `
                 <li><a href="projects/${project.id}.html">${project.title}</a> ‒ ${project.shortdesc}</li>`;
