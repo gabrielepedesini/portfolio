@@ -250,7 +250,7 @@ document.addEventListener("click", async function(event) {
         }
         
         // display filters number
-        const filtersNumber = levels.length + years.length + subject.length;
+        const filtersNumber = categories.length + years.length + technologies.length;
 
         if (filtersNumber > 0) {
             // set current filter number
