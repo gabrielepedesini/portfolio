@@ -273,6 +273,75 @@
                     "level": "Triennale",
                     "year": "2",
                     "subject": "Matematica"
+                },
+                {
+                "title": "Ingegneria del Software",
+                "teacher": "Cugola Gianpaolo Saverio",
+                "resources": [
+                        {
+                            "type": "Appunti",
+                            "link": "https://drive.google.com/file/d/1q790KhP7ALrdHrqQtDdwswY8cNQIDn0B/view?usp=sharing"
+                        }
+                    ],
+                    "level": "Triennale",
+                    "year": "3",
+                    "subject": "Informatica"
+                },
+                {
+                "title": "Elettronica",
+                "teacher": "Lusardi Nicola",
+                "resources": [
+                        {
+                            "type": "Formulario",
+                            "link": "https://drive.google.com/file/d/1KUJ4lAqw8xS7LxdUVb9tddHiidJKKZEm/view?usp=sharing"
+                        }
+                    ],
+                    "level": "Triennale",
+                    "year": "3",
+                    "subject": "Elettronica"
+                },
+                {
+                "title": "Reti Logiche",
+                "teacher": "Palermo Gianluca",
+                "resources": [
+                        {
+                            "type": "Formulario",
+                            "link": "https://drive.google.com/file/d/1aHsNDXr4i-JEN78Ksh1vr6xvYhI4ce4O/view?usp=sharing"
+                        }
+                    ],
+                    "level": "Triennale",
+                    "year": "3",
+                    "subject": "Elettronica"
+                },
+                {
+                "title": "Sistemi Informativi",
+                "teacher": "Vitali Monica",
+                "resources": [
+                        {
+                            "type": "Appunti",
+                            "link": "https://drive.google.com/file/d/1N62IY2gWw-SVxNwSoYfsvByRbir3TivS/view?usp=sharing"
+                        },
+                        {
+                            "type": "Formulario",
+                            "link": "https://drive.google.com/file/d/1WHVDE7_cYn14ZycVaFSFF_Ka-P2NRXK1/view?usp=sharing"
+                        }
+                    ],
+                    "level": "Triennale",
+                    "year": "3",
+                    "subject": "Informatica"
+                },
+                {
+                "title": "Basi di Dati 1",
+                "teacher": "Comai Sara",
+                "resources": [
+                        {
+                            "type": "Formulario",
+                            "link": "https://drive.google.com/file/d/1MXWUkmoellCVFdxy8viBUrI-sfsGkeN8/view?usp=sharing"
+                        }
+                    ],
+                    "level": "Triennale",
+                    "year": "3",
+                    "subject": "Informatica"
                 }
             ]  
         },
@@ -743,6 +812,75 @@
                 "level": "BSc",
                 "year": "2",
                 "subject": "Mathematics"
+            },
+            {
+            "title": "Software Engineering",
+            "teacher": "Cugola Gianpaolo Saverio",
+            "resources": [
+                    {
+                        "type": "Notes",
+                        "link": "https://drive.google.com/file/d/1q790KhP7ALrdHrqQtDdwswY8cNQIDn0B/view?usp=sharing"
+                    }
+                ],
+                "level": "BSc",
+                "year": "3",
+                "subject": "Computer Science"
+            },
+            {
+            "title": "Electronics",
+            "teacher": "Lusardi Nicola",
+            "resources": [
+                    {
+                        "type": "Formulas",
+                        "link": "https://drive.google.com/file/d/1KUJ4lAqw8xS7LxdUVb9tddHiidJKKZEm/view?usp=sharing"
+                    }
+                ],
+                "level": "BSc",
+                "year": "3",
+                "subject": "Electronics"
+            },
+            {
+            "title": "Logic Networks",
+            "teacher": "Palermo Gianluca",
+            "resources": [
+                    {
+                        "type": "Formulas",
+                        "link": "https://drive.google.com/file/d/1aHsNDXr4i-JEN78Ksh1vr6xvYhI4ce4O/view?usp=sharing"
+                    }
+                ],
+                "level": "BSc",
+                "year": "3",
+                "subject": "Electronics"
+            },
+            {
+            "title": "Information Systems",
+            "teacher": "Vitali Monica",
+            "resources": [
+                    {
+                        "type": "Notes",
+                        "link": "https://drive.google.com/file/d/1N62IY2gWw-SVxNwSoYfsvByRbir3TivS/view?usp=sharing"
+                    },
+                    {
+                        "type": "Formulas",
+                        "link": "https://drive.google.com/file/d/1WHVDE7_cYn14ZycVaFSFF_Ka-P2NRXK1/view?usp=sharing"
+                    }
+                ],
+                "level": "BSc",
+                "year": "3",
+                "subject": "Computer Science"
+            },
+            {
+            "title": "Databases 1",
+            "teacher": "Comai Sara",
+            "resources": [
+                    {
+                        "type": "Formulas",
+                        "link": "https://drive.google.com/file/d/1MXWUkmoellCVFdxy8viBUrI-sfsGkeN8/view?usp=sharing"
+                    }
+                ],
+                "level": "BSc",
+                "year": "3",
+                "subject": "Computer Science"
             }
             ]
         },
