@@ -406,7 +406,7 @@ function renderProjects(lang) {
         projectsElement.style.display = "block";
         footerContainer.style.display = "block";
     })
-    // .catch(error => console.error('Error loading JSON:', error));
+    .catch(error => console.error('Error loading JSON:', error));
 }
 
 // render notes page
