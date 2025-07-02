@@ -393,9 +393,7 @@
                     "technologies": [
                         "Java",
                         "JavaFX",
-                        "CSS",
-                        "RMI",
-                        "Sockets"
+                        "CSS"
                     ],
                     "link": null,
                     "github": "https://github.com/gabrielepedesini",
@@ -427,7 +425,7 @@
                     "goals": ["Lo scopo era quello di implementare in un progetto l'AI, per realizzare qualcosa di funzionale e utile."],
                     "functions": ["AI Analysis", "Responsive design", "Light/Dark mode"],
                     "technologies": ["HTML", "CSS", "JavaScript", "Python", "Flask"],
-                    "link": "https://linkedtag.gabrielepedesini.com",
+                    "link": null,
                     "github": "https://github.com/gabrielepedesini/linkedtag",
                     "img": true
                 },
@@ -455,7 +453,7 @@
                     "Gateway di pagamento"
                     ],
                     "technologies": ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
-                    "link": "http://trendtribes.infinityfreeapp.com",
+                    "link": null,
                     "github": "https://github.com/gabrielepedesini/trendtribes",
                     "img": true
                 },
@@ -973,9 +971,7 @@
                     "technologies": [
                         "Java",
                         "JavaFX",
-                        "CSS",
-                        "RMI",
-                        "Sockets"
+                        "CSS"
                     ],
                     "link": null,
                     "github": "https://github.com/gabrielepedesini",
@@ -1022,7 +1018,7 @@
                         "Python",
                         "Flask"
                     ],
-                    "link": "https://linkedtag.gabrielepedesini.com",
+                    "link": null,
                     "github": "https://github.com/gabrielepedesini/linkedtag",
                     "img": true
                 },                
@@ -1056,7 +1052,7 @@
                         "PHP",
                         "WordPress"
                     ],
-                    "link": "http://trendtribes.infinityfreeapp.com",
+                    "link": null,
                     "github": "https://github.com/gabrielepedesini/trendtribes",
                     "img": true
                 },
