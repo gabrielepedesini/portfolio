@@ -1,8 +1,13 @@
 import os
 import requests
+import json
 from flask import Flask, render_template, send_from_directory, abort, redirect, jsonify, request
 
 app = Flask(__name__, static_folder='assets', template_folder='.')
+
+# loads json
+with open('assets/json/database.json', 'r', encoding='utf-8') as f:
+    db = json.load(f)
 
 # routes for main pages
 @app.route('/')
@@ -35,20 +40,18 @@ def redirect_page_html(page_name):
 # general dynamic route for projects
 @app.route('/projects/<project_name>')
 def project_page(project_name):
-    project_file = f'projects/{project_name}.html' 
-    if os.path.exists(project_file): 
-        return render_template(project_file)
-    else:
-        return abort(404) 
+    projects = db['en']['projects']['details']
+
+    for project in projects:
+        if project['id'] == project_name:
+            return render_template('projects/project.html')
+
+    return abort(404)
 
 # general dynamic route for projects to handle .html removal
 @app.route('/projects/<project_name>.html')
 def redirect_project_html(project_name):
-    project_file = f'projects/{project_name}.html' 
-    if os.path.exists(project_file):
-        return redirect(f'/projects/{project_name}', code=301)
-    else:
-        return abort(404) 
+    return redirect(f'/projects/{project_name}', code=301)
 
 # serve the resume pdf
 @app.route('/download/<filename>')
