@@ -364,6 +364,43 @@
                 "noresult": "Nessun risultato corrisponde alla selezione corrente!"
             },
             "details": [
+                    {
+                    "id": "linkie",
+                    "title": "Linkie",
+                    "shortdesc": "una web app per gestire e condividere i tuoi link con temi personalizzati e analytics di base",
+                    "date": "Luglio, 2025",
+                    "year": "2025",
+                    "category": ["Web Development"],
+                    "desc": [
+                        "Ho realizzato un'applicazione web con Flask per organizzare e condividere collezioni personalizzate di link, ispirandomi a piattaforme come Linktree.",
+                        "Sono state implementate funzionalità di gestione dei link che permettono di aggiungere, modificare e rimuovere facilmente i link.",
+                        "Ho creato anche alcuni temi per personalizzare l'aspetto della pagina condivisa.",
+                        "Inoltre, è stata sviluppata una funzionalità di analisi base per tracciare e contare il numero di click su ogni link.",
+                        "Ho deciso di utilizzare SQLite come database, perchè adatto ad una demo."
+                    ],
+                    "goals": [
+                        "Fornire un'interfaccia semplice per gestire link personali o professionali.",
+                        "Permettere agli utenti di personalizzare l'aspetto della propria pagina link con temi multipli.",
+                        "Offrire analisi semplici per avere informazioni sull'engagement dei link."
+                    ],
+                    "functions": [
+                        "Autenticazione",
+                        "Gestione dei link",
+                        "Selezione di temi personalizzati",
+                        "Analytics dei click"
+                    ],
+                    "technologies": [
+                        "Python",
+                        "Flask",
+                        "SQLite",
+                        "JavaScript",
+                        "HTML",
+                        "CSS"
+                    ],
+                    "link": "https://linkie-edxd.onrender.com",
+                    "github": "https://github.com/gabrielepedesini/linkie",
+                    "img": true
+                },
                 {
                     "id": "galaxytrucker",
                     "title": "Galaxy Trucker",
@@ -942,6 +979,43 @@
                 "noresult": "No result matching current selection!"
             },
             "details": [
+                {
+                    "id": "linkie",
+                    "title": "Linkie",
+                    "shortdesc": "a web app to manage and share your links with custom themes and basic analytics",
+                    "date": "July, 2025",
+                    "year": "2025",
+                    "category": ["Web Development"],
+                    "desc": [
+                        "Built a lightweight web application using Flask to organize and share personalized collections of links, inspired by platforms like Linktree.",
+                        "Implemented link management features allowing users to add, edit, and remove links easily.",
+                        "Created some theme to personalize the appearance of the shared page.",
+                        "Developed basic analytics functionality to track and count the number of clicks on each link.",
+                        "Used SQLite as the backend database, suited for a demo use environment."
+                    ],
+                    "goals": [
+                        "Provide an easy-to-use interface for managing personal or professional links.",
+                        "Enable users to customize the look and feel of their link page with multiple themes.",
+                        "Offer simple analytics to give insights into link engagement."
+                    ],
+                    "functions": [
+                        "Authentication",
+                        "Link management",
+                        "Custom themes selection",
+                        "Click count analytics"
+                    ],
+                    "technologies": [
+                        "Python",
+                        "Flask",
+                        "SQLite",
+                        "JavaScript",
+                        "HTML",
+                        "CSS"
+                    ],
+                    "link": "https://linkie-edxd.onrender.com",
+                    "github": "https://github.com/gabrielepedesini/linkie",
+                    "img": true
+                },
                 {
                     "id": "galaxytrucker",
                     "title": "Galaxy Trucker",
