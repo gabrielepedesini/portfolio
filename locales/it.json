@@ -1,0 +1,707 @@
+{
+	"it": {
+		"index": {
+			"intro": {
+				"title": "Ciao, sono Gabriele 👋",
+				"desc": [
+					"Sono un aspirante software engineer che vive in Italia.",
+					"Sono principalmente interessato al mondo del web development e mobile development.",
+					"Cerco sempre di unire competenze tecniche di sviluppo con una spiccata attenzione al design e all'esperienza utente, creando soluzioni digitali complete ed efficaci.",
+					"Per qualsiasi domanda, non esitare a contattarmi attraverso i <a href='contacts'>contatti</a>."
+				],
+				"resume": "Per avere più informazioni su di me, scarica il mio <a href='/download/gabriele-pedesini-resume.pdf' download>curriculum</a>."
+			},
+			"formation": {
+				"title": "Formazione 🎓",
+				"desc": [
+					"Attualmente studio ingegneria informatica al <a target='_blank' href='https://www.polimi.it/'>POLIMI</a>.",
+					"Ho anche creato una raccolta di <a href='/notes'>appunti</a> che ho realizzato per gli esami che ho conseguito fino ad oggi."
+				]
+			},
+			"projects": {
+				"title": "Progetti 🚀",
+				"desc": [
+					"Qua di seguito alcuni dei progetti a cui ho lavorato:"
+				],
+				"all": "Puoi trovare altri miei lavori in <a href='/projects'>progetti</a>."
+			},
+			"contributions": {
+				"desc": [
+					"Non dimenticare di seguirmi su GitHub, qui trovi il mio <a href='https://github.com/gabrielepedesini' target='_blank'>profilo</a>.",
+					"Qui sotto troverai un grafico dei commit dinamico e aggiornato automaticamente che mostra le mie attività: più il colore di una cella è acceso, più codice avrò scritto quel giorno!"
+				],
+				"number": "contribuzioni nel corso dell'anno",
+				"graph": "Visualizza tutte le attività"
+			}
+		},
+
+		"notes": {
+			"intro": {
+				"title": "Appunti 📝",
+				"desc": [
+					"Qua di seguito una raccolta di appunti e formulari che ho usato per superare questi esami al POLIMI nel corso di ingegneria informatica.",
+					"Purtroppo in alcuni casi gli appunti non sono completi."
+				]
+			},
+			"filters": {
+				"title": "Filtri",
+				"level": "Livello",
+				"year": "Anno",
+				"subject": "Materia",
+				"button": "Filtra",
+				"cancel": "Rimuovi Tutti",
+				"alert": "Per favore seleziona almeno un filtro!",
+				"results1": "Mostrando",
+				"results2": "risultati",
+				"results3": "risultato",
+				"noresult": "Nessun risultato corrisponde alla selezione corrente!"
+			},
+			"courses": [
+				{
+					"title": "Analisi 1",
+					"teacher": "Boella Marco Ugo Claudio",
+					"resources": [
+						{
+							"type": "Appunti",
+							"link": "https://drive.google.com/file/d/1xFXM9r4ZrWqAGoSNQKXKeRoO6VxGpXH1/view?usp=sharing"
+						},
+						{
+							"type": "Dimostrazioni",
+							"link": "https://drive.google.com/file/d/1yGNocf1j0LyhvpKXNP21twi4rP0d_tM6/view?usp=sharing"
+						}
+					],
+					"level": "Triennale",
+					"year": "1",
+					"subject": "Matematica"
+				},
+				{
+					"title": "Geometria e Algebra Lineare",
+					"teacher": "Pinton Stefano",
+					"resources": [
+						{
+							"type": "Appunti",
+							"link": "https://drive.google.com/file/d/1wq5UMP_eJC6-3dL5eyW552OhB-HpiaFw/view?usp=sharing"
+						},
+						{
+							"type": "Dimostrazioni",
+							"link": "https://drive.google.com/file/d/12fFm_Oa22469kQAWruJGhjnmpBpJSVqC/view?usp=sharing"
+						},
+						{
+							"type": "Formulario",
+							"link": "https://drive.google.com/file/d/11wpNqAJ1kpTAsfpH75x9Iunf3yjHV1ZD/view?usp=sharing"
+						}
+					],
+					"level": "Triennale",
+					"year": "1",
+					"subject": "Matematica"
+				},
+				{
+					"title": "Fondamenti di Informatica",
+					"teacher": "Caglioti Vincenzo",
+					"resources": [
+						{
+							"type": "Appunti",
+							"link": "https://drive.google.com/file/d/1AV3gqs3uaSbCgpb5EpqxBlppeqHrZPJ4/view?usp=sharing"
+						}
+					],
+					"level": "Triennale",
+					"year": "1",
+					"subject": "Informatica"
+				},
+				{
+					"title": "Elettrotecnica",
+					"teacher": "Bizzarri Federico",
+					"resources": [
+						{
+							"type": "Appunti",
+							"link": "https://drive.google.com/file/d/1srx-RVSDCCWK99pHsLjb43BAi8fdyRT1/view?usp=sharing"
+						},
+						{
+							"type": "Formulario",
+							"link": "https://drive.google.com/file/d/1DKIExomekihUC6tLno12A867dhStQ9wk/view?usp=sharing"
+						}
+					],
+					"level": "Triennale",
+					"year": "1",
+					"subject": "Elettronica"
+				},
+				{
+					"title": "Fondamenti di Comunicazione Internet",
+					"teacher": "Musumeci Francesco",
+					"resources": [
+						{
+							"type": "Formulario",
+							"link": "https://drive.google.com/file/d/1_RBpaaHGqa8OXIQhnQbl8itGlmlgNK3f/view?usp=sharing"
+						}
+					],
+					"level": "Triennale",
+					"year": "1",
+					"subject": "Telecomunicazioni"
+				},
+				{
+					"title": "Fisica",
+					"teacher": "Lucchini Matteo",
+					"resources": [
+						{
+							"type": "Appunti",
+							"link": "https://drive.google.com/file/d/1wpAFpkR5CLP5m0V4akiDqM1k4smDK1YL/view?usp=sharing"
+						},
+						{
+							"type": "Dimostrazioni",
+							"link": "https://drive.google.com/file/d/1QlunN9gvX2icsTiIBJZRkU_oEtf6dgDw/view?usp=sharing"
+						},
+						{
+							"type": "Formulario",
+							"link": "https://drive.google.com/file/d/1xfty7LNHm2bgVBBm1gWZvR5aKIPoAGpQ/view?usp=sharing"
+						}
+					],
+					"level": "Triennale",
+					"year": "1",
+					"subject": "Fisica"
+				},
+				{
+					"title": "Logica e Algebra",
+					"teacher": "Nuccio Claudia",
+					"resources": [
+						{
+							"type": "Appunti",
+							"link": "https://drive.google.com/file/d/1Sp5sBpjoOO9Zlqg3IZ0607Lc1rUxSHe3/view?usp=sharing"
+						},
+						{
+							"type": "Formulario",
+							"link": "https://drive.google.com/file/d/1M-XYHy4OdttG5kQKkb0apQEWWNkavXBK/view?usp=sharing"
+						}
+					],
+					"level": "Triennale",
+					"year": "2",
+					"subject": "Matematica"
+				},
+				{
+					"title": "Architettura dei Calcolatori e Sistemi Operativi",
+					"teacher": "Silvano Cristina",
+					"resources": [
+						{
+							"type": "Appunti",
+							"link": "https://drive.google.com/file/d/1VAmWzIlQy7aoTdQRGvXe9Elq8aCj50s3/view?usp=sharing"
+						}
+					],
+					"level": "Triennale",
+					"year": "2",
+					"subject": "Informatica"
+				},
+				{
+					"title": "Chimica Generale",
+					"teacher": "Pigliacelli Claudia",
+					"resources": [
+						{
+							"type": "Appunti",
+							"link": "https://drive.google.com/file/d/1rcdHVWdG-rji3H7D-xZualGsxqUgbveP/view?usp=sharing"
+						},
+						{
+							"type": "Formulario",
+							"link": "https://drive.google.com/file/d/1JN_iPcP9xgtBcSEGHgLDcfeNh-ifoqBr/view?usp=sharing"
+						}
+					],
+					"level": "Triennale",
+					"year": "2",
+					"subject": "Chimica"
+				},
+				{
+					"title": "Analisi 2",
+					"teacher": "Noris Benedetta",
+					"resources": [
+						{
+							"type": "Appunti",
+							"link": "https://drive.google.com/file/d/1S1KnbTrdxuVGBYwmc0FRx1v2k1xDXELG/view?usp=sharing"
+						},
+						{
+							"type": "Dimostrazioni",
+							"link": "https://drive.google.com/file/d/19-PFpilGnw6tvEI6lHRhJ7n2MwoAkbVq/view?usp=sharing"
+						},
+						{
+							"type": "Formulario",
+							"link": "https://drive.google.com/file/d/1j5VWK6ubNX9cvB_U7pWoyfb4XGb8wcCK/view?usp=sharing"
+						}
+					],
+					"level": "Triennale",
+					"year": "2",
+					"subject": "Matematica"
+				},
+				{
+					"title": "Algoritmi e Principi dell'Informatica",
+					"teacher": "Martinenghi Davide",
+					"resources": [
+						{
+							"type": "Formulario",
+							"link": "https://drive.google.com/file/d/1V_xAr7h4N48Ezihnu2diZhp66-fBjdid/view?usp=sharing"
+						}
+					],
+					"level": "Triennale",
+					"year": "2",
+					"subject": "Informatica"
+				},
+				{
+					"title": "Fondamenti di Automatica",
+					"teacher": "Ruiz Palacios Fredy Orlando",
+					"resources": [
+						{
+							"type": "Appunti",
+							"link": "https://drive.google.com/file/d/1_9hoUHMkPi5itxom2yrzqF7bPHPkHD1B/view?usp=sharing"
+						},
+						{
+							"type": "Formulario",
+							"link": "https://drive.google.com/file/d/1z9wTU4rv26AosfKhNSgS0HOBOy1eBcqY/view?usp=sharing"
+						}
+					],
+					"level": "Triennale",
+					"year": "2",
+					"subject": "Automazione"
+				},
+				{
+					"title": "Informazione e Stima",
+					"teacher": "Barletta Luca",
+					"resources": [
+						{
+							"type": "Appunti",
+							"link": "https://drive.google.com/file/d/1ia_sPia-fdDsF8THVhjUZem4G63pw1lk/view?usp=sharing"
+						},
+						{
+							"type": "Formulario",
+							"link": "https://drive.google.com/file/d/1tJc8Hhi5vA2a5EDHMSC_KiFB068ZV-Fe/view?usp=sharing"
+						}
+					],
+					"level": "Triennale",
+					"year": "2",
+					"subject": "Matematica"
+				},
+				{
+					"title": "Ingegneria del Software",
+					"teacher": "Cugola Gianpaolo Saverio",
+					"resources": [
+						{
+							"type": "Appunti",
+							"link": "https://drive.google.com/file/d/1q790KhP7ALrdHrqQtDdwswY8cNQIDn0B/view?usp=sharing"
+						}
+					],
+					"level": "Triennale",
+					"year": "3",
+					"subject": "Informatica"
+				},
+				{
+					"title": "Elettronica",
+					"teacher": "Lusardi Nicola",
+					"resources": [
+						{
+							"type": "Formulario",
+							"link": "https://drive.google.com/file/d/1KUJ4lAqw8xS7LxdUVb9tddHiidJKKZEm/view?usp=sharing"
+						}
+					],
+					"level": "Triennale",
+					"year": "3",
+					"subject": "Elettronica"
+				},
+				{
+					"title": "Reti Logiche",
+					"teacher": "Palermo Gianluca",
+					"resources": [
+						{
+							"type": "Formulario",
+							"link": "https://drive.google.com/file/d/1aHsNDXr4i-JEN78Ksh1vr6xvYhI4ce4O/view?usp=sharing"
+						}
+					],
+					"level": "Triennale",
+					"year": "3",
+					"subject": "Elettronica"
+				},
+				{
+					"title": "Sistemi Informativi",
+					"teacher": "Vitali Monica",
+					"resources": [
+						{
+							"type": "Appunti",
+							"link": "https://drive.google.com/file/d/1N62IY2gWw-SVxNwSoYfsvByRbir3TivS/view?usp=sharing"
+						},
+						{
+							"type": "Formulario",
+							"link": "https://drive.google.com/file/d/1WHVDE7_cYn14ZycVaFSFF_Ka-P2NRXK1/view?usp=sharing"
+						}
+					],
+					"level": "Triennale",
+					"year": "3",
+					"subject": "Informatica"
+				},
+				{
+					"title": "Basi di Dati 1",
+					"teacher": "Comai Sara",
+					"resources": [
+						{
+							"type": "Formulario",
+							"link": "https://drive.google.com/file/d/1MXWUkmoellCVFdxy8viBUrI-sfsGkeN8/view?usp=sharing"
+						}
+					],
+					"level": "Triennale",
+					"year": "3",
+					"subject": "Informatica"
+				},
+				{
+					"title": "Economia e Organizzazione Aziendale",
+					"teacher": "Migliore Alessandra",
+					"resources": [
+						{
+							"type": "Appunti",
+							"link": "https://drive.google.com/file/d/1lyxFwvU011IyqQvSdefpBpFDc5Fw_8Fs/view?usp=sharing"
+						}
+					],
+					"level": "Triennale",
+					"year": "3",
+					"subject": "Economia"
+				},
+				{
+					"title": "Automazione Industriale",
+					"teacher": "Ferrarini Luca",
+					"resources": [
+						{
+							"type": "Appunti",
+							"link": "https://drive.google.com/file/d/1y6MxlxuEsO_XKb8VBaicBxgewsDmf3Ns/view?usp=sharing"
+						}
+					],
+					"level": "Triennale",
+					"year": "3",
+					"subject": "Automazione"
+				},
+				{
+					"title": "Meccanica",
+					"teacher": "Sabbioni Edoardo",
+					"resources": [
+						{
+							"type": "Appunti",
+							"link": "https://drive.google.com/file/d/14mR7WK-0kUCnJpkcAa4V1_leWIjN0AhD/view?usp=sharing"
+						},
+						{
+							"type": "Formulario",
+							"link": "https://drive.google.com/file/d/1hNNdaTA6cBjPQg_fp4TjVd-Q9qAZc8Ax/view?usp=sharing"
+						}
+					],
+					"level": "Triennale",
+					"year": "3",
+					"subject": "Fisica"
+				}
+			]
+		},
+		"projects": {
+			"intro": {
+				"title": "Progetti 🚀",
+				"desc": [
+					"Qui di seguito trovi alcuni dei progetti che ho realizzato fino ad ora.",
+					"Cliccando sul singolo progetto puoi consultarne i dettagli e trovare il collegamento che rimanda alla sua live preview."
+				]
+			},
+			"filters": {
+				"title": "Filtri",
+				"category": "Categorie",
+				"technologies": "Tecnologie",
+				"year": "Anno",
+				"button": "Filtra",
+				"cancel": "Rimuovi Tutti",
+				"alert": "Per favore seleziona almeno un filtro!",
+				"results1": "Mostrando",
+				"results2": "risultati",
+				"results3": "risultato",
+				"noresult": "Nessun risultato corrisponde alla selezione corrente!"
+			},
+			"details": [
+				{
+					"id": "linkie",
+					"title": "Linkie",
+					"shortdesc": "una web app per gestire e condividere i tuoi link con temi personalizzati e analytics di base",
+					"date": "Luglio, 2025",
+					"year": "2025",
+					"category": ["Web Development"],
+					"desc": [
+						"Ho realizzato un'applicazione web con Flask per organizzare e condividere collezioni personalizzate di link, ispirandomi a piattaforme come Linktree.",
+						"Sono state implementate funzionalità di gestione dei link che permettono di aggiungere, modificare e rimuovere facilmente i link.",
+						"Ho creato anche alcuni temi per personalizzare l'aspetto della pagina condivisa.",
+						"Inoltre, è stata sviluppata una funzionalità di analisi base per tracciare e contare il numero di click su ogni link.",
+						"Ho deciso di utilizzare SQLite come database, perchè adatto ad una demo."
+					],
+					"goals": [
+						"Fornire un'interfaccia semplice per gestire link personali o professionali.",
+						"Permettere agli utenti di personalizzare l'aspetto della propria pagina link con temi multipli.",
+						"Offrire analisi semplici per avere informazioni sull'engagement dei link."
+					],
+					"functions": [
+						"Autenticazione",
+						"Gestione dei link",
+						"Selezione di temi personalizzati",
+						"Analytics dei click"
+					],
+					"technologies": [
+						"Python",
+						"Flask",
+						"SQLite",
+						"JavaScript",
+						"HTML",
+						"CSS"
+					],
+					"link": "https://linkie-edxd.onrender.com",
+					"github": "https://github.com/gabrielepedesini/linkie",
+					"img": true
+				},
+				{
+					"id": "galaxytrucker",
+					"title": "Galaxy Trucker",
+					"shortdesc": "versione digitale del gioco da tavolo Galaxy Trucker",
+					"date": "Giugno, 2025",
+					"year": "2025",
+					"category": ["Game Development"],
+					"desc": [
+						"Abbiamo sviluppato una versione digitale del popolare gioco da tavolo Galaxy Trucker come progetto di gruppo per il Politecnico di Milano.",
+						"Sono state implementate le regole complete del gioco, la connettività multiplayer locale tramite RMI e socket, e la gestione di disconnessioni e riconnessioni dei client.",
+						"Sono state progettate interfacce GUI e TUI seguendo il pattern Model-View-Controller per garantire un’architettura pulita e manutenibile.",
+						"Inoltre, abbiamo implementato la gestione di più partite simultanee sullo stesso server, offrendo un’esperienza multiplayer robusta."
+					],
+					"goals": [
+						"Realizzare una versione digitale completamente funzionante del gioco da tavolo Galaxy Trucker.",
+						"Implementare una connettività multiplayer locale fluida utilizzando RMI e socket.",
+						"Garantire una gestione stabile di problemi di rete come disconnessioni e riconnessioni dei client.",
+						"Applicare il pattern architetturale Model-View-Controller per un codice pulito e manutenibile."
+					],
+					"functions": [
+						"Applicazione delle regole di gioco",
+						"Multiplayer locale con RMI e socket",
+						"Interfacce GUI e TUI",
+						"Supporto a più partite su un singolo server",
+						"Gestione delle disconnessioni e riconnessioni dei client"
+					],
+					"technologies": ["Java", "JavaFX", "CSS"],
+					"link": null,
+					"github": "https://github.com/gabrielepedesini/galaxy-trucker",
+					"img": true
+				},
+				{
+					"id": "planmyexams",
+					"title": "PlanMyExams",
+					"shortdesc": "un tool che ti aiuta a trovare le date più ottimali per i tuoi esami universitari",
+					"date": "Febbraio, 2025",
+					"year": "2025",
+					"category": ["Web Development"],
+					"desc": [
+						"Il tool permette, una volta inseriti i dettagli degli esami da sostenere, di calcolare le combinazioni più ottimali per il loro sostenimento.",
+						"L'algoritmo calcola il punteggio di ogni singola combinazione valutando alcuni aspetti di interesse, tra cui: la distanza tra il primo esame e l'ultimo, il bilanciamento delle distanze tra esami adiacenti, e la presenza di più esami nella stessa data.",
+						"Sulla base di questo calcolo, propone all'utente le migliori combinazioni, dalla migliore alla peggiore.",
+						"Il progetto è ancora in beta, infatti ho l'intenzione di inserire nuove features: sezione tutorial, opzione di modifica dei dettagli di un esame, export della combinazione selezionata in un calendar provider..."
+					],
+					"goals": [
+						"L'obiettivo era quello di creare uno strumento in grado di facilitare l'organizzazione della sessione universitaria di un qualsiasi studente."
+					],
+					"functions": [
+						"Optimization algorithm",
+						"Custom input handling",
+						"Responsive design",
+						"Light/Dark mode"
+					],
+					"technologies": ["HTML", "CSS", "JavaScript"],
+					"link": "https://planmyexams.gabrielepedesini.com",
+					"github": "https://github.com/gabrielepedesini/planmyexams",
+					"img": true
+				},
+				{
+					"id": "linkedtag",
+					"title": "LinkedTag",
+					"shortdesc": "un tool AI che genera hashtag performanti per i post di LinkedIn",
+					"date": "Dicembre, 2024",
+					"year": "2024",
+					"category": ["Web Development", "AI"],
+					"desc": [
+						"Il tool sfrutta la potenza dell'intelligenza artificiale per elaborare il post che gli viene dato e suggerire gli hashtag più pertinenti ad esso, prendendoli da un database.",
+						"Inoltre, ho cercato di curare al meglio sia la UX che la UI, garantendo una esperienza utente semplice e gratificante."
+					],
+					"goals": [
+						"Lo scopo era quello di implementare in un progetto l'AI, per realizzare qualcosa di funzionale e utile."
+					],
+					"functions": [
+						"AI Analysis",
+						"Responsive design",
+						"Light/Dark mode"
+					],
+					"technologies": [
+						"HTML",
+						"CSS",
+						"JavaScript",
+						"Python",
+						"Flask"
+					],
+					"link": null,
+					"github": "https://github.com/gabrielepedesini/linkedtag",
+					"img": true
+				},
+				{
+					"id": "trendtribes",
+					"title": "Trend Tribes",
+					"shortdesc": "un tema custom WordPress di un ecommerce basato su WooCommerce",
+					"date": "Febbraio, 2024",
+					"year": "2024",
+					"category": ["Web Development", "Ecommerce"],
+					"desc": [
+						"Si tratta di un tema custom per il noto CMS di Wordpress, accompagnato dal plugin WooCommerce, con cui gestire le funzionalità ecommerce.",
+						"Il progetto ha l'ambizione di essere il più minimal possibile, sia dal punto di vista visivo che da quello tecnico."
+					],
+					"goals": [
+						"L'obiettivo era quello di creare un tema di un ecommerce facile e veloce da configurare, in maniera tale da poterlo mettere online nel più breve tempo possibile."
+					],
+					"functions": [
+						"Responsive design",
+						"Sistema di filtri custom",
+						"Autenticazione e area utente",
+						"Blog",
+						"Form di contatto",
+						"Recensioni",
+						"Gateway di pagamento"
+					],
+					"technologies": [
+						"HTML",
+						"CSS",
+						"JavaScript",
+						"PHP",
+						"WordPress"
+					],
+					"link": null,
+					"github": "https://github.com/gabrielepedesini/trendtribes",
+					"img": true
+				},
+				{
+					"id": "bricked",
+					"title": "Bricked",
+					"shortdesc": "un gioco online che si ispira a Tetris",
+					"date": "Ottobre, 2023",
+					"year": "2023",
+					"category": ["Game Development"],
+					"desc": [
+						"Ho creato questo gioco per mettermi alla prova, cercando di utilizzare le conoscenze che avevo appreso fino a quel momento per realizzare qualcosa.",
+						"Mi rendo conto che probabilmente il progetto non è stato strutturato nel modo più efficiente del mondo, ma almeno mi ha permesso di raggiungere un definito funzionamento desiderato attraverso delle soluzioni personali, e non con suggerimenti esterni."
+					],
+					"goals": null,
+					"functions": ["Responsive design", "Classifiche"],
+					"technologies": ["HTML", "CSS", "JavaScript"],
+					"link": "https://bricked.gabrielepedesini.com",
+					"github": "https://github.com/gabrielepedesini/bricked",
+					"img": true
+				},
+				{
+					"id": "minimaltris",
+					"title": "Minimal Tris",
+					"shortdesc": "un gioco online di tris",
+					"date": "Settembre, 2023",
+					"year": "2023",
+					"category": ["Game Development"],
+					"desc": [
+						"Si tratta di un gioco molto semplice, in cui il giocatore può scegliere se giocare in single player oppure in multiplayer.",
+						"Nella prima modalità, si troverà a giocare contro un AI molto rudimentale.",
+						"Nella seconda, potrà giocare a turno con un proprio amico in locale."
+					],
+					"goals": null,
+					"functions": ["Responsive design", "AI player"],
+					"technologies": ["HTML", "CSS", "JavaScript"],
+					"link": "https://minimaltris.gabrielepedesini.com",
+					"github": "https://github.com/gabrielepedesini/tris",
+					"img": true
+				},
+				{
+					"id": "achrisgraphics",
+					"title": "Achrisgraphics",
+					"shortdesc": "un sito web creato per un graphic designer",
+					"date": "Giugno, 2023",
+					"year": "2023",
+					"category": ["Web Design"],
+					"desc": [
+						"Il progetto funge da portale attraverso il quale mostrare i propri lavori in maniera suggestiva e professionale per il cliente.",
+						"Infatti, l'intero sito è stato creato sulla base delle direttive stilistiche ed artistiche dello stesso cliente."
+					],
+					"goals": [
+						"L'esigenza fondamentale è quella di avere uno spazio online nel quale mostrare i propri progetti.",
+						"Inoltre, attraverso questo sito, il cliente puntava ad ampliare il bacino di clientela."
+					],
+					"functions": [
+						"Responsive design",
+						"Cursore custom",
+						"Download di documenti",
+						"Form di contatto"
+					],
+					"technologies": ["HTML", "CSS", "JavaScript"],
+					"link": "https://achrisgraphics.netlify.app",
+					"github": "https://github.com/gabrielepedesini/achris",
+					"img": true
+				},
+				{
+					"id": "alessandragiuliani",
+					"title": "Alessandra Giuliani",
+					"shortdesc": "un sito web creato per una biologa nutrizionista",
+					"date": "Agosto, 2024",
+					"year": "2024",
+					"category": ["Web Design"],
+					"desc": [
+						"È un progetto di un sito vetrina per una professionista che voleva migliorare la sua presenza online.",
+						"Il lavoro nasce con lo scopo di creare un sito web semplice ma completo, che sia anche graficamente accattivante."
+					],
+					"goals": [
+						"L'obiettivo della cliente era quello di spiegare all'interno di una pagina in cosa consistesse il suo lavoro, che servizi offrisse e le informazioni utili per contattarla.",
+						"Tutto questo allo scopo di ottenere dei nuovi clienti."
+					],
+					"functions": [
+						"Responsive design",
+						"Form di contatto",
+						"Mappa custom"
+					],
+					"technologies": ["HTML", "CSS", "JavaScript"],
+					"link": "https://alessandragiuliani.it",
+					"github": null,
+					"img": true
+				},
+				{
+					"id": "sanderundsommer",
+					"title": "Sander und Sommer",
+					"shortdesc": "un sito web creato per una clinica tedesca",
+					"date": "Luglio, 2024",
+					"year": "2024",
+					"category": ["Web Design"],
+					"desc": [
+						"È un progetto di un sito vetrina per una clinica tedesca in cerca di qualcosa di professionale e graficamente soddisfacente.",
+						"Infatti, erano già in possesso di una pagina che tuttavia non li soddisfava a pieno.",
+						"Di conseguenza, dopo aver compreso quali fossero le loro esigenze, ho provveduto a realizzare il loro attuale sito."
+					],
+					"goals": [
+						"L'obiettivo era quello di descrivere tutto ciò che sta dietro la clinica: i servizi, il team, i clienti...",
+						"Chiaramente, il tutto aveva anche l'obiettivo di dare vita alla sua presenza online, aumentando anche la clientela."
+					],
+					"functions": [
+						"Responsive design",
+						"Light/Dark mode",
+						"Mappa custom"
+					],
+					"technologies": ["HTML", "CSS", "JavaScript"],
+					"link": "https://sanderundsommer.de",
+					"github": null,
+					"img": true
+				}
+			]
+		},
+		"contacts": {
+			"title": "Contatti 💬",
+			"desc": "Scrivimi pure per qualsiasi cosa attraverso uno dei seguenti canali: ",
+			"ref": [
+				{
+					"link": "mailto:gabrielepedesini@gmail.com",
+					"name": "Email"
+				},
+				{
+					"link": "https://t.me/gabrielepedesini",
+					"name": "Telegram"
+				},
+				{
+					"link": "https://www.linkedin.com/in/gabrielepedesini/",
+					"name": "LinkedIn"
+				}
+			]
+		}
+	}
+}

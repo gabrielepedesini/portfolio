@@ -1,0 +1,704 @@
+{
+	"en": {
+		"index": {
+			"intro": {
+				"title": "Hello, I'm Gabriele 👋",
+				"desc": [
+					"I am an aspiring software engineer living in Italy.",
+					"I am mainly interested in the world of web development and mobile development.",
+					"I always try to combine technical development skills with a strong focus on design and user experience, creating complete and effective digital solutions.",
+					"For any questions, feel free to contact me through the <a href='/contacts'>contacts</a>."
+				],
+				"resume": "For more information about me, download my <a href='/download/gabriele-pedesini-resume.pdf' download>resume</a>."
+			},
+			"formation": {
+				"title": "Education 🎓",
+				"desc": [
+					"I am currently studying software engineering at <a target='_blank' href='https://www.polimi.it/'>POLIMI</a>.",
+					"I have also created a collection of <a href='/notes'>notes</a> that I have made for the exams I have taken so far."
+				]
+			},
+			"projects": {
+				"title": "Projects 🚀",
+				"desc": ["Here are some of the projects I have worked on:"],
+				"all": "You can explore more of my work in <a href='/projects'>projects</a>."
+			},
+			"contributions": {
+				"desc": [
+					"Don't forget to follow me on GitHub, here is my <a href='https://github.com/gabrielepedesini' target='_blank'>profile</a>.",
+					"Below, you'll find a dynamic and automatically updated commit graph showcasing my profile activity: the more brighter the cell is, the more code I wrote on that day!"
+				],
+				"number": "contributions in the last year",
+				"graph": "View all activities"
+			}
+		},
+		"notes": {
+			"intro": {
+				"title": "Notes 📝",
+				"desc": [
+					"Here's a collection of notes and formulas that I used to pass these exams at POLIMI during my software engineering course.",
+					"Unfortunately, in some cases, the notes are not complete."
+				]
+			},
+			"filters": {
+				"title": "Filters",
+				"level": "Degree",
+				"year": "Year",
+				"subject": "Subject",
+				"button": "Filter",
+				"cancel": "Remove All",
+				"alert": "Please select a filter!",
+				"results1": "Showing",
+				"results2": "results",
+				"results3": "result",
+				"noresult": "No result matching current selection!"
+			},
+			"courses": [
+				{
+					"title": "Calculus 1",
+					"teacher": "Boella Marco Ugo Claudio",
+					"resources": [
+						{
+							"type": "Notes",
+							"link": "https://drive.google.com/file/d/1xFXM9r4ZrWqAGoSNQKXKeRoO6VxGpXH1/view?usp=sharing"
+						},
+						{
+							"type": "Demonstrations",
+							"link": "https://drive.google.com/file/d/1yGNocf1j0LyhvpKXNP21twi4rP0d_tM6/view?usp=sharing"
+						}
+					],
+					"level": "BSc",
+					"year": "1",
+					"subject": "Mathematics"
+				},
+				{
+					"title": "Geometry and Linear Algebra",
+					"teacher": "Pinton Stefano",
+					"resources": [
+						{
+							"type": "Notes",
+							"link": "https://drive.google.com/file/d/1wq5UMP_eJC6-3dL5eyW552OhB-HpiaFw/view?usp=sharing"
+						},
+						{
+							"type": "Demonstrations",
+							"link": "https://drive.google.com/file/d/12fFm_Oa22469kQAWruJGhjnmpBpJSVqC/view?usp=sharing"
+						},
+						{
+							"type": "Formulas",
+							"link": "https://drive.google.com/file/d/11wpNqAJ1kpTAsfpH75x9Iunf3yjHV1ZD/view?usp=sharing"
+						}
+					],
+					"level": "BSc",
+					"year": "1",
+					"subject": "Mathematics"
+				},
+				{
+					"title": "Computer Science Fundamentals",
+					"teacher": "Caglioti Vincenzo",
+					"resources": [
+						{
+							"type": "Notes",
+							"link": "https://drive.google.com/file/d/1AV3gqs3uaSbCgpb5EpqxBlppeqHrZPJ4/view?usp=sharing"
+						}
+					],
+					"level": "BSc",
+					"year": "1",
+					"subject": "Computer Science"
+				},
+				{
+					"title": "Electrotechnics",
+					"teacher": "Bizzarri Federico",
+					"resources": [
+						{
+							"type": "Notes",
+							"link": "https://drive.google.com/file/d/1srx-RVSDCCWK99pHsLjb43BAi8fdyRT1/view?usp=sharing"
+						},
+						{
+							"type": "Formulas",
+							"link": "https://drive.google.com/file/d/1DKIExomekihUC6tLno12A867dhStQ9wk/view?usp=sharing"
+						}
+					],
+					"level": "BSc",
+					"year": "1",
+					"subject": "Electronics"
+				},
+				{
+					"title": "Internet Communication Fundamentals",
+					"teacher": "Musumeci Francesco",
+					"resources": [
+						{
+							"type": "Formulas",
+							"link": "https://drive.google.com/file/d/1_RBpaaHGqa8OXIQhnQbl8itGlmlgNK3f/view?usp=sharing"
+						}
+					],
+					"level": "BSc",
+					"year": "1",
+					"subject": "Telecommunications"
+				},
+				{
+					"title": "Physics",
+					"teacher": "Lucchini Matteo",
+					"resources": [
+						{
+							"type": "Notes",
+							"link": "https://drive.google.com/file/d/1wpAFpkR5CLP5m0V4akiDqM1k4smDK1YL/view?usp=sharing"
+						},
+						{
+							"type": "Demonstrations",
+							"link": "https://drive.google.com/file/d/1QlunN9gvX2icsTiIBJZRkU_oEtf6dgDw/view?usp=sharing"
+						},
+						{
+							"type": "Formulas",
+							"link": "https://drive.google.com/file/d/1xfty7LNHm2bgVBBm1gWZvR5aKIPoAGpQ/view?usp=sharing"
+						}
+					],
+					"level": "BSc",
+					"year": "1",
+					"subject": "Physics"
+				},
+				{
+					"title": "Logic and Algebra",
+					"teacher": "Nuccio Claudia",
+					"resources": [
+						{
+							"type": "Notes",
+							"link": "https://drive.google.com/file/d/1Sp5sBpjoOO9Zlqg3IZ0607Lc1rUxSHe3/view?usp=sharing"
+						},
+						{
+							"type": "Formulas",
+							"link": "https://drive.google.com/file/d/1M-XYHy4OdttG5kQKkb0apQEWWNkavXBK/view?usp=sharing"
+						}
+					],
+					"level": "BSc",
+					"year": "2",
+					"subject": "Mathematics"
+				},
+				{
+					"title": "Computer Architecture and Operating Systems",
+					"teacher": "Silvano Cristina",
+					"resources": [
+						{
+							"type": "Notes",
+							"link": "https://drive.google.com/file/d/1VAmWzIlQy7aoTdQRGvXe9Elq8aCj50s3/view?usp=sharing"
+						}
+					],
+					"level": "BSc",
+					"year": "2",
+					"subject": "Computer Science"
+				},
+				{
+					"title": "General Chemistry",
+					"teacher": "Pigliacelli Claudia",
+					"resources": [
+						{
+							"type": "Notes",
+							"link": "https://drive.google.com/file/d/1rcdHVWdG-rji3H7D-xZualGsxqUgbveP/view?usp=sharing"
+						},
+						{
+							"type": "Formulas",
+							"link": "https://drive.google.com/file/d/1JN_iPcP9xgtBcSEGHgLDcfeNh-ifoqBr/view?usp=sharing"
+						}
+					],
+					"level": "BSc",
+					"year": "2",
+					"subject": "Chemistry"
+				},
+				{
+					"title": "Calculus 2",
+					"teacher": "Noris Benedetta",
+					"resources": [
+						{
+							"type": "Notes",
+							"link": "https://drive.google.com/file/d/1S1KnbTrdxuVGBYwmc0FRx1v2k1xDXELG/view?usp=sharing"
+						},
+						{
+							"type": "Demonstrations",
+							"link": "https://drive.google.com/file/d/19-PFpilGnw6tvEI6lHRhJ7n2MwoAkbVq/view?usp=sharing"
+						},
+						{
+							"type": "Formulas",
+							"link": "https://drive.google.com/file/d/1j5VWK6ubNX9cvB_U7pWoyfb4XGb8wcCK/view?usp=sharing"
+						}
+					],
+					"level": "BSc",
+					"year": "2",
+					"subject": "Mathematics"
+				},
+				{
+					"title": "Algorithms and Principles of Computer Science",
+					"teacher": "Martinenghi Davide",
+					"resources": [
+						{
+							"type": "Formulas",
+							"link": "https://drive.google.com/file/d/1V_xAr7h4N48Ezihnu2diZhp66-fBjdid/view?usp=sharing"
+						}
+					],
+					"level": "BSc",
+					"year": "2",
+					"subject": "Computer Science"
+				},
+				{
+					"title": "Automatic Control Fundamentals",
+					"teacher": "Ruiz Palacios Fredy Orlando",
+					"resources": [
+						{
+							"type": "Notes",
+							"link": "https://drive.google.com/file/d/1_9hoUHMkPi5itxom2yrzqF7bPHPkHD1B/view?usp=sharing"
+						},
+						{
+							"type": "Formulas",
+							"link": "https://drive.google.com/file/d/1z9wTU4rv26AosfKhNSgS0HOBOy1eBcqY/view?usp=sharing"
+						}
+					],
+					"level": "BSc",
+					"year": "2",
+					"subject": "Automation"
+				},
+				{
+					"title": "Information and Estimation",
+					"teacher": "Barletta Luca",
+					"resources": [
+						{
+							"type": "Notes",
+							"link": "https://drive.google.com/file/d/1ia_sPia-fdDsF8THVhjUZem4G63pw1lk/view?usp=sharing"
+						},
+						{
+							"type": "Formulas",
+							"link": "https://drive.google.com/file/d/1tJc8Hhi5vA2a5EDHMSC_KiFB068ZV-Fe/view?usp=sharing"
+						}
+					],
+					"level": "BSc",
+					"year": "2",
+					"subject": "Mathematics"
+				},
+				{
+					"title": "Software Engineering",
+					"teacher": "Cugola Gianpaolo Saverio",
+					"resources": [
+						{
+							"type": "Notes",
+							"link": "https://drive.google.com/file/d/1q790KhP7ALrdHrqQtDdwswY8cNQIDn0B/view?usp=sharing"
+						}
+					],
+					"level": "BSc",
+					"year": "3",
+					"subject": "Computer Science"
+				},
+				{
+					"title": "Electronics",
+					"teacher": "Lusardi Nicola",
+					"resources": [
+						{
+							"type": "Formulas",
+							"link": "https://drive.google.com/file/d/1KUJ4lAqw8xS7LxdUVb9tddHiidJKKZEm/view?usp=sharing"
+						}
+					],
+					"level": "BSc",
+					"year": "3",
+					"subject": "Electronics"
+				},
+				{
+					"title": "Logic Networks",
+					"teacher": "Palermo Gianluca",
+					"resources": [
+						{
+							"type": "Formulas",
+							"link": "https://drive.google.com/file/d/1aHsNDXr4i-JEN78Ksh1vr6xvYhI4ce4O/view?usp=sharing"
+						}
+					],
+					"level": "BSc",
+					"year": "3",
+					"subject": "Electronics"
+				},
+				{
+					"title": "Information Systems",
+					"teacher": "Vitali Monica",
+					"resources": [
+						{
+							"type": "Notes",
+							"link": "https://drive.google.com/file/d/1N62IY2gWw-SVxNwSoYfsvByRbir3TivS/view?usp=sharing"
+						},
+						{
+							"type": "Formulas",
+							"link": "https://drive.google.com/file/d/1WHVDE7_cYn14ZycVaFSFF_Ka-P2NRXK1/view?usp=sharing"
+						}
+					],
+					"level": "BSc",
+					"year": "3",
+					"subject": "Computer Science"
+				},
+				{
+					"title": "Databases 1",
+					"teacher": "Comai Sara",
+					"resources": [
+						{
+							"type": "Formulas",
+							"link": "https://drive.google.com/file/d/1MXWUkmoellCVFdxy8viBUrI-sfsGkeN8/view?usp=sharing"
+						}
+					],
+					"level": "BSc",
+					"year": "3",
+					"subject": "Computer Science"
+				},
+				{
+					"title": "Economics and Business Management",
+					"teacher": "Migliore Alessandra",
+					"resources": [
+						{
+							"type": "Notes",
+							"link": "https://drive.google.com/file/d/1lyxFwvU011IyqQvSdefpBpFDc5Fw_8Fs/view?usp=sharing"
+						}
+					],
+					"level": "BSc",
+					"year": "3",
+					"subject": "Economics"
+				},
+				{
+					"title": "Industrial Automation",
+					"teacher": "Ferrarini Luca",
+					"resources": [
+						{
+							"type": "Notes",
+							"link": "https://drive.google.com/file/d/1y6MxlxuEsO_XKb8VBaicBxgewsDmf3Ns/view?usp=sharing"
+						}
+					],
+					"level": "BSc",
+					"year": "3",
+					"subject": "Automation"
+				},
+				{
+					"title": "Mechanics",
+					"teacher": "Sabbioni Edoardo",
+					"resources": [
+						{
+							"type": "Notes",
+							"link": "https://drive.google.com/file/d/14mR7WK-0kUCnJpkcAa4V1_leWIjN0AhD/view?usp=sharing"
+						},
+						{
+							"type": "Formulas",
+							"link": "https://drive.google.com/file/d/1hNNdaTA6cBjPQg_fp4TjVd-Q9qAZc8Ax/view?usp=sharing"
+						}
+					],
+					"level": "BSc",
+					"year": "3",
+					"subject": "Physics"
+				}
+			]
+		},
+		"projects": {
+			"intro": {
+				"title": "Projects 🚀",
+				"desc": [
+					"Here are some of the projects I have completed so far.",
+					"By clicking on each project, you can view the details and find the link to its live preview."
+				]
+			},
+			"filters": {
+				"title": "Filters",
+				"category": "Categories",
+				"technologies": "Technologies",
+				"year": "Year",
+				"button": "Filter",
+				"cancel": "Remove All",
+				"alert": "Please select a filter!",
+				"results1": "Showing",
+				"results2": "results",
+				"results3": "result",
+				"noresult": "No result matching current selection!"
+			},
+			"details": [
+				{
+					"id": "linkie",
+					"title": "Linkie",
+					"shortdesc": "a web app to manage and share your links with custom themes and basic analytics",
+					"date": "July, 2025",
+					"year": "2025",
+					"category": ["Web Development"],
+					"desc": [
+						"Built a lightweight web application using Flask to organize and share personalized collections of links, inspired by platforms like Linktree.",
+						"Implemented link management features allowing users to add, edit, and remove links easily.",
+						"Created some theme to personalize the appearance of the shared page.",
+						"Developed basic analytics functionality to track and count the number of clicks on each link.",
+						"Used SQLite as the backend database, suited for a demo use environment."
+					],
+					"goals": [
+						"Provide an easy-to-use interface for managing personal or professional links.",
+						"Enable users to customize the look and feel of their link page with multiple themes.",
+						"Offer simple analytics to give insights into link engagement."
+					],
+					"functions": [
+						"Authentication",
+						"Link management",
+						"Custom themes selection",
+						"Click count analytics"
+					],
+					"technologies": [
+						"Python",
+						"Flask",
+						"SQLite",
+						"JavaScript",
+						"HTML",
+						"CSS"
+					],
+					"link": "https://linkie-edxd.onrender.com",
+					"github": "https://github.com/gabrielepedesini/linkie",
+					"img": true
+				},
+				{
+					"id": "galaxytrucker",
+					"title": "Galaxy Trucker",
+					"shortdesc": "digital version of the Galaxy Trucker board game",
+					"date": "June, 2025",
+					"year": "2025",
+					"category": ["Game Development"],
+					"desc": [
+						"Developed a digital adaptation of the popular board game Galaxy Trucker as a team project for Politecnico di Milano.",
+						"Implemented the complete game rules, local multiplayer connectivity using RMI and sockets, and handled client disconnections and reconnections.",
+						"Designed both GUI and TUI interfaces following the Model-View-Controller pattern to ensure clean architecture and maintainability.",
+						"Managed multiple simultaneous games on the same server instance, providing a robust multiplayer experience."
+					],
+					"goals": [
+						"Deliver a fully functional digital version of the Galaxy Trucker board game.",
+						"Implement seamless local multiplayer connectivity using RMI and sockets.",
+						"Ensure stable handling of network issues such as client disconnections and reconnections.",
+						"Apply the Model-View-Controller architectural pattern for clean and maintainable code."
+					],
+					"functions": [
+						"Game rules enforcement",
+						"Local multiplayer with RMI and Sockets",
+						"GUI and TUI interfaces",
+						"Multigame support on one server",
+						"Client disconnection and reconnection management"
+					],
+					"technologies": ["Java", "JavaFX", "CSS"],
+					"link": null,
+					"github": "https://github.com/gabrielepedesini/galaxy-trucker",
+					"img": true
+				},
+				{
+					"id": "planmyexams",
+					"title": "PlanMyExams",
+					"shortdesc": "a tool that helps you find the most optimal dates for your university exams",
+					"date": "February, 2025",
+					"year": "2025",
+					"category": ["Web Development"],
+					"desc": [
+						"The tool allows you to enter the details of the exams you need to take and calculates the most optimal combinations for scheduling them.",
+						"The algorithm evaluates the score of each combination based on various factors, including the time span between the first and last exam, the balance between adjacent exams, and the occurrence of multiple exams on the same date.",
+						"Based on this calculation, it suggests the best combinations, ranked from best to worst.",
+						"The project is still in beta, and I plan to add new features, such as a tutorial section, an option to edit exam details, and the ability to export the selected schedule to a calendar provider..."
+					],
+					"goals": [
+						"The goal was to create a tool that helps university students efficiently organize their exam sessions."
+					],
+					"functions": [
+						"Optimization algorithm",
+						"Custom input handling",
+						"Responsive design",
+						"Light/Dark mode"
+					],
+					"technologies": ["HTML", "CSS", "JavaScript"],
+					"link": "https://planmyexams.gabrielepedesini.com",
+					"github": "https://github.com/gabrielepedesini/planmyexams",
+					"img": true
+				},
+				{
+					"id": "linkedtag",
+					"title": "LinkedTag",
+					"shortdesc": "an AI tool that generates high-performing hashtags for LinkedIn posts",
+					"date": "December, 2024",
+					"year": "2024",
+					"category": ["Web Development", "AI"],
+					"desc": [
+						"The tool leverages the power of artificial intelligence to process the given post and suggest the most relevant hashtags for it, drawing them from a database.",
+						"Additionally, I have focused on refining both UX and UI to ensure a simple and rewarding user experience."
+					],
+					"goals": [
+						"The goal was to implement AI in a project to create something functional and useful."
+					],
+					"functions": [
+						"AI Analysis",
+						"Responsive design",
+						"Light/Dark mode"
+					],
+					"technologies": [
+						"HTML",
+						"CSS",
+						"JavaScript",
+						"Python",
+						"Flask"
+					],
+					"link": null,
+					"github": "https://github.com/gabrielepedesini/linkedtag",
+					"img": true
+				},
+				{
+					"id": "trendtribes",
+					"title": "Trend Tribes",
+					"shortdesc": "a custom Wordpress theme for an ecommerce based on WooCommerce",
+					"date": "February, 2024",
+					"year": "2024",
+					"category": ["Web Development", "Ecommerce"],
+					"desc": [
+						"It is a custom theme for the well-known WordPress CMS, accompanied by the WooCommerce plugin, to manage ecommerce functionalities.",
+						"The project aims to be as minimal as possible, both visually and technically."
+					],
+					"goals": [
+						"The goal was to create an ecommerce theme that is easy and quick to configure, so it could be put online in the shortest time possible."
+					],
+					"functions": [
+						"Responsive design",
+						"Custom filtering system",
+						"Authentication and user area",
+						"Blog",
+						"Contact form",
+						"Reviews",
+						"Payment gateway"
+					],
+					"technologies": [
+						"HTML",
+						"CSS",
+						"JavaScript",
+						"PHP",
+						"WordPress"
+					],
+					"link": null,
+					"github": "https://github.com/gabrielepedesini/trendtribes",
+					"img": true
+				},
+				{
+					"id": "bricked",
+					"title": "Bricked",
+					"shortdesc": "an online game inspired by Tetris",
+					"date": "October, 2023",
+					"year": "2023",
+					"category": ["Game Development"],
+					"desc": [
+						"I created this game to challenge myself, trying to use the knowledge I had acquired up to that point to create something.",
+						"I realize that the project may not have been structured in the most efficient way, but at least it allowed me to achieve a defined desired functionality through personal solutions, rather than external suggestions."
+					],
+					"goals": null,
+					"functions": ["Responsive design", "Leaderboards"],
+					"technologies": ["HTML", "CSS", "JavaScript"],
+					"link": "http://bricked.gabrielepedesini.com",
+					"github": "https://github.com/gabrielepedesini/bricked",
+					"img": true
+				},
+				{
+					"id": "minimaltris",
+					"title": "Minimal Tris",
+					"shortdesc": "an online tic-tac-toe game",
+					"date": "September, 2023",
+					"year": "2023",
+					"category": ["Game Development"],
+					"desc": [
+						"It is a very simple game where the player can choose to play single player or multiplayer.",
+						"In the first mode, they will play against a very rudimentary AI.",
+						"In the second, they can play turn-based with a friend locally."
+					],
+					"goals": null,
+					"functions": ["Responsive design", "AI player"],
+					"technologies": ["HTML", "CSS", "JavaScript"],
+					"link": "https://minimaltris.gabrielepedesini.com",
+					"github": "https://github.com/gabrielepedesini/tris",
+					"img": true
+				},
+				{
+					"id": "achrisgraphics",
+					"title": "AchrisGraphics",
+					"shortdesc": "a website created for a graphic designer",
+					"date": "June, 2023",
+					"year": "2023",
+					"category": ["Web Design"],
+					"desc": [
+						"The project serves as a portal through which to showcase one's work in a suggestive and professional manner for the client.",
+						"In fact, the entire site was created based on the stylistic and artistic directives of the client."
+					],
+					"goals": [
+						"The fundamental need is to have an online space to display one's projects.",
+						"Additionally, through this site, the client aimed to expand their client base."
+					],
+					"functions": [
+						"Responsive design",
+						"Custom cursor",
+						"Document downloads",
+						"Contact form"
+					],
+					"technologies": ["HTML", "CSS", "JavaScript"],
+					"link": "https://achrisgraphics.netlify.app",
+					"github": "https://github.com/gabrielepedesini/achris",
+					"img": true
+				},
+				{
+					"id": "alessandragiuliani",
+					"title": "Alessandra Giuliani",
+					"shortdesc": "a website created for a nutritionist biologist",
+					"date": "August, 2024",
+					"year": "2024",
+					"category": ["Web Design"],
+					"desc": [
+						"It is a showcase website project for a professional who wanted to improve her online presence.",
+						"The work aims to create a simple yet comprehensive website that is also visually appealing."
+					],
+					"goals": [
+						"The client's objective was to explain on a page what her work consists of, what services she offers, and useful information to contact her.",
+						"All this with the goal of obtaining new clients."
+					],
+					"functions": [
+						"Responsive design",
+						"Contact form",
+						"Custom map"
+					],
+					"technologies": ["HTML", "CSS", "JavaScript"],
+					"link": "https://alessandragiuliani.it",
+					"github": null,
+					"img": true
+				},
+				{
+					"id": "sanderundsommer",
+					"title": "Sander und Sommer",
+					"shortdesc": "a website created for a german clinic",
+					"date": "July, 2024",
+					"year": "2024",
+					"category": ["Web Design"],
+					"desc": [
+						"It is a showcase website project for a German clinic looking for something professional and visually satisfying.",
+						"In fact, they already had a page that did not fully satisfy them.",
+						"Therefore, after understanding what their needs were, I proceeded to create their current site."
+					],
+					"goals": [
+						"The objective was to describe everything behind the clinic: the services, the team, the clients...",
+						"Clearly, all this also aimed to enhance its online presence, thereby increasing clientele."
+					],
+					"functions": [
+						"Responsive design",
+						"Light/dark mode",
+						"Custom map"
+					],
+					"technologies": ["HTML", "CSS", "JavaScript"],
+					"link": "https://sanderundsommer.de",
+					"github": null,
+					"img": true
+				}
+			]
+		},
+		"contacts": {
+			"title": "Contacts 💬",
+			"desc": "Feel free to write to me for anything through one of the following channels: ",
+			"ref": [
+				{
+					"link": "mailto:gabrielepedesini@gmail.com",
+					"name": "Email"
+				},
+				{
+					"link": "https://t.me/gabrielepedesini",
+					"name": "Telegram"
+				},
+				{
+					"link": "https://www.linkedin.com/in/gabrielepedesini/",
+					"name": "LinkedIn"
+				}
+			]
+		}
+	}
+}
