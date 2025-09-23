@@ -84,6 +84,7 @@ a:hover {
 
 html.light {
     --text: #06080a;
+    --alt-text: #025efd;
     --background: #fcfcfc;
     --background-secondary: #dddddd;
     --primary: #4273c7;
@@ -205,13 +206,13 @@ html.dark {
 .navbar ul {
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 15px;
     height: 100%;
 }
 
 @media (max-width: 400px) {
     .navbar ul {
-        gap: 14px;
+        gap: 8px;
     }
 }
 
@@ -221,7 +222,16 @@ html.dark {
     height: 100%;
 }
 
+.navbar ul li a {
+    padding: 5px;
+}
+
+.navbar ul li a:nth-child(1) {
+    padding-left: 0;
+}
+
 .toggle-theme-button {
+    color: var(--accent);
 	font-size: 18px;
 	border: none;
 	display: flex;
@@ -230,7 +240,8 @@ html.dark {
 	width: 30px;
 	height: 30px;
 	border-radius: 5px;
-	background-color: var(--background-secondary);
+    background-color: var(--background);
+	/* background-color: var(--contribution-low); */
 	cursor: pointer;
 	transition: 0.3s background-color;
 }
@@ -326,11 +337,11 @@ section.project-link p .bullet {
     margin-right: 5px;
 }
 
-section.page-projects li {
+.works li {
     margin-bottom: 15px;
 }
 
-section.page-projects li > p {
+.works li > p {
     margin-top: 3px;
 }
 
@@ -488,6 +499,7 @@ footer .container .copyright {
 .filter-btn {
     margin-top: 30px;
     display: flex;
+    justify-content: flex-end;
     gap: 8px;
 }
 
@@ -580,6 +592,7 @@ footer .container .copyright {
 
 .graph-wrapper {
     width: 100%;
+    min-height: 186px;
     max-width: 750px;
     margin: 0 auto;
     border: 1px solid var(--background-secondary);

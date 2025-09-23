@@ -702,6 +702,14 @@
 					"name": "LinkedIn"
 				}
 			]
+		},
+		"errors": {
+			"notfound": {
+				"desc": "La pagina che stai cercando non esiste"
+			},
+			"error": {
+				"desc": "Qualcosa è andato storto lato server"
+			}
 		}
 	}
 }

@@ -699,6 +699,15 @@
 					"name": "LinkedIn"
 				}
 			]
+		},
+		"errors": {
+			"notfound": {
+				"desc": "The page you are looking for does not exist or has been moved"
+			},
+			"general": {
+				"title": "Something went wrong",
+				"desc": "An unexpected error occurred"
+			}
 		}
 	}
 }

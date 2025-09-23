@@ -30,10 +30,10 @@ export default async function RootLayout( {children}: Readonly<{children: React.
 
 	return (
 		<html lang={lang} suppressHydrationWarning>      
-			<body className={`${geistSans.variable} ${geistMono.variable}`}>
+			<body className={`${geistSans.variable} ${geistMono.variable}`} style={{ minHeight: "100vh", display: "flex", flexDirection: "column" }}>
 				<ThemeProvider attribute="class" disableTransitionOnChange> 
 					<Header />
-					{children}
+					<main style={{ flex: "1" }}>{children}</main>
 					<Footer />
             	</ThemeProvider>
 			</body>
