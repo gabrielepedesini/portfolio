@@ -245,26 +245,6 @@ html.dark {
 
 /* CONTENT */
 
-.render-index,
-.render-notes,
-.render-projects,
-.render-contacts,
-.render-project {
-    display: none;
-    animation: fadeIn 0.5s forwards;
-}
-
-@keyframes fadeIn {
-    from {
-      opacity: 0;
-      transform: translateY(20px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0px);
-    }
-}
-
 section {
     padding: 25px 0;
 }
@@ -360,11 +340,6 @@ section .breadcrumb {
 }
 
 /* FOOTER */
-
-footer {
-    display: none;
-    animation: fadeIn 0.5s forwards;
-}
 
 footer .container {
     height: 80px;
