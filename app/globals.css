@@ -311,11 +311,18 @@ section.project-link {
     padding: 20px 0;
 }
 
-section.project-title img {
+section.project-title .container {
+    position: relative;
+}
+
+section.project-title .project-image {
+    position: relative;
     width: 100%;
+    aspect-ratio: 16 / 9;
     border-radius: 5px;
-    border: 1px solid var(--text);
     margin-top: 15px;
+    border: 1px solid var(--text);
+    overflow: hidden;
 }
 
 section .opacity,

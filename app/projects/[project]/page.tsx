@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getLang } from "@/utils/getLang";
 import Link from "next/link";
+import Image from "next/image";
 
 
 export async function generateMetadata({ params }: { params: { project: string } }): Promise<Metadata> {
@@ -32,7 +33,9 @@ export default async function Project({ params }: { params: { project: string } 
                         <span className="opacity"> / {data.id}</span>
                     </div>
                     <h1>{data.title}</h1>
-                    {data.img && <img src={`/img/projects/${data.id}.png`} alt={data.title} />}
+                    <div className="project-image">
+                        {data.img && <Image src={`/img/projects/${data.id}.png`} alt={data.title} fill priority />}
+                    </div>
                 </div>
             </section>
 
