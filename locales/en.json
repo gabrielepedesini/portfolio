@@ -1,5 +1,12 @@
 {
 	"en": {
+		"navbar":
+		{
+			"home": "Home",
+			"notes": "Notes",
+			"projects": "Projects",
+			"contacts": "Contacts"
+		},
 		"index": {
 			"intro": {
 				"title": "Hello, I'm Gabriele 👋",
