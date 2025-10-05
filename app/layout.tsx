@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/next"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import { Geist, Geist_Mono } from "next/font/google";
 import { getLang } from "@/utils/getLang";
 import "./globals.css";
@@ -36,7 +37,9 @@ export default async function RootLayout( {children}: Readonly<{children: React.
 					<Header />
 					<main style={{ flex: "1" }}>{children}</main>
 					<Footer />
+
 					<Analytics />
+					<SpeedInsights/>
             	</ThemeProvider>
 			</body>
 		</html>
