@@ -694,21 +694,25 @@
 		},
 		"contacts": {
 			"title": "Contatti 💬",
-			"desc": "Scrivimi pure per qualsiasi cosa attraverso uno dei seguenti canali: ",
-			"ref": [
-				{
-					"link": "mailto:gabrielepedesini@gmail.com",
-					"name": "Email"
-				},
-				{
-					"link": "https://t.me/gabrielepedesini",
-					"name": "Telegram"
-				},
-				{
-					"link": "https://www.linkedin.com/in/gabrielepedesini/",
-					"name": "LinkedIn"
-				}
-			]
+			"desc": "Scrivimi pure per qualsiasi cosa attraverso uno dei seguenti canali: "
+		},
+		"socials": {
+			"email": {
+				"link": "mailto:gabrielepedesini@gmail.com",
+				"name": "Email"
+			},
+			"telegram": {
+				"link": "https://t.me/gabrielepedesini",
+				"name": "Telegram"
+			},
+			"github": {
+				"link": "https://github.com/gabrielepedesini",
+				"name": "GitHub"
+			},
+			"linkedin": {
+				"link": "https://www.linkedin.com/in/gabrielepedesini/",
+				"name": "LinkedIn"
+			}
 		},
 		"errors": {
 			"notfound": {
