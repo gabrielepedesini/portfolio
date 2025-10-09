@@ -380,7 +380,7 @@ footer .container {
     align-items: center;
     justify-content: space-between;
     opacity: 0.75;
-    padding: 50px 25px;
+    padding: 30px 25px;
 }
 
 footer .container .copyright {
@@ -698,7 +698,6 @@ footer .container .socials a {
     #contribution-calendar {
         width: 715px;
     }
-    
 }
 
 .github-tag {
