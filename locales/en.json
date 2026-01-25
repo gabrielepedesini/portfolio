@@ -447,7 +447,7 @@
 						"HTML",
 						"CSS"
 					],
-					"link": "https://linkie-edxd.onrender.com",
+					"link": "https://linkie.gabrielepedesini.com",
 					"github": "https://github.com/gabrielepedesini/linkie",
 					"img": true
 				},
@@ -611,6 +611,43 @@
 					"img": true
 				},
 				{
+					"id": "programmasocrate",
+					"title": "Programma Socrate",
+					"shortdesc": "a website developed for an industrial consulting company",
+					"date": "December, 2025",
+					"year": "2025",
+					"category": ["Web Development", "Web Design"],
+					"desc": [
+						"Programma Socrate is a showcase website developed for a company operating in the industrial consulting sector.",
+						"The project was designed to clearly and professionally present the offered services and the distinctive features of the consulting activity.",
+						"The website also provides access to various resources made available by the company, including Excel-based management tools, external training courses, books, and editorial content such as blog posts and case studies."
+					],
+					"goals": [
+						"The main objective of the project was to clearly and effectively present the company’s industrial consulting activity and services.",
+						"Another key goal was to strengthen the brand’s online presence, improving its visibility and professional perception.",
+						"Through the publication of informative content and valuable resources, the website also aims to expand the potential client base."
+					],
+					"functions": [
+						"Responsive design",
+						"Light/Dark mode",
+						"Multi-language",
+						"CMS for autonomous content management",
+						"Dashboards for usage analytics",
+						"Automated email module",
+						"Newsletter integration"
+					],
+					"technologies": [
+						"Next.js",
+						"React.js",
+						"TypeScript",
+						"CSS",
+						"Supabase"
+					],
+					"link": "https://www.programmasocrate.com",
+					"github": null,
+					"img": true
+				},
+				{
 					"id": "achrisgraphics",
 					"title": "AchrisGraphics",
 					"shortdesc": "a website created for a graphic designer",
@@ -618,12 +655,12 @@
 					"year": "2023",
 					"category": ["Web Design"],
 					"desc": [
-						"The project serves as a portal through which to showcase one's work in a suggestive and professional manner for the client.",
-						"In fact, the entire site was created based on the stylistic and artistic directives of the client."
+						"The project serves as a portal through which to showcase one's work in a suggestive and professional manner for the owner.",
+						"In fact, the entire site was created based on the stylistic and artistic directives of the owner."
 					],
 					"goals": [
 						"The fundamental need is to have an online space to display one's projects.",
-						"Additionally, through this site, the client aimed to expand their client base."
+						"Additionally, through this site, we aimed to expand their client base."
 					],
 					"functions": [
 						"Responsive design",
@@ -648,7 +685,7 @@
 						"The work aims to create a simple yet comprehensive website that is also visually appealing."
 					],
 					"goals": [
-						"The client's objective was to explain on a page what her work consists of, what services she offers, and useful information to contact her.",
+						"The objective was to explain on a page what her work consists of, what services she offers, and useful information to contact her.",
 						"All this with the goal of obtaining new clients."
 					],
 					"functions": [

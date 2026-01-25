@@ -450,7 +450,7 @@
 						"HTML",
 						"CSS"
 					],
-					"link": "https://linkie-edxd.onrender.com",
+					"link": "https://linkie.gabrielepedesini.com",
 					"github": "https://github.com/gabrielepedesini/linkie",
 					"img": true
 				},
@@ -614,6 +614,43 @@
 					"img": true
 				},
 				{
+				  	"id": "programmasocrate",
+					"title": "Programma Socrate",
+					"shortdesc": "un sito web realizzato per un'azienda di consulenza industriale",
+					"date": "Dicembre, 2025",
+					"year": "2025",
+					"category": ["Web Development", "Web Design"],
+					"desc": [
+						"Programma Socrate è un sito web vetrina realizzato per un'azienda che opera nel settore della consulenza industriale.",
+						"Il progetto è stato sviluppato con l'obiettivo di presentare in modo chiaro e professionale i servizi offerti e le caratteristiche distintive della consulenza.",
+						"Il sito offre inoltre l'accesso a diverse risorse messe a disposizione, tra cui gestionali aziendali in Excel, corsi formativi esterni, libri e contenuti editoriali come blog e casi studio."
+					],
+					"goals": [
+						"L’obiettivo principale del progetto era presentare in modo chiaro ed efficace l’attività e i servizi di consulenza industriale offerti dall’azienda.",
+						"Un ulteriore scopo era rafforzare la presenza online del brand, migliorandone la visibilità e la percezione professionale.",
+						"Attraverso la pubblicazione di contenuti informativi e risorse di valore, il sito mira inoltre ad ampliare il bacino di potenziali clienti."
+					],
+					"functions": [
+						"Responsive design",
+						"Light/Dark mode",
+						"Multi-lingua",
+						"CMS per la gestione autonoma dei contenuti",
+						"Dashboard per l’analisi delle statistiche di utilizzo",
+						"Modulo email automatizzato",
+						"Integrazione newsletter"
+					],
+					"technologies": [
+						"Next.js",
+						"React.js",
+						"TypeScript",
+						"CSS",
+						"Supabase"
+					],
+					"link": "https://www.programmasocrate.com",
+					"github": null,
+					"img": true
+				},
+				{
 					"id": "achrisgraphics",
 					"title": "Achrisgraphics",
 					"shortdesc": "un sito web creato per un graphic designer",
@@ -626,7 +663,7 @@
 					],
 					"goals": [
 						"L'esigenza fondamentale è quella di avere uno spazio online nel quale mostrare i propri progetti.",
-						"Inoltre, attraverso questo sito, il cliente puntava ad ampliare il bacino di clientela."
+						"Inoltre, attraverso questo sito, il si puntava ad ampliare il bacino di clientela."
 					],
 					"functions": [
 						"Responsive design",
@@ -651,7 +688,7 @@
 						"Il lavoro nasce con lo scopo di creare un sito web semplice ma completo, che sia anche graficamente accattivante."
 					],
 					"goals": [
-						"L'obiettivo della cliente era quello di spiegare all'interno di una pagina in cosa consistesse il suo lavoro, che servizi offrisse e le informazioni utili per contattarla.",
+						"L'obiettivo era quello di spiegare all'interno di una pagina in cosa consistesse il suo lavoro, che servizi offrisse e le informazioni utili per contattarla.",
 						"Tutto questo allo scopo di ottenere dei nuovi clienti."
 					],
 					"functions": [
