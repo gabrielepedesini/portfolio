@@ -648,9 +648,39 @@
 					"img": true
 				},
 				{
+					"id": "sevenstars",
+					"title": "Seven Stars",
+					"shortdesc": "a website developed for a film production company",
+					"date": "November, 2025",
+					"year": "2025",
+					"category": ["Web Design"],
+					"desc": [
+						"Seven Stars is a showcase website developed for a film production company.",
+						"The project was conceived with the aim of representing the company’s identity in an elegant and immersive way, highlighting its creative and professional approach.",
+						"The website provides an overview of the services offered, serving as a reference point for potential clients and collaborations."
+					],
+					"goals": [
+						"The main goal of the project was to present the services offered by the film production company in a clear and visually impactful way, effectively communicating its identity and creative approach.",
+						"The website was designed to strengthen the brand’s visual identity and consolidate its online presence, conveying professionalism, attention to detail, and aesthetic consistency."
+					],
+					"functions": [
+						"Responsive design",
+						"Multi-language",
+						"Custom video player"
+					],
+					"technologies": [
+						"HTML",
+						"CSS",
+						"JavaScript"
+					],
+					"link": "https://www.sevenstars.video",
+					"github": null,
+					"img": true
+				},
+				{
 					"id": "achrisgraphics",
 					"title": "AchrisGraphics",
-					"shortdesc": "a website created for a graphic designer",
+					"shortdesc": "a website developed for a graphic designer",
 					"date": "June, 2023",
 					"year": "2023",
 					"category": ["Web Design"],
@@ -676,7 +706,7 @@
 				{
 					"id": "alessandragiuliani",
 					"title": "Alessandra Giuliani",
-					"shortdesc": "a website created for a nutritionist biologist",
+					"shortdesc": "a website developed for a nutritionist biologist",
 					"date": "August, 2024",
 					"year": "2024",
 					"category": ["Web Design"],
@@ -701,7 +731,7 @@
 				{
 					"id": "sanderundsommer",
 					"title": "Sander und Sommer",
-					"shortdesc": "a website created for a german clinic",
+					"shortdesc": "a website developed for a german clinic",
 					"date": "July, 2024",
 					"year": "2024",
 					"category": ["Web Design"],
@@ -721,6 +751,35 @@
 					],
 					"technologies": ["HTML", "CSS", "JavaScript"],
 					"link": "https://sanderundsommer.de",
+					"github": null,
+					"img": true
+				},
+				{
+					"id": "studiomediconardelli",
+					"title": "Studio Medico Nardelli",
+					"shortdesc": "a website developed for a general practitioner’s clinic",
+					"date": "January, 2024",
+					"year": "2024",
+					"category": ["Web Design"],
+					"desc": [
+						"Studio Medico Nardelli is a showcase website developed for a general practitioner’s clinic.",
+						"The project was created with the aim of providing patients with a clear and easily accessible digital point of reference.",
+						"The website presents the main services offered by the clinic and gathers useful information for patients, such as details about exemptions, healthcare services, and general practice topics, as well as contact information."
+					],
+					"goals": [
+						"The primary goal of the project was to provide patients with an informational tool capable of answering common questions without the need to directly contact the doctor.",
+						"Through a simple and intuitive structure, the website aims to improve communication between the clinic and its patients by facilitating access to essential information."
+					],
+					"functions": [
+						"Responsive design",
+						"Multi-language"
+					],
+					"technologies": [
+						"HTML",
+						"CSS",
+						"JavaScript"
+					],
+					"link": "https://www.studiomediconardelli.it",
 					"github": null,
 					"img": true
 				}

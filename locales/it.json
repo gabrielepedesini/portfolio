@@ -651,6 +651,36 @@
 					"img": true
 				},
 				{
+					"id": "sevenstars",
+					"title": "Seven Stars",
+					"shortdesc": "un sito web realizzato per una casa di produzione cinematografica",
+					"date": "Novembre, 2025",
+					"year": "2025",
+					"category": ["Web Design"],
+					"desc": [
+						"Seven Stars è un sito web vetrina realizzato per una casa di produzione cinematografica.",
+						"Il progetto nasce con l’obiettivo di rappresentare in modo elegante e immersivo l’identità della casa di produzione, valorizzandone l’approccio creativo e professionale.",
+						"Il sito presenta una panoramica dei servizi offerti, fungendo da punto di riferimento per potenziali collaborazioni e clienti."
+					],
+					"goals": [
+						"L’obiettivo principale del progetto era presentare in modo chiaro e visivamente impattante i servizi offerti dalla casa di produzione cinematografica, comunicandone efficacemente l’identità e l’approccio creativo.",
+						"Il sito è stato progettato per rafforzare l’identità visiva del brand e consolidarne la presenza online, trasmettendo professionalità, cura dei dettagli e coerenza estetica."
+					],
+					"functions": [
+						"Responsive design",
+						"Multi-lingua",
+						"Video player personalizzato"
+					],
+					"technologies": [
+						"HTML",
+						"CSS",
+						"JavaScript"
+					],
+					"link": "https://www.sevenstars.video",
+					"github": null,
+					"img": true
+				},
+				{
 					"id": "achrisgraphics",
 					"title": "Achrisgraphics",
 					"shortdesc": "un sito web creato per un graphic designer",
@@ -724,6 +754,35 @@
 					],
 					"technologies": ["HTML", "CSS", "JavaScript"],
 					"link": "https://sanderundsommer.de",
+					"github": null,
+					"img": true
+				},
+				{
+					"id": "studiomediconardelli",
+					"title": "Studio Medico Nardelli",
+					"shortdesc": "un sito web realizzato per la clinica di un medico di base",
+					"date": "Gennaio, 2024",
+					"year": "2024",
+					"category": ["Web Design"],
+					"desc": [
+						"Studio Medico Nardelli è un sito web vetrina realizzato per la clinica di un medico di base.",
+						"Il progetto è stato sviluppato con l’obiettivo di fornire ai pazienti un punto di riferimento digitale chiaro e facilmente consultabile.",
+						"Il sito presenta i principali servizi offerti dalla clinica e raccoglie informazioni utili per i pazienti, come indicazioni su esenzioni, prestazioni e aspetti legati alla medicina di base, oltre ai contatti."
+					],
+					"goals": [
+						"L’obiettivo principale del progetto era offrire ai pazienti uno strumento informativo accessibile, capace di rispondere alle domande più frequenti senza la necessità di contattare direttamente il medico.",
+						"Attraverso una struttura semplice e intuitiva, il sito mira a migliorare la comunicazione tra la clinica e i pazienti, facilitando l’accesso alle informazioni essenziali."
+					],
+					"functions": [
+						"Responsive design",
+						"Multi-lingua"
+					],
+					"technologies": [
+						"HTML",
+						"CSS",
+						"JavaScript"
+					],
+					"link": "https://www.studiomediconardelli.it",
 					"github": null,
 					"img": true
 				}
