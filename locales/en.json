@@ -389,6 +389,36 @@
 					"level": "BSc",
 					"year": "3",
 					"subject": "Physics"
+				},
+				{
+					"title": "Data Bases 2",
+					"teacher": "Fraternali Piero",
+					"resources": [
+						{
+							"type": "Notes",
+							"link": "https://drive.google.com/file/d/1OgPIHVqgDNVAnXpla6yJ4sR4k57ApR8s/view?usp=sharing"
+						},
+						{
+							"type": "Formulas",
+							"link": "https://drive.google.com/file/d/1_TL1oGWNTbt2KWmGvOZQHmzwS4CtDr7F/view?usp=sharing"
+						}
+					],
+					"level": "MSc",
+					"year": "1",
+					"subject": "Computer Science"
+				},
+				{
+					"title": "Foundation of Operations Research",
+					"teacher": "Amaldi Edoardo",
+					"resources": [
+						{
+							"type": "Notes",
+							"link": "https://drive.google.com/file/d/1QDgXePkmno2DUrc3_UUOXGfaAmRBQZFo/view?usp=sharing"
+						}
+					],
+					"level": "MSc",
+					"year": "1",
+					"subject": "Mathematics"
 				}
 			]
 		},
