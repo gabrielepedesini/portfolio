@@ -422,6 +422,36 @@
 					"level": "Magistrale",
 					"year": "1",
 					"subject": "Matematica"
+				},
+				{
+					"title": "Technologies for Information Systems",
+					"teacher": "Cappiello Cinzia",
+					"resources": [
+						{
+							"type": "Appunti",
+							"link": "https://drive.google.com/file/d/1tPdq4uuAxocL_LN1w0HUpfEkWdYybCYs/view?usp=sharing"
+						},
+						{
+							"type": "Riassunto",
+							"link": "https://drive.google.com/file/d/1dqlaRSKKQnbzHAWgwvwwDINLD2h9w7FA/view?usp=sharing"
+						}
+					],
+					"level": "Magistrale",
+					"year": "1",
+					"subject": "Informatica"
+				},
+				{
+					"title": "Formal Languages and Compilers",
+					"teacher": "Cattaneo Daniele",
+					"resources": [
+						{
+							"type": "Formulario",
+							"link": "https://drive.google.com/file/d/1eGtSijwgAD8OjcO9E8s2y39p7QUo5T7g/view?usp=sharing"
+						}
+					],
+					"level": "Magistrale",
+					"year": "1",
+					"subject": "Informatica"
 				}
 			]
 		},

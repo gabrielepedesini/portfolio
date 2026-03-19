@@ -419,7 +419,37 @@
 					"level": "MSc",
 					"year": "1",
 					"subject": "Mathematics"
-				}
+					},
+					{
+						"title": "Technologies for Information Systems",
+						"teacher": "Cappiello Cinzia",
+						"resources": [
+							{
+								"type": "Notes",
+								"link": "https://drive.google.com/file/d/1tPdq4uuAxocL_LN1w0HUpfEkWdYybCYs/view?usp=sharing"
+							},
+							{
+								"type": "Summary",
+								"link": "https://drive.google.com/file/d/1dqlaRSKKQnbzHAWgwvwwDINLD2h9w7FA/view?usp=sharing"
+							}
+						],
+						"level": "MSc",
+						"year": "1",
+						"subject": "Computer Science"
+					},
+					{
+						"title": "Formal Languages and Compilers",
+						"teacher": "Cattaneo Daniele",
+						"resources": [
+							{
+								"type": "Formulas",
+								"link": "https://drive.google.com/file/d/1eGtSijwgAD8OjcO9E8s2y39p7QUo5T7g/view?usp=sharing"
+							}
+						],
+						"level": "MSc",
+						"year": "1",
+						"subject": "Computer Science"
+					}
 			]
 		},
 		"projects": {
