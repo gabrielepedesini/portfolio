@@ -556,7 +556,7 @@
 						"Il tool permette, una volta inseriti i dettagli degli esami da sostenere, di calcolare le combinazioni più ottimali per il loro sostenimento.",
 						"L'algoritmo calcola il punteggio di ogni singola combinazione valutando alcuni aspetti di interesse, tra cui: la distanza tra il primo esame e l'ultimo, il bilanciamento delle distanze tra esami adiacenti, e la presenza di più esami nella stessa data.",
 						"Sulla base di questo calcolo, propone all'utente le migliori combinazioni, dalla migliore alla peggiore.",
-						"Il progetto è ancora in beta, infatti ho l'intenzione di inserire nuove features: sezione tutorial, opzione di modifica dei dettagli di un esame, export della combinazione selezionata in un calendar provider..."
+						"Il progetto è ancora in beta, infatti ho l'intenzione di inserire nuove features: sezione tutorial, export della combinazione selezionata in un calendar provider..."
 					],
 					"goals": [
 						"L'obiettivo era quello di creare uno strumento in grado di facilitare l'organizzazione della sessione universitaria di un qualsiasi studente."
@@ -567,8 +567,13 @@
 						"Responsive design",
 						"Light/Dark mode"
 					],
-					"technologies": ["HTML", "CSS", "JavaScript"],
-					"link": "https://planmyexams.gabrielepedesini.com",
+					"technologies": [
+						"Next.js",
+						"React.js",
+						"TypeScript",
+						"CSS"
+					],
+					"link": "https://planmyexams.vercel.app",
 					"github": "https://github.com/gabrielepedesini/planmyexams",
 					"img": true
 				},

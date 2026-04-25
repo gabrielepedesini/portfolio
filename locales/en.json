@@ -550,13 +550,13 @@
 					"year": "2025",
 					"category": ["Web Development"],
 					"desc": [
-						"The tool allows you to enter the details of the exams you need to take and calculates the most optimal combinations for scheduling them.",
-						"The algorithm evaluates the score of each combination based on various factors, including the time span between the first and last exam, the balance between adjacent exams, and the occurrence of multiple exams on the same date.",
+						"Once you enter the details of the exams you need to take, the tool calculates the most optimal combinations for scheduling them.",
+						"The algorithm calculates a score for each combination by evaluating several key aspects, including the time span between the first and last exam, the balance of intervals between adjacent exams, and the presence of multiple exams on the same date.",
 						"Based on this calculation, it suggests the best combinations, ranked from best to worst.",
-						"The project is still in beta, and I plan to add new features, such as a tutorial section, an option to edit exam details, and the ability to export the selected schedule to a calendar provider..."
+						"The project is still in beta, and I plan to add new features: a tutorial section and the ability to export the selected combination to a calendar provider..."
 					],
 					"goals": [
-						"The goal was to create a tool that helps university students efficiently organize their exam sessions."
+						"The goal was to create a tool capable of making it easier for any student to organize their university exam session."
 					],
 					"functions": [
 						"Optimization algorithm",
@@ -564,8 +564,13 @@
 						"Responsive design",
 						"Light/Dark mode"
 					],
-					"technologies": ["HTML", "CSS", "JavaScript"],
-					"link": "https://planmyexams.gabrielepedesini.com",
+					"technologies": [
+						"Next.js",
+						"React.js",
+						"TypeScript",
+						"CSS"
+					],
+					"link": "https://planmyexams.vercel.app",
 					"github": "https://github.com/gabrielepedesini/planmyexams",
 					"img": true
 				},
