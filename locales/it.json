@@ -546,6 +546,37 @@
 					"img": true
 				},
 				{
+					"id": "paste2quiz",
+					"title": "Paste2Quiz",
+					"shortdesc": "una piattaforma che trasforma quiz a risposta multipla in test interattivi per studenti",
+					"date": "Marzo, 2026",
+					"year": "2026",
+					"category": ["Web Development"],
+					"desc": [
+						"Il tool permette agli utenti di incollare domande di quiz, tipicamente a risposta multipla, seguendo una sintassi strutturata fornita dalla piattaforma.",
+						"Una volta inseriti i dati, il sistema genera un quiz interattivo dinamico che consente di rispondere alle domande direttamente all'interno dell'interfaccia.",
+						"Al termine del quiz, l’utente può confermare o terminare la sessione per visualizzare i risultati, incluse le risposte corrette, gli errori e le statistiche di performance.",
+						"La piattaforma include anche una guida alla sintassi e un prompt dedicato per modelli LLM, che permette di generare automaticamente contenuti di quiz partendo da fonti fornite dall’utente."
+					],
+					"goals": [
+						"L'obiettivo del progetto è semplificare la creazione e la gestione di quiz per studenti, rendendo più efficiente lo studio e l'autovalutazione."
+					],
+					"functions": [
+						"Custom input handling",
+						"Responsive design",
+						"Light/Dark mode"
+					],
+					"technologies": [
+						"Next.js",
+						"React.js",
+						"TypeScript",
+						"CSS"
+					],
+					"link": "https://paste2quiz.vercel.app",
+					"github": "https://github.com/gabrielepedesini/paste2quiz",
+					"img": true
+				},
+				{
 					"id": "planmyexams",
 					"title": "PlanMyExams",
 					"shortdesc": "un tool che ti aiuta a trovare le date più ottimali per i tuoi esami universitari",

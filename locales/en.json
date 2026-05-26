@@ -537,9 +537,44 @@
 						"Multigame support on one server",
 						"Client disconnection and reconnection management"
 					],
-					"technologies": ["Java", "JavaFX", "CSS"],
+					"technologies": [
+						"Java", 
+						"JavaFX", 
+						"CSS"
+					],
 					"link": null,
 					"github": "https://github.com/gabrielepedesini/galaxy-trucker",
+					"img": true
+				},
+				{
+					"id": "paste2quiz",
+					"title": "Paste2Quiz",
+					"shortdesc": "a platform that transforms multiple-choice quizzes into interactive tests for students",
+					"date": "March, 2026",
+					"year": "2026",
+					"category": ["Web Development"],
+					"desc": [
+						"The tool allows users to paste quiz questions, typically multiple choice, following a structured syntax provided by the platform.",
+						"Once the data is entered, the system generates a dynamic interactive quiz that allows you to answer questions directly within the interface.",
+						"At the end of the quiz, the user can confirm or end the session to view results, including correct answers, mistakes, and performance statistics.",
+						"The platform also includes a syntax guide and a dedicated prompt for LLM models, which allows you to automatically generate quiz content starting from sources provided by the user."
+					],
+					"goals": [
+						"The goal of the project is to simplify the creation and management of quizzes for students, making study and self-assessment more efficient."
+					],
+					"functions": [
+						"Custom input handling",
+						"Responsive design",
+						"Light/Dark mode"
+					],
+					"technologies": [
+						"Next.js",
+						"React.js",
+						"TypeScript",
+						"CSS"
+					],
+					"link": "https://paste2quiz.vercel.app",
+					"github": "https://github.com/gabrielepedesini/paste2quiz",
 					"img": true
 				},
 				{
