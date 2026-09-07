@@ -452,6 +452,92 @@
 					"level": "Magistrale",
 					"year": "1",
 					"subject": "Informatica"
+				},
+				{
+					"title": "Data and Information Quality",
+					"teacher": "Cappiello Cinzia",
+					"resources": [
+						{
+							"type": "Appunti",
+							"link": "https://drive.google.com/file/d/1kBC2245sfrnzNNX7Y1aYuuZDqm23pcu8/view?usp=sharing"
+						},
+						{
+							"type": "Riassunto",
+							"link": "https://drive.google.com/file/d/1uJlGb0aGxofvRTEfxwphS1G0C5wWF36c/view?usp=sharing"
+						}
+					],
+					"level": "Magistrale",
+					"year": "1",
+					"subject": "Informatica"
+				},
+				{
+					"title": "Computing Infrastructures",
+					"teacher": "Ardagna Danilo",
+					"resources": [
+						{
+						"type": "Formulario",
+						"link": "https://drive.google.com/file/d/1X0udR_8XzQQa0rOOnLQv0pyW7BumtZ-7/view?usp=sharing"
+						}
+					],
+					"level": "Magistrale",
+					"year": "1",
+					"subject": "Informatica"
+				},
+				{
+					"title": "Business Information Systems 1",
+					"teacher": "Francalanci Chiara",
+					"resources": [
+						{
+						"type": "Appunti",
+						"link": "https://drive.google.com/file/d/1cZLg2AJmHqFeR2dJbn0mY3DKtO8pQSh8/view?usp=sharing"
+						}
+					],
+					"level": "Magistrale",
+					"year": "1",
+					"subject": "Informatica"
+				},
+				{
+					"title": "Advanced Computer Architectures",
+					"teacher": "Pilato Christian",
+					"resources": [
+						{
+						"type": "Riassunto",
+						"link": "https://drive.google.com/file/d/1BU3Vn20bcx27smdaDu65VdEYVa-3hYTd/view?usp=sharing"
+						},
+						{
+						"type": "Formulario",
+						"link": "https://drive.google.com/file/d/1wTCTC7Vds32aecrNEe0c-3oN8Yjcbb9a/view?usp=sharing"
+						}
+					],
+					"level": "Magistrale",
+					"year": "1",
+					"subject": "Informatica"
+				},
+				{
+					"title": "Natural Language Processing",
+					"teacher": "Carman Mark James",
+					"resources": [
+						{
+						"type": "Appunti",
+						"link": "https://drive.google.com/file/d/1h8OAoWr6PtGuIYbgMXgw0K5x0msxt9kh/view?usp=sharing"
+						}
+					],
+					"level": "Magistrale",
+					"year": "1",
+					"subject": "Informatica"
+				},
+				{
+					"title": "Computer Security",
+					"teacher": "Carminati Michele",
+					"resources": [
+						{
+						"type": "Appunti",
+						"link": "https://drive.google.com/file/d/1u_QYfPh53Fk8dDQTB92cp43QhoDhghA9/view?usp=sharing"
+						}
+					],
+					"level": "Magistrale",
+					"year": "1",
+					"subject": "Informatica"
 				}
 			]
 		},
@@ -546,37 +632,6 @@
 					"img": true
 				},
 				{
-					"id": "paste2quiz",
-					"title": "Paste2Quiz",
-					"shortdesc": "una piattaforma che trasforma quiz a risposta multipla in test interattivi per studenti",
-					"date": "Marzo, 2026",
-					"year": "2026",
-					"category": ["Web Development"],
-					"desc": [
-						"Il tool permette agli utenti di incollare domande di quiz, tipicamente a risposta multipla, seguendo una sintassi strutturata fornita dalla piattaforma.",
-						"Una volta inseriti i dati, il sistema genera un quiz interattivo dinamico che consente di rispondere alle domande direttamente all'interno dell'interfaccia.",
-						"Al termine del quiz, l’utente può confermare o terminare la sessione per visualizzare i risultati, incluse le risposte corrette, gli errori e le statistiche di performance.",
-						"La piattaforma include anche una guida alla sintassi e un prompt dedicato per modelli LLM, che permette di generare automaticamente contenuti di quiz partendo da fonti fornite dall’utente."
-					],
-					"goals": [
-						"L'obiettivo del progetto è semplificare la creazione e la gestione di quiz per studenti, rendendo più efficiente lo studio e l'autovalutazione."
-					],
-					"functions": [
-						"Custom input handling",
-						"Responsive design",
-						"Light/Dark mode"
-					],
-					"technologies": [
-						"Next.js",
-						"React.js",
-						"TypeScript",
-						"CSS"
-					],
-					"link": "https://paste2quiz.vercel.app",
-					"github": "https://github.com/gabrielepedesini/paste2quiz",
-					"img": true
-				},
-				{
 					"id": "planmyexams",
 					"title": "PlanMyExams",
 					"shortdesc": "un tool che ti aiuta a trovare le date più ottimali per i tuoi esami universitari",
@@ -587,7 +642,7 @@
 						"Il tool permette, una volta inseriti i dettagli degli esami da sostenere, di calcolare le combinazioni più ottimali per il loro sostenimento.",
 						"L'algoritmo calcola il punteggio di ogni singola combinazione valutando alcuni aspetti di interesse, tra cui: la distanza tra il primo esame e l'ultimo, il bilanciamento delle distanze tra esami adiacenti, e la presenza di più esami nella stessa data.",
 						"Sulla base di questo calcolo, propone all'utente le migliori combinazioni, dalla migliore alla peggiore.",
-						"Il progetto è ancora in beta, infatti ho l'intenzione di inserire nuove features: sezione tutorial, export della combinazione selezionata in un calendar provider..."
+						"Il progetto è ancora in beta, infatti ho l'intenzione di inserire nuove features: sezione tutorial, opzione di modifica dei dettagli di un esame, export della combinazione selezionata in un calendar provider..."
 					],
 					"goals": [
 						"L'obiettivo era quello di creare uno strumento in grado di facilitare l'organizzazione della sessione universitaria di un qualsiasi studente."
@@ -598,13 +653,8 @@
 						"Responsive design",
 						"Light/Dark mode"
 					],
-					"technologies": [
-						"Next.js",
-						"React.js",
-						"TypeScript",
-						"CSS"
-					],
-					"link": "https://planmyexams.vercel.app",
+					"technologies": ["HTML", "CSS", "JavaScript"],
+					"link": "https://planmyexams.gabrielepedesini.com",
 					"github": "https://github.com/gabrielepedesini/planmyexams",
 					"img": true
 				},
@@ -713,8 +763,8 @@
 				  	"id": "programmasocrate",
 					"title": "Programma Socrate",
 					"shortdesc": "un sito web realizzato per un'azienda di consulenza industriale",
-					"date": "Dicembre, 2025",
-					"year": "2025",
+					"date": "Gennaio, 2026",
+					"year": "2026",
 					"category": ["Web Development", "Web Design"],
 					"desc": [
 						"Programma Socrate è un sito web vetrina realizzato per un'azienda che opera nel settore della consulenza industriale.",

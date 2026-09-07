@@ -419,37 +419,123 @@
 					"level": "MSc",
 					"year": "1",
 					"subject": "Mathematics"
-					},
-					{
-						"title": "Technologies for Information Systems",
-						"teacher": "Cappiello Cinzia",
-						"resources": [
-							{
-								"type": "Notes",
-								"link": "https://drive.google.com/file/d/1tPdq4uuAxocL_LN1w0HUpfEkWdYybCYs/view?usp=sharing"
-							},
-							{
-								"type": "Summary",
-								"link": "https://drive.google.com/file/d/1dqlaRSKKQnbzHAWgwvwwDINLD2h9w7FA/view?usp=sharing"
-							}
-						],
-						"level": "MSc",
-						"year": "1",
-						"subject": "Computer Science"
-					},
-					{
-						"title": "Formal Languages and Compilers",
-						"teacher": "Cattaneo Daniele",
-						"resources": [
-							{
-								"type": "Formulas",
-								"link": "https://drive.google.com/file/d/1eGtSijwgAD8OjcO9E8s2y39p7QUo5T7g/view?usp=sharing"
-							}
-						],
-						"level": "MSc",
-						"year": "1",
-						"subject": "Computer Science"
-					}
+				},
+				{
+					"title": "Technologies for Information Systems",
+					"teacher": "Cappiello Cinzia",
+					"resources": [
+						{
+							"type": "Notes",
+							"link": "https://drive.google.com/file/d/1tPdq4uuAxocL_LN1w0HUpfEkWdYybCYs/view?usp=sharing"
+						},
+						{
+							"type": "Summary",
+							"link": "https://drive.google.com/file/d/1dqlaRSKKQnbzHAWgwvwwDINLD2h9w7FA/view?usp=sharing"
+						}
+					],
+					"level": "MSc",
+					"year": "1",
+					"subject": "Computer Science"
+				},
+				{
+					"title": "Formal Languages and Compilers",
+					"teacher": "Cattaneo Daniele",
+					"resources": [
+						{
+							"type": "Formulas",
+							"link": "https://drive.google.com/file/d/1eGtSijwgAD8OjcO9E8s2y39p7QUo5T7g/view?usp=sharing"
+						}
+					],
+					"level": "MSc",
+					"year": "1",
+					"subject": "Computer Science"
+				},
+				{
+					"title": "Data and Information Quality",
+					"teacher": "Cappiello Cinzia",
+					"resources": [
+						{
+						"type": "Notes",
+						"link": "https://drive.google.com/file/d/1kBC2245sfrnzNNX7Y1aYuuZDqm23pcu8/view?usp=sharing"
+						},
+						{
+						"type": "Summary",
+						"link": "https://drive.google.com/file/d/1uJlGb0aGxofvRTEfxwphS1G0C5wWF36c/view?usp=sharing"
+						}
+					],
+					"level": "MSc",
+					"year": "1",
+					"subject": "Computer Science"
+				},
+				{
+					"title": "Computing Infrastructures",
+					"teacher": "Ardagna Danilo",
+					"resources": [
+						{
+						"type": "Formulas",
+						"link": "https://drive.google.com/file/d/1X0udR_8XzQQa0rOOnLQv0pyW7BumtZ-7/view?usp=sharing"
+						}
+					],
+					"level": "MSc",
+					"year": "1",
+					"subject": "Computer Science"
+				},
+				{
+					"title": "Business Information Systems 1",
+					"teacher": "Francalanci Chiara",
+					"resources": [
+						{
+						"type": "Notes",
+						"link": "https://drive.google.com/file/d/1cZLg2AJmHqFeR2dJbn0mY3DKtO8pQSh8/view?usp=sharing"
+						}
+					],
+					"level": "MSc",
+					"year": "1",
+					"subject": "Computer Science"
+				},
+				{
+					"title": "Advanced Computer Architectures",
+					"teacher": "Pilato Christian",
+					"resources": [
+						{
+						"type": "Summary",
+						"link": "https://drive.google.com/file/d/1BU3Vn20bcx27smdaDu65VdEYVa-3hYTd/view?usp=sharing"
+						},
+						{
+						"type": "Formulas",
+						"link": "https://drive.google.com/file/d/1wTCTC7Vds32aecrNEe0c-3oN8Yjcbb9a/view?usp=sharing"
+						}
+					],
+					"level": "MSc",
+					"year": "1",
+					"subject": "Computer Science"
+				},
+				{
+					"title": "Natural Language Processing",
+					"teacher": "Carman Mark James",
+					"resources": [
+						{
+						"type": "Notes",
+						"link": "https://drive.google.com/file/d/1h8OAoWr6PtGuIYbgMXgw0K5x0msxt9kh/view?usp=sharing"
+						}
+					],
+					"level": "MSc",
+					"year": "1",
+					"subject": "Computer Science"
+				},
+				{
+					"title": "Computer Security",
+					"teacher": "Carminati Michele",
+					"resources": [
+						{
+						"type": "Notes",
+						"link": "https://drive.google.com/file/d/1u_QYfPh53Fk8dDQTB92cp43QhoDhghA9/view?usp=sharing"
+						}
+					],
+					"level": "MSc",
+					"year": "1",
+					"subject": "Computer Science"
+				}
 			]
 		},
 		"projects": {
@@ -537,44 +623,9 @@
 						"Multigame support on one server",
 						"Client disconnection and reconnection management"
 					],
-					"technologies": [
-						"Java", 
-						"JavaFX", 
-						"CSS"
-					],
+					"technologies": ["Java", "JavaFX", "CSS"],
 					"link": null,
 					"github": "https://github.com/gabrielepedesini/galaxy-trucker",
-					"img": true
-				},
-				{
-					"id": "paste2quiz",
-					"title": "Paste2Quiz",
-					"shortdesc": "a platform that transforms multiple-choice quizzes into interactive tests for students",
-					"date": "March, 2026",
-					"year": "2026",
-					"category": ["Web Development"],
-					"desc": [
-						"The tool allows users to paste quiz questions, typically multiple choice, following a structured syntax provided by the platform.",
-						"Once the data is entered, the system generates a dynamic interactive quiz that allows you to answer questions directly within the interface.",
-						"At the end of the quiz, the user can confirm or end the session to view results, including correct answers, mistakes, and performance statistics.",
-						"The platform also includes a syntax guide and a dedicated prompt for LLM models, which allows you to automatically generate quiz content starting from sources provided by the user."
-					],
-					"goals": [
-						"The goal of the project is to simplify the creation and management of quizzes for students, making study and self-assessment more efficient."
-					],
-					"functions": [
-						"Custom input handling",
-						"Responsive design",
-						"Light/Dark mode"
-					],
-					"technologies": [
-						"Next.js",
-						"React.js",
-						"TypeScript",
-						"CSS"
-					],
-					"link": "https://paste2quiz.vercel.app",
-					"github": "https://github.com/gabrielepedesini/paste2quiz",
 					"img": true
 				},
 				{
@@ -585,13 +636,13 @@
 					"year": "2025",
 					"category": ["Web Development"],
 					"desc": [
-						"Once you enter the details of the exams you need to take, the tool calculates the most optimal combinations for scheduling them.",
-						"The algorithm calculates a score for each combination by evaluating several key aspects, including the time span between the first and last exam, the balance of intervals between adjacent exams, and the presence of multiple exams on the same date.",
+						"The tool allows you to enter the details of the exams you need to take and calculates the most optimal combinations for scheduling them.",
+						"The algorithm evaluates the score of each combination based on various factors, including the time span between the first and last exam, the balance between adjacent exams, and the occurrence of multiple exams on the same date.",
 						"Based on this calculation, it suggests the best combinations, ranked from best to worst.",
-						"The project is still in beta, and I plan to add new features: a tutorial section and the ability to export the selected combination to a calendar provider..."
+						"The project is still in beta, and I plan to add new features, such as a tutorial section, an option to edit exam details, and the ability to export the selected schedule to a calendar provider..."
 					],
 					"goals": [
-						"The goal was to create a tool capable of making it easier for any student to organize their university exam session."
+						"The goal was to create a tool that helps university students efficiently organize their exam sessions."
 					],
 					"functions": [
 						"Optimization algorithm",
@@ -599,13 +650,8 @@
 						"Responsive design",
 						"Light/Dark mode"
 					],
-					"technologies": [
-						"Next.js",
-						"React.js",
-						"TypeScript",
-						"CSS"
-					],
-					"link": "https://planmyexams.vercel.app",
+					"technologies": ["HTML", "CSS", "JavaScript"],
+					"link": "https://planmyexams.gabrielepedesini.com",
 					"github": "https://github.com/gabrielepedesini/planmyexams",
 					"img": true
 				},
@@ -714,8 +760,8 @@
 					"id": "programmasocrate",
 					"title": "Programma Socrate",
 					"shortdesc": "a website developed for an industrial consulting company",
-					"date": "December, 2025",
-					"year": "2025",
+					"date": "January, 2026",
+					"year": "2026",
 					"category": ["Web Development", "Web Design"],
 					"desc": [
 						"Programma Socrate is a showcase website developed for a company operating in the industrial consulting sector.",

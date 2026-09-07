@@ -2,6 +2,7 @@
 
 import { useState, useMemo } from 'react';
 import Description from "@/components/Description";
+import { sort } from 'd3';
 
 interface Project {
 	id: string;
@@ -65,6 +66,7 @@ export default function ProjectsContent({ dict }: ProjectsContentProps) {
 
 	const yearOptions = useMemo(() => {
 		const years = [...new Set(projects.map(project => project.year))];
+		years.sort((a, b) => parseInt(b) - parseInt(a));
 		return years.map(year => ({ value: year, label: year }));
 	}, [projects]);
 
